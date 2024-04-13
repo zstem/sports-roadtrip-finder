@@ -40,20 +40,20 @@ app.get('/', async function (req, res) {
 app.get('/:team', async function (req, res) {
   selectedTeam = req.params.team;
   var series = mongoose.model('series', seriesSchema, selectedTeam);
-  const query = await series.find({});
+  const query = await series.find({}).sort({MatchNumber: 1});
   res.json(query);
-  console.log("/" + req.params.team);
+  //console.log(query);
 })
 
-app.get('/:team/:maxDistance', async function (req, res) {
-  selectedTeam = req.params.team;
-  var series = mongoose.model('series', seriesSchema, selectedTeam);
-  for(let i = 0; i < req.params.maxDistance; i++){
-    const query = await series.find({HomeTeam: teamLocationData.team.name = HomeTeam});
-  }
+// app.get('/:team/:maxDistance', async function (req, res) {
+//   selectedTeam = req.params.team;
+//   var series = mongoose.model('series', seriesSchema, selectedTeam);
+//   for(let i = 0; i < req.params.maxDistance; i++){
+//     const query = await series.find({HomeTeam: teamLocationData.team.name = HomeTeam});
+//   }
   
-  res.json(query);
-})
+//   res.json(query);
+// })
 
 
 
