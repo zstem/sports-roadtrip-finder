@@ -112,28 +112,23 @@ function saveAwayGamesOnly() {
 
 function findStartingPoints() {
   let index = 0;
+  let buffer = 0;
   areThereStartingPoints.value = true;
-  console.log(awaySeries.value);
   for (let i = 0; i < awaySeries.value.length - 1; i++) {
-    console.log(i, index);
-    if (i < awaySeries.value.length - 1 && teamsAndLocationDictionary.value[awaySeries.value[i].team]) {
-      if (teamsAndLocationDictionary.value[awaySeries.value[i].team].neighbourTeams.filter(team => team.team === awaySeries.value[i + 1].team).length > 0) {
-
-        startingPoints.value[index] = { team: awaySeries.value[i].team, location: awaySeries.value[i].location, date: awaySeries.value[i].date, nextSeries: [{ team: awaySeries.value[i + 1].team, date: awaySeries.value[i + 1].date, location: awaySeries.value[i + 1].location }] };
-        currentAwaySeries.value = awaySeries.value[i + 1];
-        if (i < awaySeries.value.length - 2) {
-          if (teamsAndLocationDictionary.value[currentAwaySeries.value.team].neighbourTeams.filter(team => team.team === awaySeries.value[i + 2].team).length > 0) {
-            startingPoints.value[index] = { team: awaySeries.value[i].team, location: awaySeries.value[i].location, date: awaySeries.value[i].date, nextSeries: [{ team: awaySeries.value[i + 1].team, date: awaySeries.value[i + 1].date, location: awaySeries.value[i + 1].location }, { team: awaySeries.value[i + 2].team, date: awaySeries.value[i + 2].date, location: awaySeries.value[i + 2].location }] };
-            currentAwaySeries.value = awaySeries.value[i + 2];
+    if (buffer + i < awaySeries.value.length - 1 && teamsAndLocationDictionary.value[awaySeries.value[buffer + i ].team]) {
+      if (teamsAndLocationDictionary.value[awaySeries.value[buffer + i ].team].neighbourTeams.filter(team => team.team === awaySeries.value[buffer + i  + 1].team).length > 0) {
+        startingPoints.value[index] = { team: awaySeries.value[buffer + i ].team, location: awaySeries.value[buffer + i ].location, date: awaySeries.value[buffer + i ].date, nextSeries: [{ team: awaySeries.value[buffer + i  + 1].team, date: awaySeries.value[buffer + i  + 1].date, location: awaySeries.value[buffer + i  + 1].location }] };
+        currentAwaySeries.value = awaySeries.value[buffer + i  + 1];
+        if (buffer + i  < awaySeries.value.length - 2) {
+          if (teamsAndLocationDictionary.value[currentAwaySeries.value.team].neighbourTeams.filter(team => team.team === awaySeries.value[buffer + i  + 2].team).length > 0) {
+            startingPoints.value[index] = { team: awaySeries.value[buffer + i ].team, location: awaySeries.value[buffer + i ].location, date: awaySeries.value[buffer + i ].date, nextSeries: [{ team: awaySeries.value[buffer + i  + 1].team, date: awaySeries.value[buffer + i  + 1].date, location: awaySeries.value[buffer + i  + 1].location }, { team: awaySeries.value[buffer + i  + 2].team, date: awaySeries.value[buffer + i  + 2].date, location: awaySeries.value[buffer + i  + 2].location }] };
+            currentAwaySeries.value = awaySeries.value[buffer + i  + 2];
           }
         }
         index++;
-        console.log(startingPoints.value);
-
       }
     }
   }
-  console.log(startingPoints.value);
   if (Object.keys(startingPoints.value[0]).length === 0) {
     areThereStartingPoints.value = false;
   }
@@ -186,7 +181,7 @@ function findStartingPoints() {
       <p v-if="!areThereStartingPoints">
         No potential road trips. Please select another team.
       </p>
-      <p>
+      <p v-if="areThereStartingPoints && startingPoint.date">
         <b>{{ startingPoint.team }}</b> - {{
           startingPoint.location }} - {{ (new Date(startingPoint.date).toLocaleString("en-US", {
           timeZone:
