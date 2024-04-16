@@ -1,0 +1,776 @@
+{
+    "teams": [
+        {
+            "team": {
+                "name": "anaheim_ducks",
+                "displayName": "Anaheim Ducks"
+            },
+            "division": "pacific",
+            "arena": "Honda Center",
+            "latitude": 33.8078,
+            "longitude": -117.8765,
+            "neighbourTeams": [
+                {
+                    "team": "Los Angeles Kings",
+                    "distance": 0
+                },
+                {
+                    "team": "San Jose Sharks",
+                    "distance": 6
+                },
+                {
+                    "team": "Vegas Golden Knights",
+                    "distance": 4
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "arizona_coyotes",
+                "displayName": "Arizona Coyotes"
+            },
+            "division": "central",
+            "arena": "Mullett Arena",
+            "latitude": 33.4263,
+            "longitude": -111.9327,
+            "neighbourTeams": [
+                {
+                    "team": "Vegas Golden Knights",
+                    "distance": 5
+                },
+                {
+                    "team": "Los Angeles Kings",
+                    "distance": 6
+                },
+                {
+                    "team": "San Jose Sharks",
+                    "distance": 11
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "boston_bruins",
+                "displayName": "Boston Bruins"
+            },
+            "division": "atlantic",
+            "arena": "TD Garden",
+            "latitude": 42.3662,
+            "longitude": -71.0621,
+            "neighbourTeams": [
+                {
+                    "team": "Montreal Canadiens",
+                    "distance": 6
+                },
+                {
+                    "team": "Toronto Maple Leafs",
+                    "distance": 9
+                },
+                {
+                    "team": "Buffalo Sabres",
+                    "distance": 8
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "buffalo_sabres",
+                "displayName": "Buffalo Sabres"
+            },
+            "division": "atlantic",
+            "arena": "KeyBank Center",
+            "latitude": 42.8749,
+            "longitude": -78.8763,
+            "neighbourTeams": [
+                {
+                    "team": "Toronto Maple Leafs",
+                    "distance": 2
+                },
+                {
+                    "team": "Montreal Canadiens",
+                    "distance": 6
+                },
+                {
+                    "team": "Boston Bruins",
+                    "distance": 8
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "calgary_flames",
+                "displayName": "Calgary Flames"
+            },
+            "division": "pacific",
+            "arena": "Scotiabank Saddledome",
+            "latitude": 51.0374,
+            "longitude": -114.0519,
+            "neighbourTeams": [
+                {
+                    "team": "Edmonton Oilers",
+                    "distance": 3
+                },
+                {
+                    "team": "Vancouver Canucks",
+                    "distance": 10
+                },
+                {
+                    "team": "Seattle Kraken",
+                    "distance": 12
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "carolina_hurricanes",
+                "displayName": "Carolina Hurricanes"
+            },
+            "division": "metropolitan",
+            "arena": "PNC Arena",
+            "latitude": 35.8033,
+            "longitude": -78.7219,
+            "neighbourTeams": [
+                {
+                    "team": "Washington Capitals",
+                    "distance": 5
+                },
+                {
+                    "team": "Nashville Predators",
+                    "distance": 8
+                },
+                {
+                    "team": "Columbus Blue Jackets",
+                    "distance": 8
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "chicago_blackhawks",
+                "displayName": "Chicago Blackhawks"
+            },
+            "division": "central",
+            "arena": "United Center",
+            "latitude": 41.8807,
+            "longitude": -87.6742,
+            "neighbourTeams": [
+                {
+                    "team": "St. Louis Blues",
+                    "distance": 5
+                },
+                {
+                    "team": "Nashville Predators",
+                    "distance": 7
+                },
+                {
+                    "team": "Minnesota Wild",
+                    "distance": 6
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "colorado_avalanche",
+                "displayName": "Colorado Avalanche"
+            },
+            "division": "central",
+            "arena": "Ball Arena",
+            "latitude": 39.7487,
+            "longitude": -105.0076,
+            "neighbourTeams": [
+                {
+                    "team": "Arizona Coyotes",
+                    "distance": 13
+                },
+                {
+                    "team": "Dallas Stars",
+                    "distance": 12
+                },
+                {
+                    "team": "St. Louis Blues",
+                    "distance": 13
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "columbus_blue_jackets",
+                "displayName": "Columbus Blue Jackets"
+            },
+            "division": "metropolitan",
+            "arena": "Nationwide Arena",
+            "latitude": 39.9695,
+            "longitude": -83.0064,
+            "neighbourTeams": [
+                {
+                    "team": "Pittsburgh Penguins",
+                    "distance": 3
+                },
+                {
+                    "team": "Detroit Red Wings",
+                    "distance": 4
+                },
+                {
+                    "team": "Nashville Predators",
+                    "distance": 6
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "dallas_stars",
+                "displayName": "Dallas Stars"
+            },
+            "division": "central",
+            "arena": "American Airlines Center",
+            "latitude": 32.7905,
+            "longitude": -96.8104,
+            "neighbourTeams": [
+                {
+                    "team": "Nashville Predators",
+                    "distance": 10
+                },
+                {
+                    "team": "St. Louis Blues",
+                    "distance": 9
+                },
+                {
+                    "team": "Colorado Avalanche",
+                    "distance": 12
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "detroit_red_wings",
+                "displayName": "Detroit Red Wings"
+            },
+            "division": "atlantic",
+            "arena": "Little Caesars Arena",
+            "latitude": 42.3410,
+            "longitude": -83.0552,
+            "neighbourTeams": [
+                {
+                    "team": "Columbus Blue Jackets",
+                    "distance": 3
+                },
+                {
+                    "team": "Toronto Maple Leafs",
+                    "distance": 4
+                },
+                {
+                    "team": "Buffalo Sabres",
+                    "distance": 4
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "edmonton_oilers",
+                "displayName": "Edmonton Oilers"
+            },
+            "division": "pacific",
+            "arena": "Rogers Place",
+            "latitude": 53.5461,
+            "longitude": -113.4974,
+            "neighbourTeams": [
+                {
+                    "team": "Calgary Flames",
+                    "distance": 3
+                },
+                {
+                    "team": "Vancouver Canucks",
+                    "distance": 12
+                },
+                {
+                    "team": "Seattle Kraken",
+                    "distance": 14
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "florida_panthers",
+                "displayName": "Florida Panthers"
+            },
+            "division": "atlantic",
+            "arena": "FLA Live Arena",
+            "latitude": 26.1584,
+            "longitude": -80.3258,
+            "neighbourTeams": [
+                {
+                    "team": "Tampa Bay Lightning",
+                    "distance": 4
+                },
+                {
+                    "team": "Carolina Hurricanes",
+                    "distance": 11
+                },
+                {
+                    "team": "Nashville Predators",
+                    "distance": 14
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "los_angeles_kings",
+                "displayName": "Los Angeles Kings"
+            },
+            "division": "pacific",
+            "arena": "Crypto.com Arena",
+            "latitude": 34.0430,
+            "longitude": -118.2673,
+            "neighbourTeams": [
+                {
+                    "team": "Anaheim Ducks",
+                    "distance": 1
+                },
+                {
+                    "team": "San Jose Sharks",
+                    "distance": 6
+                },
+                {
+                    "team": "Vegas Golden Knights",
+                    "distance": 5
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "minnesota_wild",
+                "displayName": "Minnesota Wild"
+            },
+            "division": "central",
+            "arena": "Xcel Energy Center",
+            "latitude": 44.9449,
+            "longitude": -93.1012,
+            "neighbourTeams": [
+                {
+                    "team": "Winnipeg Jets",
+                    "distance": 8
+                },
+                {
+                    "team": "Chicago Blackhawks",
+                    "distance": 7
+                },
+                {
+                    "team": "St. Louis Blues",
+                    "distance": 9
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "montreal_canadiens",
+                "displayName": "Montreal Canadiens"
+            },
+            "division": "atlantic",
+            "arena": "Bell Centre",
+            "latitude": 45.4961,
+            "longitude": -73.5693,
+            "neighbourTeams": [
+                {
+                    "team": "Toronto Maple Leafs",
+                    "distance": 6
+                },
+                {
+                    "team": "Ottawa Senators",
+                    "distance": 2
+                },
+                {
+                    "team": "Boston Bruins",
+                    "distance": 6
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "nashville_predators",
+                "displayName": "Nashville Predators"
+            },
+            "division": "central",
+            "arena": "Bridgestone Arena",
+            "latitude": 36.1592,
+            "longitude": -86.7785,
+            "neighbourTeams": [
+                {
+                    "team": "St. Louis Blues",
+                    "distance": 5
+                },
+                {
+                    "team": "Chicago Blackhawks",
+                    "distance": 7
+                },
+                {
+                    "team": "Dallas Stars",
+                    "distance": 10
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "new_jersey_devils",
+                "displayName": "New Jersey Devils"
+            },
+            "division": "metropolitan",
+            "arena": "Prudential Center",
+            "latitude": 40.7335,
+            "longitude": -74.1711,
+            "neighbourTeams": [
+                {
+                    "team": "New York Rangers",
+                    "distance": 1
+                },
+                {
+                    "team": "New York Islanders",
+                    "distance": 2
+                },
+                {
+                    "team": "Philadelphia Flyers",
+                    "distance": 2
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "new_york_islanders",
+                "displayName": "New York Islanders"
+            },
+            "division": "metropolitan",
+            "arena": "UBS Arena",
+            "latitude": 40.7128,
+            "longitude": -73.5994,
+            "neighbourTeams": [
+                {
+                    "team": "New York Rangers",
+                    "distance": 1
+                },
+                {
+                    "team": "New Jersey Devils",
+                    "distance": 1
+                },
+                {
+                    "team": "Philadelphia Flyers",
+                    "distance": 3
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "new_york_rangers",
+                "displayName": "New York Rangers"
+            },
+            "division": "metropolitan",
+            "arena": "Madison Square Garden",
+            "latitude": 40.7505,
+            "longitude": -73.9934,
+            "neighbourTeams": [
+                {
+                    "team": "New Jersey Devils",
+                    "distance": 0.75
+                },
+                {
+                    "team": "New York Islanders",
+                    "distance": 1
+                },
+                {
+                    "team": "Philadelphia Flyers",
+                    "distance": 2
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "ottawa_senators",
+                "displayName": "Ottawa Senators"
+            },
+            "division": "atlantic",
+            "arena": "Canadian Tire Centre",
+            "latitude": 45.2969,
+            "longitude": -75.9273,
+            "neighbourTeams": [
+                {
+                    "team": "Montreal Canadiens",
+                    "distance": 2
+                },
+                {
+                    "team": "Toronto Maple Leafs",
+                    "distance": 5
+                },
+                {
+                    "team": "Buffalo Sabres",
+                    "distance": 6
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "philadelphia_flyers",
+                "displayName": "Philadelphia Flyers"
+            },
+            "division": "metropolitan",
+            "arena": "Wells Fargo Center",
+            "latitude": 39.9012,
+            "longitude": -75.1719,
+            "neighbourTeams": [
+                {
+                    "team": "New Jersey Devils",
+                    "distance": 2
+                },
+                {
+                    "team": "New York Rangers",
+                    "distance": 2
+                },
+                {
+                    "team": "New York Islanders",
+                    "distance": 3
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "pittsburgh_penguins",
+                "displayName": "Pittsburgh Penguins"
+            },
+            "division": "metropolitan",
+            "arena": "PPG Paints Arena",
+            "latitude": 40.4396,
+            "longitude": -79.9899,
+            "neighbourTeams": [
+                {
+                    "team": "Philadelphia Flyers",
+                    "distance": 5
+                },
+                {
+                    "team": "Columbus Blue Jackets",
+                    "distance": 3
+                },
+                {
+                    "team": "Washington Capitals",
+                    "distance": 4
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "san_jose_sharks",
+                "displayName": "San Jose Sharks"
+            },
+            "division": "pacific",
+            "arena": "SAP Center",
+            "latitude": 37.3328,
+            "longitude": -121.9012,
+            "neighbourTeams": [
+                {
+                    "team": "Los Angeles Kings",
+                    "distance": 6
+                },
+                {
+                    "team": "Anaheim Ducks",
+                    "distance": 6
+                },
+                {
+                    "team": "Vegas Golden Knights",
+                    "distance": 9
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "seattle_kraken",
+                "displayName": "Seattle Kraken"
+            },
+            "division": "pacific",
+            "arena": "Climate Pledge Arena",
+            "latitude": 47.6222,
+            "longitude": -122.3540,
+            "neighbourTeams": [
+                {
+                    "team": "Vancouver Canucks",
+                    "distance": 3
+                },
+                {
+                    "team": "Calgary Flames",
+                    "distance": 13
+                },
+                {
+                    "team": "San Jose Sharks",
+                    "distance": 13
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "st_louis_blues",
+                "displayName": "St. Louis Blues"
+            },
+            "division": "central",
+            "arena": "Enterprise Center",
+            "latitude": 38.6268,
+            "longitude": -90.2026,
+            "neighbourTeams": [
+                {
+                    "team": "Nashville Predators",
+                    "distance": 5
+                },
+                {
+                    "team": "Chicago Blackhawks",
+                    "distance": 5
+                },
+                {
+                    "team": "Minnesota Wild",
+                    "distance": 8
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "tampa_bay_lightning",
+                "displayName": "Tampa Bay Lightning"
+            },
+            "division": "atlantic",
+            "arena": "Amalie Arena",
+            "latitude": 27.9425,
+            "longitude": -82.4518,
+            "neighbourTeams": [
+                {
+                    "team": "Florida Panthers",
+                    "distance": 4
+                },
+                {
+                    "team": "Carolina Hurricanes",
+                    "distance": 9
+                },
+                {
+                    "team": "Nashville Predators",
+                    "distance": 11
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "toronto_maple_leafs",
+                "displayName": "Toronto Maple Leafs"
+            },
+            "division": "atlantic",
+            "arena": "Scotiabank Arena",
+            "latitude": 43.6435,
+            "longitude": -79.3791,
+            "neighbourTeams": [
+                {
+                    "team": "Buffalo Sabres",
+                    "distance": 2
+                },
+                {
+                    "team": "Detroit Red Wings",
+                    "distance": 2
+                },
+                {
+                    "team": "Montreal Canadiens",
+                    "distance": 6
+                },
+                {
+                    "team": "Ottawa Senators",
+                    "distance": 5
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "vancouver_canucks",
+                "displayName": "Vancouver Canucks"
+            },
+            "division": "pacific",
+            "arena": "Rogers Arena",
+            "latitude": 49.2767,
+            "longitude": -123.1108,
+            "neighbourTeams": [
+                {
+                    "team": "Seattle Kraken",
+                    "distance": 3
+                },
+                {
+                    "team": "Calgary Flames",
+                    "distance": 10
+                },
+                {
+                    "team": "Edmonton Oilers",
+                    "distance": 12
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "vegas_golden_knights",
+                "displayName": "Vegas Golden Knights"
+            },
+            "division": "pacific",
+            "arena": "T-Mobile Arena",
+            "latitude": 36.1028,
+            "longitude": -115.1780,
+            "neighbourTeams": [
+                {
+                    "team": "Los Angeles Kings",
+                    "distance": 4
+                },
+                {
+                    "team": "Anaheim Ducks",
+                    "distance": 4
+                },
+                {
+                    "team": "Arizona Coyotes",
+                    "distance": 5
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "washington_capitals",
+                "displayName": "Washington Capitals"
+            },
+            "division": "metropolitan",
+            "arena": "Capital One Arena",
+            "latitude": 38.8980,
+            "longitude": -77.0207,
+            "neighbourTeams": [
+                {
+                    "team": "Carolina Hurricanes",
+                    "distance": 5
+                },
+                {
+                    "team": "Philadelphia Flyers",
+                    "distance": 2
+                },
+                {
+                    "team": "Pittsburgh Penguins",
+                    "distance": 4
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "winnipeg_jets",
+                "displayName": "Winnipeg Jets"
+            },
+            "division": "central",
+            "arena": "Canada Life Centre",
+            "latitude": 49.8920,
+            "longitude": -97.1436,
+            "neighbourTeams": [
+                {
+                    "team": "Minnesota Wild",
+                    "distance": 6
+                },
+                {
+                    "team": "Chicago Blackhawks",
+                    "distance": 13
+                },
+                {
+                    "team": "St. Louis Blues",
+                    "distance": 11
+                }
+            ]
+        }
+    ]
+}
