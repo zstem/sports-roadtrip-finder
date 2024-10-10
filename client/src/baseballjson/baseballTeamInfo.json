@@ -1,0 +1,941 @@
+{
+    "teams": [
+        {
+            "team": {
+                "name": "arizona_diamondbacks",
+                "displayName": "Arizona Diamondbacks"
+            },
+            "division": "nl_west",
+            "stadium": "chase_field",
+            "latitude": 33.4457,
+            "longitude": -112.0667,
+            "neighbourTeams": [
+                {
+                    "team": "Los Angeles Angels",
+                    "distance": 6
+                },
+                {
+                    "team": "Los Angeles Dodgers",
+                    "distance": 6
+                },
+                {
+                    "team": "San Diego Padres",
+                    "distance": 6
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "atlanta_braves",
+                "displayName": "Atlanta Braves"
+            },
+            "division": "nl_east",
+            "stadium": "truist_park",
+            "latitude": 33.8908,
+            "longitude": -84.4674,
+            "neighbourTeams": [
+                {
+                    "team": "Cincinnati Reds",
+                    "distance": 7
+                },
+                {
+                    "team": "St. Louis Cardinals",
+                    "distance": 8
+                },
+                {
+                    "team": "Tampa Bay Rays",
+                    "distance": 7
+                },
+                {
+                    "team": "Baltimore Orioles",
+                    "distance": 11
+                },
+                {
+                    "team": "Miami Marlins",
+                    "distance": 10
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "baltimore_orioles",
+                "displayName": "Baltimore Orioles"
+            },
+            "division": "al_east",
+            "stadium": "oriole_park_at_camden_yards",
+            "latitude": 39.2839,
+            "longitude": -76.6217,
+            "neighbourTeams": [
+                {
+                    "team": "Washington Nationals",
+                    "distance": 1
+                },
+                {
+                    "team": "Philadelphia Phillies",
+                    "distance": 2
+                },
+                {
+                    "team": "Pittsburgh Pirates",
+                    "distance": 4
+                },
+                {
+                    "team": "New York Mets",
+                    "distance": 4
+                },
+                {
+                    "team": "New York Yankees",
+                    "distance": 4
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "boston_red_sox",
+                "displayName": "Boston Red Sox"
+            },
+            "division": "al_east",
+            "stadium": "fenway_park",
+            "latitude": 42.3467,
+            "longitude": -71.0972,
+            "neighbourTeams": [
+                {
+                    "team": "New York Yankees",
+                    "distance": 4
+                },
+                {
+                    "team": "New York Mets",
+                    "distance": 4
+                },
+                {
+                    "team": "Baltimore Orioles",
+                    "distance": 7
+                },
+                {
+                    "team": "Washington Nationals",
+                    "distance": 8
+                },
+                {
+                    "team": "Philadelphia Phillies",
+                    "distance": 5
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "chicago_white_sox",
+                "displayName": "Chicago White Sox"
+            },
+            "division": "al_central",
+            "stadium": "guaranteed_rate_field",
+            "latitude": 41.8299,
+            "longitude": -87.6338,
+            "neighbourTeams": [
+                {
+                    "team": "Chicago Cubs",
+                    "distance": 0
+                },
+                {
+                    "team": "Milwaukee Brewers",
+                    "distance": 2
+                },
+                {
+                    "team": "St. Louis Cardinals",
+                    "distance": 5
+                },
+                {
+                    "team": "Detroit Tigers",
+                    "distance": 5
+                },
+                {
+                    "team": "Cleveland Guardians",
+                    "distance": 6
+                },
+                {
+                    "team": "Cincinnati Reds",
+                    "distance": 5
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "chicago_cubs",
+                "displayName": "Chicago Cubs"
+            },
+            "division": "nl_central",
+            "stadium": "wrigley_field",
+            "latitude": 41.9484,
+            "longitude": -87.6553,
+            "neighbourTeams": [
+                {
+                    "team": "Chicago White Sox",
+                    "distance": 0
+                },
+                {
+                    "team": "Milwaukee Brewers",
+                    "distance": 2
+                },
+                {
+                    "team": "St. Louis Cardinals",
+                    "distance": 5
+                },
+                {
+                    "team": "Detroit Tigers",
+                    "distance": 5
+                },
+                {
+                    "team": "Cleveland Guardians",
+                    "distance": 6
+                },
+                {
+                    "team": "Cincinnati Reds",
+                    "distance": 5
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "cincinnati_reds",
+                "displayName": "Cincinnati Reds"
+            },
+            "division": "nl_central",
+            "stadium": "great_american_ball_park",
+            "latitude": 39.0978,
+            "longitude": -84.5086,
+            "neighbourTeams": [
+                {
+                    "team": "Cleveland Guardians",
+                    "distance": 4
+                },
+                {
+                    "team": "Chicago Cubs",
+                    "distance": 5
+                },
+                {
+                    "team": "Chicago White Sox",
+                    "distance": 5
+                },
+                {
+                    "team": "Detroit Tigers",
+                    "distance": 5
+                },
+                {
+                    "team": "Pittsburgh Pirates",
+                    "distance": 5
+                },
+                {
+                    "team": "St. Louis Cardinals",
+                    "distance": 6
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "cleveland_guardians",
+                "displayName": "Cleveland Guardians"
+            },
+            "division": "al_central",
+            "stadium": "progressive_field",
+            "latitude": 41.4959,
+            "longitude": -81.6853,
+            "neighbourTeams": [
+                {
+                    "team": "Cincinnati Reds",
+                    "distance": 4
+                },
+                {
+                    "team": "Pittsburgh Pirates",
+                    "distance": 3
+                },
+                {
+                    "team": "Detroit Tigers",
+                    "distance": 3
+                },
+                {
+                    "team": "Chicago Cubs",
+                    "distance": 6
+                },
+                {
+                    "team": "Chicago White Sox",
+                    "distance": 6
+                },
+                {
+                    "team": "Toronto Blue Jays",
+                    "distance": 6
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "colorado_rockies",
+                "displayName": "Colorado Rockies"
+            },
+            "division": "nl_west",
+            "stadium": "coors_field",
+            "latitude": 39.7559,
+            "longitude": -104.9942,
+            "neighbourTeams": [
+                {
+                    "team": "Kansas City Royals",
+                    "distance": 9
+                },
+                {
+                    "team": "Texas Rangers",
+                    "distance": 12
+                },
+                {
+                    "team": "Arizona Diamondbacks",
+                    "distance": 12
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "detroit_tigers",
+                "displayName": "Detroit Tigers"
+            },
+            "division": "al_central",
+            "stadium": "comerica_park",
+            "latitude": 42.3390,
+            "longitude": -83.0486,
+            "neighbourTeams": [
+                {
+                    "team": "Cleveland Guardians",
+                    "distance": 3
+                },
+                {
+                    "team": "Cincinnati Reds",
+                    "distance": 4
+                },
+                {
+                    "team": "Pittsburgh Pirates",
+                    "distance": 5
+                },
+                {
+                    "team": "Chicago White Sox",
+                    "distance": 5
+                },
+                {
+                    "team": "Chicago Cubs",
+                    "distance": 5
+                },
+                {
+                    "team": "Toronto Blue Jays",
+                    "distance": 4
+                }
+                
+            ]
+        },
+        {
+            "team": {
+                "name": "houston_astros",
+                "displayName": "Houston Astros"
+            },
+            "division": "al_west",
+            "stadium": "minute_maid_park",
+            "latitude": 29.7569,
+            "longitude": -95.3554,
+            "neighbourTeams": [
+                {
+                    "team": "Texas Rangers",
+                    "distance": 4
+                },
+                {
+                    "team": "Atlanta Braves",
+                    "distance": 12
+                },
+                {
+                    "team": "St. Louis Cardinals",
+                    "distance": 12
+                },
+                {
+                    "team": "Kansas City Royals",
+                    "distance": 12
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "kansas_city_royals",
+                "displayName": "Kansas City Royals"
+            },
+            "division": "al_central",
+            "stadium": "kauffman_stadium",
+            "latitude": 39.0517,
+            "longitude": -94.4803,
+            "neighbourTeams": [
+                {
+                    "team": "St. Louis Cardinals",
+                    "distance": 4
+                },
+                {
+                    "team": "Chicago Cubs",
+                    "distance": 8
+                },
+                {
+                    "team": "Minnesota Twins",
+                    "distance": 7
+                },
+                {
+                    "team": "Chicago White Sox",
+                    "distance": 8
+                },
+                {
+                    "team": "Cincinnati Reds",
+                    "distance": 9
+                },
+                {
+                    "team": "Texas Rangers",
+                    "distance": 8
+                },
+                {
+                    "team": "Colorado Rockies",
+                    "distance": 9
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "los_angeles_angels",
+                "displayName": "Los Angeles Angels"
+            },
+            "division": "al_west",
+            "stadium": "angel_stadium_of_anaheim",
+            "latitude": 33.8003,
+            "longitude": -117.8827,
+            "neighbourTeams": [
+                {
+                    "team": "Los Angeles Dodgers",
+                    "distance": 1
+                },
+                {
+                    "team": "San Diego Padres",
+                    "distance": 2
+                },
+                {
+                    "team": "San Francisco Giants",
+                    "distance": 7
+                },
+                {
+                    "team": "Oakland Athletics",
+                    "distance": 7
+                },
+                {
+                    "team": "Arizona Diamondbacks",
+                    "distance": 6
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "los_angeles_dodgers",
+                "displayName": "Los Angeles Dodgers"
+            },
+            "division": "nl_west",
+            "stadium": "dodger_stadium",
+            "latitude": 34.0739,
+            "longitude": -118.2390,
+            "neighbourTeams": [
+                {
+                    "team": "Los Angeles Angels",
+                    "distance": 1
+                },
+                {
+                    "team": "San Diego Padres",
+                    "distance": 2
+                },
+                {
+                    "team": "Oakland Athletics",
+                    "distance": 6
+                },
+                {
+                    "team": "Arizona Diamondbacks",
+                    "distance": 6
+                },
+                {
+                    "team": "San Francisco Giants",
+                    "distance": 6
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "miami_marlins",
+                "displayName": "Miami Marlins"
+            },
+            "division": "nl_east",
+            "stadium": "loandepot_park",
+            "latitude": 25.7781,
+            "longitude": -80.2197,
+            "neighbourTeams": [
+                {
+                    "team": "Tampa Bay Rays",
+                    "distance": 5
+                },
+                {
+                    "team": "Atlanta Braves",
+                    "distance": 10
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "milwaukee_brewers",
+                "displayName": "Milwaukee Brewers"
+            },
+            "division": "nl_central",
+            "stadium": "american_family_field",
+            "latitude": 43.0286,
+            "longitude": -87.9712,
+            "neighbourTeams": [
+                {
+                    "team": "Chicago Cubs",
+                    "distance": 2
+                },
+                {
+                    "team": "Chicago White Sox",
+                    "distance": 2
+                },
+                {
+                    "team": "Minnesota Twins",
+                    "distance": 6
+                },
+                {
+                    "team": "Detroit Tigers",
+                    "distance": 7
+                },
+                {
+                    "team": "Cincinnati Reds",
+                    "distance": 7
+                },
+                {
+                    "team": "St. Louis Cardinals",
+                    "distance": 7
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "minnesota_twins",
+                "displayName": "Minnesota Twins"
+            },
+            "division": "al_central",
+            "stadium": "target_field",
+            "latitude": 44.9817,
+            "longitude": -93.2774,
+            "neighbourTeams": [
+                {
+                    "team": "Milwaukee Brewers",
+                    "distance": 6
+                },
+                {
+                    "team": "Chicago White Sox",
+                    "distance": 7
+                },
+                {
+                    "team": "Kansas City Royals",
+                    "distance": 7
+                },
+                {
+                    "team": "St. Louis Cardinals",
+                    "distance": 9
+                },
+                {
+                    "team": "Chicago Cubs",
+                    "distance": 7
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "new_york_mets",
+                "displayName": "New York Mets"
+            },
+            "division": "nl_east",
+            "stadium": "citi_field",
+            "latitude": 40.7571,
+            "longitude": -73.8458,
+            "neighbourTeams": [
+                {
+                    "team": "New York Yankees",
+                    "distance": 1
+                },
+                {
+                    "team": "Baltimore Orioles",
+                    "distance": 4
+                },
+                {
+                    "team": "Washington Nationals",
+                    "distance": 5
+                },
+                {
+                    "team": "Boston Red Sox",
+                    "distance": 5
+                },
+                {
+                    "team": "Philadelphia Phillies",
+                    "distance": 2
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "new_york_yankees",
+                "displayName": "New York Yankees"
+            },
+            "division": "al_east",
+            "stadium": "yankee_stadium",
+            "latitude": 40.8296,
+            "longitude": -73.9262,
+            "neighbourTeams": [
+                {
+                    "team": "New York Mets",
+                    "distance": 1
+                },
+                {
+                    "team": "Boston Red Sox",
+                    "distance": 4
+                },
+                {
+                    "team": "Philadelphia Phillies",
+                    "distance": 2
+                },
+                {
+                    "team": "Washington Nationals",
+                    "distance": 5
+                },
+                {
+                    "team": "Baltimore Orioles",
+                    "distance": 4
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "oakland_athletics",
+                "displayName": "Oakland Athletics"
+            },
+            "division": "al_west",
+            "stadium": "ringcentral_coliseum",
+            "latitude": 37.7516,
+            "longitude": -122.2005,
+            "neighbourTeams": [
+                {
+                    "team": "San Francisco Giants",
+                    "distance": 1
+                },
+                {
+                    "team": "Los Angeles Angels",
+                    "distance": 7
+                },
+                {
+                    "team": "Los Angeles Dodgers",
+                    "distance": 7
+                },
+                {
+                    "team": "San Diego Padres",
+                    "distance": 8
+                },
+                {
+                    "team": "Arizona Diamondbacks",
+                    "distance": 11
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "philadelphia_phillies",
+                "displayName": "Philadelphia Phillies"
+            },
+            "division": "nl_east",
+            "stadium": "citizens_bank_park",
+            "latitude": 39.9056,
+            "longitude": -75.1666,
+            "neighbourTeams": [
+                {
+                    "team": "New York Mets",
+                    "distance": 2
+                },
+                {
+                    "team": "New York Yankees",
+                    "distance": 2
+                },
+                {
+                    "team": "Baltimore Orioles",
+                    "distance": 2
+                },
+                {
+                    "team": "Washington Nationals",
+                    "distance": 3
+                },
+                {
+                    "team": "Pittsburgh Pirates",
+                    "distance": 5
+                },
+                {
+                    "team": "Boston Red Sox",
+                    "distance": 6
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "pittsburgh_pirates",
+                "displayName": "Pittsburgh Pirates"
+            },
+            "division": "nl_central",
+            "stadium": "pnc_park",
+            "latitude": 40.4469,
+            "longitude": -80.0057,
+            "neighbourTeams": [
+                {
+                    "team": "Baltimore Orioles",
+                    "distance": 5
+                },
+                {
+                    "team": "Cleveland Guardians",
+                    "distance": 3
+                },
+                {
+                    "team": "Cincinnati Reds",
+                    "distance": 5
+                },
+                {
+                    "team": "Detroit Tigers",
+                    "distance": 5
+                },
+                {
+                    "team": "Philadelphia Phillies",
+                    "distance": 5
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "san_diego_padres",
+                "displayName": "San Diego Padres"
+            },
+            "division": "nl_west",
+            "stadium": "petco_park",
+            "latitude": 32.7076,
+            "longitude": -117.1570,
+            "neighbourTeams": [
+                {
+                    "team": "Los Angeles Angels",
+                    "distance": 2
+                },
+                {
+                    "team": "Arizona Diamondbacks",
+                    "distance": 6
+                },
+                {
+                    "team": "San Francisco Giants",
+                    "distance": 8
+                },
+                {
+                    "team": "Oakland Athletics",
+                    "distance": 8
+                },
+                {
+                    "team": "Los Angeles Dodgers",
+                    "distance": 2
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "san_francisco_giants",
+                "displayName": "San Francisco Giants"
+            },
+            "division": "nl_west",
+            "stadium": "oracle_park",
+            "latitude": 37.7786,
+            "longitude": -122.3893,
+            "neighbourTeams": [
+                {
+                    "team": "Oakland Athletics",
+                    "distance": 1
+                },
+                {
+                    "team": "San Diego Padres",
+                    "distance": 8
+                },
+                {
+                    "team": "Los Angeles Angels",
+                    "distance": 7
+                },
+                {
+                    "team": "Arizona Diamondbacks",
+                    "distance": 12
+                },
+                {
+                    "team": "Los Angeles Dodgers",
+                    "distance": 7
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "seattle_mariners",
+                "displayName": "Seattle Mariners"
+            },
+            "division": "al_west",
+            "stadium": "t-mobile_park",
+            "latitude": 47.5914,
+            "longitude": -122.3320,
+            "neighbourTeams": [
+                {
+                    "team": "Oakland Athletics",
+                    "distance": 13
+                },
+                {
+                    "team": "San Francisco Giants",
+                    "distance": 13
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "st_louis_cardinals",
+                "displayName": "St. Louis Cardinals"
+            },
+            "division": "nl_central",
+            "stadium": "busch_stadium",
+            "latitude": 38.6226,
+            "longitude": -90.1928,
+            "neighbourTeams": [
+                {
+                    "team": "Milwaukee Brewers",
+                    "distance": 6
+                },
+                {
+                    "team": "Chicago Cubs",
+                    "distance": 5
+                },
+                {
+                    "team": "Chicago White Sox",
+                    "distance": 5
+                },
+                {
+                    "team": "Detroit Tigers",
+                    "distance": 8
+                },
+                {
+                    "team": "Cincinnati Reds",
+                    "distance": 6
+                },
+                {
+                    "team": "Kansas City Royals",
+                    "distance": 4
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "tampa_bay_rays",
+                "displayName": "Tampa Bay Rays"
+            },
+            "division": "al_east",
+            "stadium": "tropicana_field",
+            "latitude": 27.7681,
+            "longitude": -82.6534,
+            "neighbourTeams": [
+                {
+                    "team": "Miami Marlins",
+                    "distance": 4
+                },
+                {
+                    "team": "Atlanta Braves",
+                    "distance": 7
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "texas_rangers",
+                "displayName": "Texas Rangers"
+            },
+            "division": "al_west",
+            "stadium": "globe_life_field",
+            "latitude": 32.7512,
+            "longitude": -97.0822,
+            "neighbourTeams": [
+                {
+                    "team": "Houston Astros",
+                    "distance": 4
+                },
+                {
+                    "team": "Kansas City Royals",
+                    "distance": 8
+                },
+                {
+                    "team": "St. Louis Cardinals",
+                    "distance": 8
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "toronto_blue_jays",
+                "displayName": "Toronto Blue Jays"
+            },
+            "division": "al_east",
+            "stadium": "rogers_centre",
+            "latitude": 43.6414,
+            "longitude": -79.3894,
+            "neighbourTeams": [
+                {
+                    "team": "Detroit Tigers",
+                    "distance": 4
+                },
+                {
+                    "team": "Cleveland Guardians",
+                    "distance": 5
+                },
+                {
+                    "team": "Pittsburgh Pirates",
+                    "distance": 5
+                },
+                {
+                    "team": "Cincinnati Reds",
+                    "distance": 7
+                }
+            ]
+        },
+        {
+            "team": {
+                "name": "washington_nationals",
+                "displayName": "Washington Nationals"
+            },
+            "division": "nl_east",
+            "stadium": "nationals_park",
+            "latitude": 38.8731,
+            "longitude": -77.0074,
+            "neighbourTeams": [
+                {
+                    "team": "Baltimore Orioles",
+                    "distance": 1
+                },
+                {
+                    "team": "Philadelphia Phillies",
+                    "distance": 3
+                },
+                {
+                    "team": "Pittsburgh Pirates",
+                    "distance": 4
+                },
+                {
+                    "team": "New York Mets",
+                    "distance": 5
+                },
+                {
+                    "team": "New York Yankees",
+                    "distance": 5
+                },
+                {
+                    "team": "Boston Red Sox",
+                    "distance": 8
+                }
+            ]
+        }
+    ]
+}

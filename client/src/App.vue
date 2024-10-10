@@ -1,7 +1,5 @@
 <script setup>
 import Main from './components/Main.vue'
-// import "bootstrap/dist/css/bootstrap.css";
-// import "bootstrap/dist/js/bootstrap.js";
 
 </script>
 

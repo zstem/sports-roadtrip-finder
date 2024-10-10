@@ -1,168 +1,224 @@
 <script setup>
 import { ref } from 'vue';
-import axios from "axios"
-import coordinatesJson from '../coordinates.json';
+import axios from 'axios';
+import baseballTeamInfo from '../baseballjson/baseballTeamInfo.json';
+import hockeyTeamInfo from '../hockeyjson/hockeyTeamInfo.json';
 
 const awaySeries = ref([{}]);
 
 const selectedTeam = ref([{}]);
 
-const filteredTeamsWithMaxDistance = ref([{}]);
-
-const selectedMaxDistance = ref(10);
-
-const userStep = ref(1);
-
-const currentAwaySeries = ref([{}]);
+const selectedSport = ref('');
 
 const startingPoints = ref([{}]);
 
-const areThereStartingPoints = ref(true);
+const teamsAndLocationDictionary = ref({});
 
-var teamsAndLocationDictionary = {};
+const baseballTeamsList = ref([]);
 
-var teamsList = [];
+const hockeyTeamsList = ref([]);
+
+const sportsList = ref(['Hockey', 'Baseball', 'Basketball', 'Football']);
 
 var displayNameDictionary = {};
 
-async function init() {
-   
-  setupTeamLocationDictionary();
-  if (window.localStorage.getItem('selectedTeamName') !== null) {
-    let res = await axios.get("http://localhost:8888/" + window.localStorage.getItem('selectedTeamName'));
-    selectedTeam.value = res.data;
+
+/* 
+TODO:
+- Make a form-like UI for user to quickly get what they want.
+- Improve UI with team pictures, animations etc.
+- Finish importing all teams for a more complete experience regardless the state of the regular seasons.
+*/
+
+
+async function initSport(sport) {
+  selectedSport.value = sport;
+  switch (sport) {
+    case 'Baseball':
+      awaySeries.value = [{}];
+      setupBaseballTeamLocationDictionary();
+      if (window.localStorage.getItem('selectedBaseballTeam') !== null) {
+        let res = await axios.get(
+          'http://localhost:8888/' + window.localStorage.getItem('selectedTeamName')
+        );
+        selectedTeam.value = res.data;
+      } else {
+        let res = await axios.get('http://localhost:8888/toronto_blue_jays');
+        selectedTeam.value = res.data;
+        window.localStorage.setItem('selectedTeamName', 'toronto_blue_jays');
+      }
+      saveAwayGamesOnly();
+      break;
+    case 'Hockey':
+      awaySeries.value = [{}];
+      setupHockeyTeamLocationDictionary();
+      if (window.localStorage.getItem('selectedHockeyTeam') !== null) {
+        let res = await axios.get(
+          'http://localhost:8888/' + window.localStorage.getItem('selectedTeamName')
+        );
+        selectedTeam.value = res.data;
+      } else {
+        let res = await axios.get('http://localhost:8888/toronto_maple_leafs');
+        selectedTeam.value = res.data;
+        window.localStorage.setItem('selectedTeamName', 'toronto_maple_leafs');
+      }
+      saveAwayGamesOnly();
+      break;
   }
-  else {
-    let res = await axios.get("http://localhost:8888/toronto_blue_jays");
-    selectedTeam.value = res.data;
-    window.localStorage.setItem('selectedTeamName', 'toronto_blue_jays');
-  }
-  saveAwayGamesOnly();
 }
 
-function setupTeamLocationDictionary() {
-  teamsList = [];
-  for (let i = 0; i < coordinatesJson.teams.length; i++) {
-    teamsAndLocationDictionary[coordinatesJson.teams[i].team.displayName] = { name: coordinatesJson.teams[i].team.name, longitude: coordinatesJson.teams[i].longitude, latitude: coordinatesJson.teams[i].latitude, neighbourTeams: [...coordinatesJson.teams[i].neighbourTeams] }
-    teamsList[i] = { displayName: coordinatesJson.teams[i].team.displayName, name: coordinatesJson.teams[i].team.name };
-    displayNameDictionary[coordinatesJson.teams[i].team.displayName] = { displayName: coordinatesJson.teams[i].team.name };
+function setupHockeyTeamLocationDictionary() {
+  hockeyTeamsList.value = [];
+  teamsAndLocationDictionary.value = {};
+  for (let i = 0; i < hockeyTeamInfo.teams.length; i++) {
+    teamsAndLocationDictionary.value[hockeyTeamInfo.teams[i].team.displayName] = {
+      name: hockeyTeamInfo.teams[i].team.name,
+      longitude: hockeyTeamInfo.teams[i].longitude,
+      latitude: hockeyTeamInfo.teams[i].latitude,
+      neighbourTeams: [...hockeyTeamInfo.teams[i].neighbourTeams]
+    };
+    hockeyTeamsList.value[i] = {
+      displayName: hockeyTeamInfo.teams[i].team.displayName,
+      name: hockeyTeamInfo.teams[i].team.name,
+      division: hockeyTeamInfo.teams[i].division
+    };
+    hockeyTeamsList.value = hockeyTeamsList.value.sort((a, b) => {
+      return a.division < b.division;
+    });
+    displayNameDictionary[hockeyTeamInfo.teams[i].team.displayName] = {
+      displayName: hockeyTeamInfo.teams[i].team.name
+    };
+  }
+}
+
+function setupBaseballTeamLocationDictionary() {
+  baseballTeamsList.value = [];
+  teamsAndLocationDictionary.value = {};
+  for (let i = 0; i < baseballTeamInfo.teams.length; i++) {
+    teamsAndLocationDictionary.value[baseballTeamInfo.teams[i].team.displayName] = {
+      name: baseballTeamInfo.teams[i].team.name,
+      longitude: baseballTeamInfo.teams[i].longitude,
+      latitude: baseballTeamInfo.teams[i].latitude,
+      neighbourTeams: [...baseballTeamInfo.teams[i].neighbourTeams]
+    };
+    baseballTeamsList.value[i] = {
+      displayName: baseballTeamInfo.teams[i].team.displayName,
+      name: baseballTeamInfo.teams[i].team.name,
+      division: baseballTeamInfo.teams[i].division
+    };
+    baseballTeamsList.value = baseballTeamsList.value.sort((a, b) => {
+      return a.division < b.division;
+    });
+    displayNameDictionary[baseballTeamInfo.teams[i].team.displayName] = {
+      displayName: baseballTeamInfo.teams[i].team.name
+    };
   }
 }
 
 async function changeSelectedTeam(team) {
-  
-  let res = await axios.get("http://localhost:8888/" + team);
+  startingPoints.value = [{}];
+  let res = await axios.get('http://localhost:8888/' + team);
   selectedTeam.value = res.data;
   saveAwayGamesOnly();
-  console.log(team)
   window.localStorage.setItem('selectedTeamName', team);
 }
 
 function saveAwayGamesOnly() {
   let seriesId = 1;
   let index = 0;
-  for (let i = 1; i < selectedTeam.value.length - 1; i++) {
-    if (selectedTeam.value[i].HomeTeam !== selectedTeam.value[0].team && selectedTeam.value[i].Location !== selectedTeam.value[i - 1].Location) {
-      awaySeries.value[index] = { seriesId: seriesId++, team: selectedTeam.value[i].HomeTeam, date: selectedTeam.value[i].DateUtc, location: selectedTeam.value[i].Location };
+  for (let i = 1; i < selectedTeam.value.length; i++) {
+    if (
+      selectedTeam.value[i].HomeTeam !== selectedTeam.value[0].team &&
+      selectedTeam.value[i].Location !== selectedTeam.value[i - 1].Location
+    ) {
+      awaySeries.value[index] = {
+        seriesId: seriesId++,
+        team: selectedTeam.value[i].HomeTeam,
+        date: selectedTeam.value[i].DateUtc,
+        location: selectedTeam.value[i].Location
+      };
       index++;
     }
   }
   findStartingPoints();
-  console.log(getDistance("New York Yankees", "New York Mets"));
-  console.log(selectedTeam.value[0].team)
-  filterResults(5, selectedTeam.value[0].team);
 }
 
 function findStartingPoints() {
-  let index = 0;
-  let buffer = 0;
-  areThereStartingPoints.value = true;
+  console.log(teamsAndLocationDictionary.value);
+  let currentTrips = [[]];
+  let currentTrip = 0;
+  for (let i = 0; i < awaySeries.value.length; i++) {
+    if (
+      teamsAndLocationDictionary.value[awaySeries.value[i].team] &&
+      awaySeries.value[i + 1] &&
+      teamsAndLocationDictionary.value[awaySeries.value[i].team].neighbourTeams.filter(
+        (team) => team.team === awaySeries.value[i + 1].team
+      ).length > 0
+    ) {
+      currentTrips[currentTrip] = currentTrips[currentTrip]
+        ? [...currentTrips[currentTrip], awaySeries.value[i]]
+        : [awaySeries.value[i]];
 
-  for (let i = 0; i < awaySeries.value.length - 1; i++) {
-    if (i + buffer < awaySeries.value.length - 1) {
-      if (teamsAndLocationDictionary[awaySeries.value[i + buffer].team].neighbourTeams.filter(team => team.team === awaySeries.value[i + buffer + 1].team).length > 0) {
-        startingPoints.value[index] = { team: awaySeries.value[i + buffer].team, location: awaySeries.value[i + buffer].location, date: awaySeries.value[i + buffer].date, nextSeries: [{ team: awaySeries.value[i + buffer + 1].team, date: awaySeries.value[i + 1].date, location: awaySeries.value[i + buffer + 1].location }] };
-        currentAwaySeries.value = awaySeries.value[i + buffer + 1];
-        if (i + buffer < awaySeries.value.length - 2) {
-
-          if (teamsAndLocationDictionary[currentAwaySeries.value.team].neighbourTeams.filter(team => team.team === awaySeries.value[i + buffer + 2].team).length > 0) {
-            startingPoints.value[index] = { team: awaySeries.value[i + buffer].team, location: awaySeries.value[i + buffer].location, date: awaySeries.value[i + buffer].date, nextSeries: [{ team: awaySeries.value[i + buffer + 1].team, date: awaySeries.value[i + buffer + 1].date, location: awaySeries.value[i + buffer + 1].location }, { team: awaySeries.value[i + buffer + 2].team, date: awaySeries.value[i + buffer + 2].date, location: awaySeries.value[i + buffer + 2].location }] };
-            currentAwaySeries.value = awaySeries.value[i + buffer + 2];
-            buffer++;
-          }
-        }
-        index++;
+      if (
+        awaySeries.value[i + 2] &&
+        teamsAndLocationDictionary.value[awaySeries.value[i].team].neighbourTeams.filter(
+          (team) => team.team === awaySeries.value[i + 1].team
+        ).length > 0 &&
+        teamsAndLocationDictionary.value[awaySeries.value[i + 1].team].neighbourTeams.filter(
+          (team) => team.team === awaySeries.value[i + 2].team
+        ).length === 0
+      ) {
+        currentTrips[currentTrip] = [...currentTrips[currentTrip], awaySeries.value[i + 1]];
+        currentTrip++;
       }
     }
-    else {
-      buffer = 0;
-    }
   }
-  if (Object.keys(startingPoints.value[0]).length === 0) {
-    areThereStartingPoints.value = false;
-  }
+  startingPoints.value = currentTrips;
 }
-
-function getDistance(team, opponent) {
-  var result;
-  console.log(selectedTeam.value);
-  result = teamsAndLocationDictionary[team].neighbourTeams;
-  result = result.filter(team => team.team === opponent);
-  console.log(result)
-  return result[0].distance;
-}
-
-function filterResults(maxDistance, team){
-  console.log(startingPoints.value);
-  console.log(getDistance(team, startingPoints.value[0].team));
-  startingPoints.value = startingPoints.value.filter(s => getDistance(team, s.team) <= maxDistance);
-  console.log(startingPoints.value);
-};
-
-init();
-
 </script>
 
 <template>
-  <div class="columns-6 gap-20">
-    <div class="" v-for="team in teamsList">
-      <button class="button-standard bg-blue-500 hover:bg-blue-700 text-white font-bold p-5 ms-2"
-        @click="changeSelectedTeam(team.name)">{{ team.displayName }}</button>
+  <div class="sportList">
+    <div class="form columns-6 gap-20">
+      <div class="" v-for="sport in sportsList" :ref="sportsList">
+        <button class="button-standard bg-blue-500 hover:bg-blue-700 text-white font-bold p-5 ms-2"
+          @click="initSport(sport)">
+          {{ sport }}
+        </button>
+      </div>
     </div>
-
   </div>
-  <!-- <div class=" columns-5">
-    <div class="main-child" v-for="series in awaySeries" :ref="awaySeries">
-      <p class="">{{ series.team }} - Series: {{ series.seriesId }} - {{ new Date(series.date) }}</p>
-    </div> -->
-  <!-- </div> -->
-  <div class="main-child">
-    <div v-for="startingPoint in startingPoints" :ref="startingPoints">
-      <p v-if="areThereStartingPoints === false">
-        No potential road trips. Please select another team.
-      </p>
-      <p v-if="startingPoint.nextSeries && startingPoint.nextSeries.length === 1"><b>{{ startingPoint.team }}</b> - {{
-        startingPoint.location }} - {{ new Date(startingPoint.date) }} <b class="text-blue-500">-></b> Next Series: <b>{{
-    startingPoint.nextSeries[0].team }}</b> - {{ startingPoint.nextSeries[0].location }}
-        - {{ new Date(startingPoint.nextSeries[0].date) }}
-      </p>
-      <p v-if="startingPoint.nextSeries && startingPoint.nextSeries.length === 2"><b>{{ startingPoint.team }}</b> - {{
-        startingPoint.location }} - {{ new Date(startingPoint.date) }} <b class="text-blue-500">-></b> Next Series: <b>{{
-    startingPoint.nextSeries[0].team }}</b> - {{ startingPoint.nextSeries[0].location }}
-        - {{ new Date(startingPoint.nextSeries[0].date) }}, <b>{{ startingPoint.nextSeries[1].team }}</b> - {{
-          startingPoint.nextSeries[1].location }}
-        - {{ new Date(startingPoint.nextSeries[1].date) }}
-      </p>
-      <p v-if="startingPoint.nextSeries && startingPoint.nextSeries.length === 3"><b>{{ startingPoint.team }}</b> - {{
-        startingPoint.location }} - {{ new Date(startingPoint.date) }} <b class="text-blue-500">-></b> Next Series: <b>{{
-    startingPoint.nextSeries[0].team }}</b> - {{ startingPoint.nextSeries[0].location }}
-        - {{ new Date(startingPoint.nextSeries[0].date) }}, <b>{{ startingPoint.nextSeries[2].team }}</b> - {{
-          startingPoint.nextSeries[1].location }}
-        - {{ new Date(startingPoint.nextSeries[1].date) }}, <b>{{ startingPoint.nextSeries[2].team }}</b> - {{
-          startingPoint.nextSeries[2].location }}
-        - {{ new Date(startingPoint.nextSeries[2].date) }}
-      </p>
+  <div class="baseball-form columns-6 gap-20" v-if="selectedSport === 'Baseball'">
+    <div class="" v-for="team in baseballTeamsList" :ref="baseballTeamsList">
+      <button class="button-standard bg-blue-500 hover:bg-blue-700 text-white font-bold p-5 ms-2"
+        @click="changeSelectedTeam(team.name)">
+        {{ team.displayName }}
+      </button>
     </div>
+  </div>
+  <div class="hockey-form columns-4" v-if="selectedSport === 'Hockey'">
+    <div v-for="team2 in hockeyTeamsList" :ref="hockeyTeamsList">
+      <button class="button-standard bg-blue-500 hover:bg-blue-700 text-white font-bold p-1 mr-2 mt-2"
+        @click="changeSelectedTeam(team2.name)">
+        {{ team2.displayName }}
+      </button>
+    </div>
+  </div>
+  <div class="main-child p-5">
+    <span v-for="(trip, index) in startingPoints" :ref="startingPoints">
+      <span v-if="trip[0]">
+        <h><b class="text-blue-500">Trip {{ index + 1 }}: </b></h>
+        <span v-for="(game, index) in trip">
+          <b>{{ game.team }}</b> - {{ game.location }} -
+          {{ new Date(game.date).toLocaleString('en-US', { timeZone: 'America/New_York' }) + ' EST' }}
+          <b v-if="index !== trip.length - 1" class="text-blue-500"> -> </b>
+          <b v-if="index === trip.length - 1" class="text-blue-500">
+            <br />
+            <br />
+          </b>
+        </span>
+      </span>
+    </span>
   </div>
 </template>
 
@@ -174,7 +230,6 @@ init();
   border-radius: 10px;
   border-color: rgb(39, 39, 168);
   border-style: solid;
-
 }
 
 main {
@@ -191,4 +246,9 @@ h1 {
 
 h3 {
   font-size: 1.2rem;
-}</style>
+}
+
+.main-child {
+  min-height: 300px;
+}
+</style>
