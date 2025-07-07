@@ -1,4 +1,4 @@
-# mlb-sports-trip-finder
+# sports-trip-finder
 
 This web app is for sports fans looking to complete a roadtrip and visit their favourite team along the way.
 
