@@ -1,0 +1,192 @@
+[
+  {
+    "team": "Tampa Bay Buccaneers"
+  },
+  {
+    "MatchNumber": 3,
+    "RoundNumber": 1,
+    "DateUtc": "2025-09-07 17:00:00Z",
+    "Location": "Mercedes-Benz Stadium",
+    "HomeTeam": "Atlanta Falcons",
+    "AwayTeam": "Tampa Bay Buccaneers",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 31,
+    "RoundNumber": 2,
+    "DateUtc": "2025-09-15 23:00:00Z",
+    "Location": "NRG Stadium",
+    "HomeTeam": "Houston Texans",
+    "AwayTeam": "Tampa Bay Buccaneers",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 40,
+    "RoundNumber": 3,
+    "DateUtc": "2025-09-21 17:00:00Z",
+    "Location": "Raymond James Stadium",
+    "HomeTeam": "Tampa Bay Buccaneers",
+    "AwayTeam": "New York Jets",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 57,
+    "RoundNumber": 4,
+    "DateUtc": "2025-09-28 17:00:00Z",
+    "Location": "Raymond James Stadium",
+    "HomeTeam": "Tampa Bay Buccaneers",
+    "AwayTeam": "Philadelphia Eagles",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 74,
+    "RoundNumber": 5,
+    "DateUtc": "2025-10-05 20:05:00Z",
+    "Location": "Lumen Field",
+    "HomeTeam": "Seattle Seahawks",
+    "AwayTeam": "Tampa Bay Buccaneers",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 87,
+    "RoundNumber": 6,
+    "DateUtc": "2025-10-12 17:00:00Z",
+    "Location": "Raymond James Stadium",
+    "HomeTeam": "Tampa Bay Buccaneers",
+    "AwayTeam": "San Francisco 49ers",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 107,
+    "RoundNumber": 7,
+    "DateUtc": "2025-10-20 23:00:00Z",
+    "Location": "Ford Field",
+    "HomeTeam": "Detroit Lions",
+    "AwayTeam": "Tampa Bay Buccaneers",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 117,
+    "RoundNumber": 8,
+    "DateUtc": "2025-10-26 20:05:00Z",
+    "Location": "Caesars Superdome",
+    "HomeTeam": "New Orleans Saints",
+    "AwayTeam": "Tampa Bay Buccaneers",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 144,
+    "RoundNumber": 10,
+    "DateUtc": "2025-11-09 18:00:00Z",
+    "Location": "Raymond James Stadium",
+    "HomeTeam": "Tampa Bay Buccaneers",
+    "AwayTeam": "New England Patriots",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 153,
+    "RoundNumber": 11,
+    "DateUtc": "2025-11-16 18:00:00Z",
+    "Location": "Highmark Stadium",
+    "HomeTeam": "Buffalo Bills",
+    "AwayTeam": "Tampa Bay Buccaneers",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 177,
+    "RoundNumber": 12,
+    "DateUtc": "2025-11-24 01:20:00Z",
+    "Location": "SoFi Stadium",
+    "HomeTeam": "Los Angeles Rams",
+    "AwayTeam": "Tampa Bay Buccaneers",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 188,
+    "RoundNumber": 13,
+    "DateUtc": "2025-11-30 18:00:00Z",
+    "Location": "Raymond James Stadium",
+    "HomeTeam": "Tampa Bay Buccaneers",
+    "AwayTeam": "Arizona Cardinals",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 203,
+    "RoundNumber": 14,
+    "DateUtc": "2025-12-07 18:00:00Z",
+    "Location": "Raymond James Stadium",
+    "HomeTeam": "Tampa Bay Buccaneers",
+    "AwayTeam": "New Orleans Saints",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 209,
+    "RoundNumber": 15,
+    "DateUtc": "2025-12-12 01:15:00Z",
+    "Location": "Raymond James Stadium",
+    "HomeTeam": "Tampa Bay Buccaneers",
+    "AwayTeam": "Atlanta Falcons",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 229,
+    "RoundNumber": 16,
+    "DateUtc": "2025-12-21 18:00:00Z",
+    "Location": "Bank of America Stadium",
+    "HomeTeam": "Carolina Panthers",
+    "AwayTeam": "Tampa Bay Buccaneers",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 246,
+    "RoundNumber": 17,
+    "DateUtc": "2025-12-28 18:00:00Z",
+    "Location": "Hard Rock Stadium",
+    "HomeTeam": "Miami Dolphins",
+    "AwayTeam": "Tampa Bay Buccaneers",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 272,
+    "RoundNumber": 18,
+    "DateUtc": "2026-01-05 00:00:00Z",
+    "Location": "Raymond James Stadium",
+    "HomeTeam": "Tampa Bay Buccaneers",
+    "AwayTeam": "Carolina Panthers",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  }
+]

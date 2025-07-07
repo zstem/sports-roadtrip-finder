@@ -1,0 +1,192 @@
+[
+  {
+    "team": "Atlanta Falcons"
+  },
+  {
+    "MatchNumber": 3,
+    "RoundNumber": 1,
+    "DateUtc": "2025-09-07 17:00:00Z",
+    "Location": "Mercedes-Benz Stadium",
+    "HomeTeam": "Atlanta Falcons",
+    "AwayTeam": "Tampa Bay Buccaneers",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 30,
+    "RoundNumber": 2,
+    "DateUtc": "2025-09-15 00:20:00Z",
+    "Location": "U.S. Bank Stadium",
+    "HomeTeam": "Minnesota Vikings",
+    "AwayTeam": "Atlanta Falcons",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 34,
+    "RoundNumber": 3,
+    "DateUtc": "2025-09-21 17:00:00Z",
+    "Location": "Bank of America Stadium",
+    "HomeTeam": "Carolina Panthers",
+    "AwayTeam": "Atlanta Falcons",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 51,
+    "RoundNumber": 4,
+    "DateUtc": "2025-09-28 17:00:00Z",
+    "Location": "Mercedes-Benz Stadium",
+    "HomeTeam": "Atlanta Falcons",
+    "AwayTeam": "Washington Commanders",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 92,
+    "RoundNumber": 6,
+    "DateUtc": "2025-10-13 23:15:00Z",
+    "Location": "Mercedes-Benz Stadium",
+    "HomeTeam": "Atlanta Falcons",
+    "AwayTeam": "Buffalo Bills",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 106,
+    "RoundNumber": 7,
+    "DateUtc": "2025-10-20 00:20:00Z",
+    "Location": "Levi's Stadium",
+    "HomeTeam": "San Francisco 49ers",
+    "AwayTeam": "Atlanta Falcons",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 110,
+    "RoundNumber": 8,
+    "DateUtc": "2025-10-26 17:00:00Z",
+    "Location": "Mercedes-Benz Stadium",
+    "HomeTeam": "Atlanta Falcons",
+    "AwayTeam": "Miami Dolphins",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 127,
+    "RoundNumber": 9,
+    "DateUtc": "2025-11-02 18:00:00Z",
+    "Location": "Gillette Stadium",
+    "HomeTeam": "New England Patriots",
+    "AwayTeam": "Atlanta Falcons",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 137,
+    "RoundNumber": 10,
+    "DateUtc": "2025-11-09 14:30:00Z",
+    "Location": "Olympic Stadium",
+    "HomeTeam": "Indianapolis Colts",
+    "AwayTeam": "Atlanta Falcons",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 152,
+    "RoundNumber": 11,
+    "DateUtc": "2025-11-16 18:00:00Z",
+    "Location": "Mercedes-Benz Stadium",
+    "HomeTeam": "Atlanta Falcons",
+    "AwayTeam": "Carolina Panthers",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 176,
+    "RoundNumber": 12,
+    "DateUtc": "2025-11-23 21:25:00Z",
+    "Location": "Caesars Superdome",
+    "HomeTeam": "New Orleans Saints",
+    "AwayTeam": "Atlanta Falcons",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 187,
+    "RoundNumber": 13,
+    "DateUtc": "2025-11-30 18:00:00Z",
+    "Location": "MetLife Stadium",
+    "HomeTeam": "New York Jets",
+    "AwayTeam": "Atlanta Falcons",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 196,
+    "RoundNumber": 14,
+    "DateUtc": "2025-12-07 18:00:00Z",
+    "Location": "Mercedes-Benz Stadium",
+    "HomeTeam": "Atlanta Falcons",
+    "AwayTeam": "Seattle Seahawks",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 209,
+    "RoundNumber": 15,
+    "DateUtc": "2025-12-12 01:15:00Z",
+    "Location": "Raymond James Stadium",
+    "HomeTeam": "Tampa Bay Buccaneers",
+    "AwayTeam": "Atlanta Falcons",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 235,
+    "RoundNumber": 16,
+    "DateUtc": "2025-12-21 21:05:00Z",
+    "Location": "State Farm Stadium",
+    "HomeTeam": "Arizona Cardinals",
+    "AwayTeam": "Atlanta Falcons",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 251,
+    "RoundNumber": 17,
+    "DateUtc": "2025-12-30 01:15:00Z",
+    "Location": "Mercedes-Benz Stadium",
+    "HomeTeam": "Atlanta Falcons",
+    "AwayTeam": "Los Angeles Rams",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 257,
+    "RoundNumber": 18,
+    "DateUtc": "2026-01-05 00:00:00Z",
+    "Location": "Mercedes-Benz Stadium",
+    "HomeTeam": "Atlanta Falcons",
+    "AwayTeam": "New Orleans Saints",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  }
+]

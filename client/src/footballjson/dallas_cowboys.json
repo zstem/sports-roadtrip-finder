@@ -1,0 +1,192 @@
+[
+  {
+    "team": "Dallas Cowboys"
+  },
+  {
+    "MatchNumber": 1,
+    "RoundNumber": 1,
+    "DateUtc": "2025-09-05 00:20:00Z",
+    "Location": "Lincoln Financial Field",
+    "HomeTeam": "Philadelphia Eagles",
+    "AwayTeam": "Dallas Cowboys",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 20,
+    "RoundNumber": 2,
+    "DateUtc": "2025-09-14 17:00:00Z",
+    "Location": "AT&T Stadium",
+    "HomeTeam": "Dallas Cowboys",
+    "AwayTeam": "New York Giants",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 45,
+    "RoundNumber": 3,
+    "DateUtc": "2025-09-21 20:25:00Z",
+    "Location": "Soldier Field",
+    "HomeTeam": "Chicago Bears",
+    "AwayTeam": "Dallas Cowboys",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 62,
+    "RoundNumber": 4,
+    "DateUtc": "2025-09-29 00:20:00Z",
+    "Location": "AT&T Stadium",
+    "HomeTeam": "Dallas Cowboys",
+    "AwayTeam": "Green Bay Packers",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 71,
+    "RoundNumber": 5,
+    "DateUtc": "2025-10-05 17:00:00Z",
+    "Location": "MetLife Stadium",
+    "HomeTeam": "New York Jets",
+    "AwayTeam": "Dallas Cowboys",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 82,
+    "RoundNumber": 6,
+    "DateUtc": "2025-10-12 17:00:00Z",
+    "Location": "Bank of America Stadium",
+    "HomeTeam": "Carolina Panthers",
+    "AwayTeam": "Dallas Cowboys",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 105,
+    "RoundNumber": 7,
+    "DateUtc": "2025-10-19 20:25:00Z",
+    "Location": "AT&T Stadium",
+    "HomeTeam": "Dallas Cowboys",
+    "AwayTeam": "Washington Commanders",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 118,
+    "RoundNumber": 8,
+    "DateUtc": "2025-10-26 20:25:00Z",
+    "Location": "Empower Field at Mile High",
+    "HomeTeam": "Denver Broncos",
+    "AwayTeam": "Dallas Cowboys",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 135,
+    "RoundNumber": 9,
+    "DateUtc": "2025-11-04 01:15:00Z",
+    "Location": "AT&T Stadium",
+    "HomeTeam": "Dallas Cowboys",
+    "AwayTeam": "Arizona Cardinals",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 164,
+    "RoundNumber": 11,
+    "DateUtc": "2025-11-18 01:15:00Z",
+    "Location": "Allegiant Stadium",
+    "HomeTeam": "Las Vegas Raiders",
+    "AwayTeam": "Dallas Cowboys",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 175,
+    "RoundNumber": 12,
+    "DateUtc": "2025-11-23 21:25:00Z",
+    "Location": "AT&T Stadium",
+    "HomeTeam": "Dallas Cowboys",
+    "AwayTeam": "Philadelphia Eagles",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 180,
+    "RoundNumber": 13,
+    "DateUtc": "2025-11-27 21:30:00Z",
+    "Location": "AT&T Stadium",
+    "HomeTeam": "Dallas Cowboys",
+    "AwayTeam": "Kansas City Chiefs",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 195,
+    "RoundNumber": 14,
+    "DateUtc": "2025-12-05 01:15:00Z",
+    "Location": "Ford Field",
+    "HomeTeam": "Detroit Lions",
+    "AwayTeam": "Dallas Cowboys",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 223,
+    "RoundNumber": 15,
+    "DateUtc": "2025-12-15 01:20:00Z",
+    "Location": "AT&T Stadium",
+    "HomeTeam": "Dallas Cowboys",
+    "AwayTeam": "Minnesota Vikings",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 231,
+    "RoundNumber": 16,
+    "DateUtc": "2025-12-21 18:00:00Z",
+    "Location": "AT&T Stadium",
+    "HomeTeam": "Dallas Cowboys",
+    "AwayTeam": "Los Angeles Chargers",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 241,
+    "RoundNumber": 17,
+    "DateUtc": "2025-12-25 18:00:00Z",
+    "Location": "Northwest Stadium",
+    "HomeTeam": "Washington Commanders",
+    "AwayTeam": "Dallas Cowboys",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 268,
+    "RoundNumber": 18,
+    "DateUtc": "2026-01-05 00:00:00Z",
+    "Location": "MetLife Stadium",
+    "HomeTeam": "New York Giants",
+    "AwayTeam": "Dallas Cowboys",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  }
+]

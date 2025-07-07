@@ -1,0 +1,192 @@
+[
+  {
+    "team": "Baltimore Ravens"
+  },
+  {
+    "MatchNumber": 15,
+    "RoundNumber": 1,
+    "DateUtc": "2025-09-08 00:20:00Z",
+    "Location": "Highmark Stadium",
+    "HomeTeam": "Buffalo Bills",
+    "AwayTeam": "Baltimore Ravens",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 18,
+    "RoundNumber": 2,
+    "DateUtc": "2025-09-14 17:00:00Z",
+    "Location": "M&T Bank Stadium",
+    "HomeTeam": "Baltimore Ravens",
+    "AwayTeam": "Cleveland Browns",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 48,
+    "RoundNumber": 3,
+    "DateUtc": "2025-09-23 00:15:00Z",
+    "Location": "M&T Bank Stadium",
+    "HomeTeam": "Baltimore Ravens",
+    "AwayTeam": "Detroit Lions",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 60,
+    "RoundNumber": 4,
+    "DateUtc": "2025-09-28 20:25:00Z",
+    "Location": "GEHA Field at Arrowhead Stadium",
+    "HomeTeam": "Kansas City Chiefs",
+    "AwayTeam": "Baltimore Ravens",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 67,
+    "RoundNumber": 5,
+    "DateUtc": "2025-10-05 17:00:00Z",
+    "Location": "M&T Bank Stadium",
+    "HomeTeam": "Baltimore Ravens",
+    "AwayTeam": "Houston Texans",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 81,
+    "RoundNumber": 6,
+    "DateUtc": "2025-10-12 17:00:00Z",
+    "Location": "M&T Bank Stadium",
+    "HomeTeam": "Baltimore Ravens",
+    "AwayTeam": "Los Angeles Rams",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 111,
+    "RoundNumber": 8,
+    "DateUtc": "2025-10-26 17:00:00Z",
+    "Location": "M&T Bank Stadium",
+    "HomeTeam": "Baltimore Ravens",
+    "AwayTeam": "Chicago Bears",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 122,
+    "RoundNumber": 9,
+    "DateUtc": "2025-10-31 00:15:00Z",
+    "Location": "Hard Rock Stadium",
+    "HomeTeam": "Miami Dolphins",
+    "AwayTeam": "Baltimore Ravens",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 142,
+    "RoundNumber": 10,
+    "DateUtc": "2025-11-09 18:00:00Z",
+    "Location": "U.S. Bank Stadium",
+    "HomeTeam": "Minnesota Vikings",
+    "AwayTeam": "Baltimore Ravens",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 161,
+    "RoundNumber": 11,
+    "DateUtc": "2025-11-16 21:25:00Z",
+    "Location": "Huntington Bank Field",
+    "HomeTeam": "Cleveland Browns",
+    "AwayTeam": "Baltimore Ravens",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 166,
+    "RoundNumber": 12,
+    "DateUtc": "2025-11-23 18:00:00Z",
+    "Location": "M&T Bank Stadium",
+    "HomeTeam": "Baltimore Ravens",
+    "AwayTeam": "New York Jets",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 181,
+    "RoundNumber": 13,
+    "DateUtc": "2025-11-28 01:20:00Z",
+    "Location": "M&T Bank Stadium",
+    "HomeTeam": "Baltimore Ravens",
+    "AwayTeam": "Cincinnati Bengals",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 197,
+    "RoundNumber": 14,
+    "DateUtc": "2025-12-07 18:00:00Z",
+    "Location": "M&T Bank Stadium",
+    "HomeTeam": "Baltimore Ravens",
+    "AwayTeam": "Pittsburgh Steelers",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 211,
+    "RoundNumber": 15,
+    "DateUtc": "2025-12-14 18:00:00Z",
+    "Location": "Paycor Stadium",
+    "HomeTeam": "Cincinnati Bengals",
+    "AwayTeam": "Baltimore Ravens",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 228,
+    "RoundNumber": 16,
+    "DateUtc": "2025-12-21 18:00:00Z",
+    "Location": "M&T Bank Stadium",
+    "HomeTeam": "Baltimore Ravens",
+    "AwayTeam": "New England Patriots",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 254,
+    "RoundNumber": 17,
+    "DateUtc": "2025-12-30 00:00:00Z",
+    "Location": "Lambeau Field",
+    "HomeTeam": "Green Bay Packers",
+    "AwayTeam": "Baltimore Ravens",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 270,
+    "RoundNumber": 18,
+    "DateUtc": "2026-01-05 00:00:00Z",
+    "Location": "Acrisure Stadium",
+    "HomeTeam": "Pittsburgh Steelers",
+    "AwayTeam": "Baltimore Ravens",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  }
+]

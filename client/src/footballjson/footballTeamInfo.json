@@ -1,0 +1,1188 @@
+{
+  "teams": [
+    {
+      "team": {
+        "name": "arizona_cardinals",
+        "displayName": "Arizona Cardinals"
+      },
+      "division": "nfc_west",
+      "stadium": "state_farm_stadium",
+      "latitude": 33.5276,
+      "longitude": -112.2626,
+      "neighbourTeams": [
+        {
+          "team": "Las Vegas Raiders",
+          "distance": 5,
+          "unit": "hours"
+        },
+        {
+          "team": "Los Angeles Chargers",
+          "distance": 7,
+          "unit": "hours"
+        },
+        {
+          "team": "Los Angeles Rams",
+          "distance": 7,
+          "unit": "hours"
+        },
+        {
+          "team": "Denver Broncos",
+          "distance": 11,
+          "unit": "hours"
+        },
+        {
+          "team": "San Francisco 49ers",
+          "distance": 11,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "atlanta_falcons",
+        "displayName": "Atlanta Falcons"
+      },
+      "division": "nfc_south",
+      "stadium": "mercedes_benz_stadium",
+      "latitude": 33.755,
+      "longitude": -84.4008,
+      "neighbourTeams": [
+        {
+          "team": "Tennessee Titans",
+          "distance": 4,
+          "unit": "hours"
+        },
+        {
+          "team": "Carolina Panthers",
+          "distance": 5,
+          "unit": "hours"
+        },
+        {
+          "team": "Jacksonville Jaguars",
+          "distance": 6,
+          "unit": "hours"
+        },
+        {
+          "team": "Cincinnati Bengals",
+          "distance": 7,
+          "unit": "hours"
+        },
+        {
+          "team": "Indianapolis Colts",
+          "distance": 8,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "baltimore_ravens",
+        "displayName": "Baltimore Ravens"
+      },
+      "division": "afc_north",
+      "stadium": "m&t_bank_stadium",
+      "latitude": 39.2779,
+      "longitude": -76.6227,
+      "neighbourTeams": [
+        {
+          "team": "Washington Commanders",
+          "distance": 1,
+          "unit": "hours"
+        },
+        {
+          "team": "Philadelphia Eagles",
+          "distance": 2,
+          "unit": "hours"
+        },
+        {
+          "team": "New York Giants",
+          "distance": 4,
+          "unit": "hours"
+        },
+        {
+          "team": "New York Jets",
+          "distance": 4,
+          "unit": "hours"
+        },
+        {
+          "team": "Pittsburgh Steelers",
+          "distance": 4,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "buffalo_bills",
+        "displayName": "Buffalo Bills"
+      },
+      "division": "afc_east",
+      "stadium": "highmark_stadium",
+      "latitude": 42.7738,
+      "longitude": -78.7869,
+      "neighbourTeams": [
+        {
+          "team": "Cleveland Browns",
+          "distance": 4,
+          "unit": "hours"
+        },
+        {
+          "team": "Detroit Lions",
+          "distance": 4,
+          "unit": "hours"
+        },
+        {
+          "team": "Pittsburgh Steelers",
+          "distance": 4,
+          "unit": "hours"
+        },
+        {
+          "team": "Baltimore Ravens",
+          "distance": 5,
+          "unit": "hours"
+        },
+        {
+          "team": "New York Giants",
+          "distance": 5,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "carolina_panthers",
+        "displayName": "Carolina Panthers"
+      },
+      "division": "nfc_south",
+      "stadium": "bank_of_america_stadium",
+      "latitude": 35.2251,
+      "longitude": -80.8526,
+      "neighbourTeams": [
+        {
+          "team": "Atlanta Falcons",
+          "distance": 5,
+          "unit": "hours"
+        },
+        {
+          "team": "Cincinnati Bengals",
+          "distance": 6,
+          "unit": "hours"
+        },
+        {
+          "team": "Baltimore Ravens",
+          "distance": 7,
+          "unit": "hours"
+        },
+        {
+          "team": "Jacksonville Jaguars",
+          "distance": 7,
+          "unit": "hours"
+        },
+        {
+          "team": "Pittsburgh Steelers",
+          "distance": 7,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "chicago_bears",
+        "displayName": "Chicago Bears"
+      },
+      "division": "nfc_north",
+      "stadium": "soldier_field",
+      "latitude": 41.8623,
+      "longitude": -87.6167,
+      "neighbourTeams": [
+        {
+          "team": "Indianapolis Colts",
+          "distance": 3,
+          "unit": "hours"
+        },
+        {
+          "team": "Green Bay Packers",
+          "distance": 4,
+          "unit": "hours"
+        },
+        {
+          "team": "Cincinnati Bengals",
+          "distance": 5,
+          "unit": "hours"
+        },
+        {
+          "team": "Detroit Lions",
+          "distance": 5,
+          "unit": "hours"
+        },
+        {
+          "team": "Cleveland Browns",
+          "distance": 6,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "cincinnati_bengals",
+        "displayName": "Cincinnati Bengals"
+      },
+      "division": "afc_north",
+      "stadium": "paycor_stadium",
+      "latitude": 39.0954,
+      "longitude": -84.516,
+      "neighbourTeams": [
+        {
+          "team": "Indianapolis Colts",
+          "distance": 2,
+          "unit": "hours"
+        },
+        {
+          "team": "Cleveland Browns",
+          "distance": 4,
+          "unit": "hours"
+        },
+        {
+          "team": "Chicago Bears",
+          "distance": 5,
+          "unit": "hours"
+        },
+        {
+          "team": "Detroit Lions",
+          "distance": 5,
+          "unit": "hours"
+        },
+        {
+          "team": "Pittsburgh Steelers",
+          "distance": 5,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "cleveland_browns",
+        "displayName": "Cleveland Browns"
+      },
+      "division": "afc_north",
+      "stadium": "cleveland_browns_stadium",
+      "latitude": 41.5061,
+      "longitude": -81.6995,
+      "neighbourTeams": [
+        {
+          "team": "Detroit Lions",
+          "distance": 2,
+          "unit": "hours"
+        },
+        {
+          "team": "Pittsburgh Steelers",
+          "distance": 3,
+          "unit": "hours"
+        },
+        {
+          "team": "Buffalo Bills",
+          "distance": 4,
+          "unit": "hours"
+        },
+        {
+          "team": "Cincinnati Bengals",
+          "distance": 4,
+          "unit": "hours"
+        },
+        {
+          "team": "Indianapolis Colts",
+          "distance": 5,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "dallas_cowboys",
+        "displayName": "Dallas Cowboys"
+      },
+      "division": "nfc_east",
+      "stadium": "at&t_stadium",
+      "latitude": 32.7473,
+      "longitude": -97.0945,
+      "neighbourTeams": [
+        {
+          "team": "Houston Texans",
+          "distance": 5,
+          "unit": "hours"
+        },
+        {
+          "team": "Kansas City Chiefs",
+          "distance": 9,
+          "unit": "hours"
+        },
+        {
+          "team": "New Orleans Saints",
+          "distance": 9,
+          "unit": "hours"
+        },
+        {
+          "team": "Denver Broncos",
+          "distance": 12,
+          "unit": "hours"
+        },
+        {
+          "team": "Tennessee Titans",
+          "distance": 12,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "denver_broncos",
+        "displayName": "Denver Broncos"
+      },
+      "division": "afc_west",
+      "stadium": "empower_field_at_mile_high",
+      "latitude": 39.7439,
+      "longitude": -105.0201,
+      "neighbourTeams": [
+        {
+          "team": "Arizona Cardinals",
+          "distance": 11,
+          "unit": "hours"
+        },
+        {
+          "team": "Kansas City Chiefs",
+          "distance": 11,
+          "unit": "hours"
+        },
+        {
+          "team": "Las Vegas Raiders",
+          "distance": 11,
+          "unit": "hours"
+        },
+        {
+          "team": "Dallas Cowboys",
+          "distance": 12,
+          "unit": "hours"
+        },
+        {
+          "team": "Minnesota Vikings",
+          "distance": 13,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "detroit_lions",
+        "displayName": "Detroit Lions"
+      },
+      "division": "nfc_north",
+      "stadium": "ford_field",
+      "latitude": 42.34,
+      "longitude": -83.0456,
+      "neighbourTeams": [
+        {
+          "team": "Cleveland Browns",
+          "distance": 2,
+          "unit": "hours"
+        },
+        {
+          "team": "Buffalo Bills",
+          "distance": 4,
+          "unit": "hours"
+        },
+        {
+          "team": "Pittsburgh Steelers",
+          "distance": 4,
+          "unit": "hours"
+        },
+        {
+          "team": "Chicago Bears",
+          "distance": 5,
+          "unit": "hours"
+        },
+        {
+          "team": "Cincinnati Bengals",
+          "distance": 5,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "green_bay_packers",
+        "displayName": "Green Bay Packers"
+      },
+      "division": "nfc_north",
+      "stadium": "lambeau_field",
+      "latitude": 44.5013,
+      "longitude": -88.0622,
+      "neighbourTeams": [
+        {
+          "team": "Chicago Bears",
+          "distance": 4,
+          "unit": "hours"
+        },
+        {
+          "team": "Minnesota Vikings",
+          "distance": 5,
+          "unit": "hours"
+        },
+        {
+          "team": "Detroit Lions",
+          "distance": 6,
+          "unit": "hours"
+        },
+        {
+          "team": "Cleveland Browns",
+          "distance": 7,
+          "unit": "hours"
+        },
+        {
+          "team": "Indianapolis Colts",
+          "distance": 7,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "houston_texans",
+        "displayName": "Houston Texans"
+      },
+      "division": "afc_south",
+      "stadium": "nrg_stadium",
+      "latitude": 29.6847,
+      "longitude": -95.4107,
+      "neighbourTeams": [
+        {
+          "team": "Dallas Cowboys",
+          "distance": 5,
+          "unit": "hours"
+        },
+        {
+          "team": "New Orleans Saints",
+          "distance": 6,
+          "unit": "hours"
+        },
+        {
+          "team": "Kansas City Chiefs",
+          "distance": 12,
+          "unit": "hours"
+        },
+        {
+          "team": "Atlanta Falcons",
+          "distance": 13,
+          "unit": "hours"
+        },
+        {
+          "team": "Tennessee Titans",
+          "distance": 13,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "indianapolis_colts",
+        "displayName": "Indianapolis Colts"
+      },
+      "division": "afc_south",
+      "stadium": "lucas_oil_stadium",
+      "latitude": 39.7601,
+      "longitude": -86.1639,
+      "neighbourTeams": [
+        {
+          "team": "Cincinnati Bengals",
+          "distance": 2,
+          "unit": "hours"
+        },
+        {
+          "team": "Chicago Bears",
+          "distance": 3,
+          "unit": "hours"
+        },
+        {
+          "team": "Cleveland Browns",
+          "distance": 5,
+          "unit": "hours"
+        },
+        {
+          "team": "Detroit Lions",
+          "distance": 5,
+          "unit": "hours"
+        },
+        {
+          "team": "Tennessee Titans",
+          "distance": 5,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "jacksonville_jaguars",
+        "displayName": "Jacksonville Jaguars"
+      },
+      "division": "afc_south",
+      "stadium": "everbank_stadium",
+      "latitude": 30.3239,
+      "longitude": -81.6373,
+      "neighbourTeams": [
+        {
+          "team": "Tampa Bay Buccaneers",
+          "distance": 4,
+          "unit": "hours"
+        },
+        {
+          "team": "Atlanta Falcons",
+          "distance": 6,
+          "unit": "hours"
+        },
+        {
+          "team": "Miami Dolphins",
+          "distance": 6,
+          "unit": "hours"
+        },
+        {
+          "team": "Carolina Panthers",
+          "distance": 7,
+          "unit": "hours"
+        },
+        {
+          "team": "Tennessee Titans",
+          "distance": 9,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "kansas_city_chiefs",
+        "displayName": "Kansas City Chiefs"
+      },
+      "division": "afc_west",
+      "stadium": "geha_field_at_arrowhead",
+      "latitude": 39.0489,
+      "longitude": -94.4839,
+      "neighbourTeams": [
+        {
+          "team": "Chicago Bears",
+          "distance": 8,
+          "unit": "hours"
+        },
+        {
+          "team": "Minnesota Vikings",
+          "distance": 8,
+          "unit": "hours"
+        },
+        {
+          "team": "Dallas Cowboys",
+          "distance": 9,
+          "unit": "hours"
+        },
+        {
+          "team": "Green Bay Packers",
+          "distance": 9,
+          "unit": "hours"
+        },
+        {
+          "team": "Indianapolis Colts",
+          "distance": 9,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "las_vegas_raiders",
+        "displayName": "Las Vegas Raiders"
+      },
+      "division": "afc_west",
+      "stadium": "allegiant_stadium",
+      "latitude": 36.0908,
+      "longitude": -115.183,
+      "neighbourTeams": [
+        {
+          "team": "Arizona Cardinals",
+          "distance": 5,
+          "unit": "hours"
+        },
+        {
+          "team": "Los Angeles Chargers",
+          "distance": 5,
+          "unit": "hours"
+        },
+        {
+          "team": "Los Angeles Rams",
+          "distance": 5,
+          "unit": "hours"
+        },
+        {
+          "team": "San Francisco 49ers",
+          "distance": 7,
+          "unit": "hours"
+        },
+        {
+          "team": "Denver Broncos",
+          "distance": 11,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "los_angeles_chargers",
+        "displayName": "Los Angeles Chargers"
+      },
+      "division": "afc_west",
+      "stadium": "sofi_stadium",
+      "latitude": 33.9535,
+      "longitude": -118.3392,
+      "neighbourTeams": [
+        {
+          "team": "Los Angeles Rams",
+          "distance": 0,
+          "unit": "hours"
+        },
+        {
+          "team": "Las Vegas Raiders",
+          "distance": 5,
+          "unit": "hours"
+        },
+        {
+          "team": "San Francisco 49ers",
+          "distance": 6,
+          "unit": "hours"
+        },
+        {
+          "team": "Arizona Cardinals",
+          "distance": 7,
+          "unit": "hours"
+        },
+        {
+          "team": "Denver Broncos",
+          "distance": 15,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "los_angeles_rams",
+        "displayName": "Los Angeles Rams"
+      },
+      "division": "nfc_west",
+      "stadium": "sofi_stadium",
+      "latitude": 33.9535,
+      "longitude": -118.3392,
+      "neighbourTeams": [
+        {
+          "team": "Los Angeles Chargers",
+          "distance": 0,
+          "unit": "hours"
+        },
+        {
+          "team": "Las Vegas Raiders",
+          "distance": 5,
+          "unit": "hours"
+        },
+        {
+          "team": "San Francisco 49ers",
+          "distance": 6,
+          "unit": "hours"
+        },
+        {
+          "team": "Arizona Cardinals",
+          "distance": 7,
+          "unit": "hours"
+        },
+        {
+          "team": "Denver Broncos",
+          "distance": 15,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "miami_dolphins",
+        "displayName": "Miami Dolphins"
+      },
+      "division": "afc_east",
+      "stadium": "hard_rock_stadium",
+      "latitude": 25.958,
+      "longitude": -80.2389,
+      "neighbourTeams": [
+        {
+          "team": "Tampa Bay Buccaneers",
+          "distance": 4,
+          "unit": "hours"
+        },
+        {
+          "team": "Jacksonville Jaguars",
+          "distance": 6,
+          "unit": "hours"
+        },
+        {
+          "team": "Atlanta Falcons",
+          "distance": 11,
+          "unit": "hours"
+        },
+        {
+          "team": "Carolina Panthers",
+          "distance": 12,
+          "unit": "hours"
+        },
+        {
+          "team": "New Orleans Saints",
+          "distance": 12,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "minnesota_vikings",
+        "displayName": "Minnesota Vikings"
+      },
+      "division": "nfc_north",
+      "stadium": "us_bank_stadium",
+      "latitude": 44.9737,
+      "longitude": -93.257,
+      "neighbourTeams": [
+        {
+          "team": "Green Bay Packers",
+          "distance": 5,
+          "unit": "hours"
+        },
+        {
+          "team": "Chicago Bears",
+          "distance": 7,
+          "unit": "hours"
+        },
+        {
+          "team": "Kansas City Chiefs",
+          "distance": 8,
+          "unit": "hours"
+        },
+        {
+          "team": "Detroit Lions",
+          "distance": 10,
+          "unit": "hours"
+        },
+        {
+          "team": "Indianapolis Colts",
+          "distance": 10,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "new_england_patriots",
+        "displayName": "New England Patriots"
+      },
+      "division": "afc_east",
+      "stadium": "gillette_stadium",
+      "latitude": 42.0909,
+      "longitude": -71.2643,
+      "neighbourTeams": [
+        {
+          "team": "New York Giants",
+          "distance": 4,
+          "unit": "hours"
+        },
+        {
+          "team": "New York Jets",
+          "distance": 4,
+          "unit": "hours"
+        },
+        {
+          "team": "Philadelphia Eagles",
+          "distance": 5,
+          "unit": "hours"
+        },
+        {
+          "team": "Baltimore Ravens",
+          "distance": 7,
+          "unit": "hours"
+        },
+        {
+          "team": "Buffalo Bills",
+          "distance": 7,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "new_orleans_saints",
+        "displayName": "New Orleans Saints"
+      },
+      "division": "nfc_south",
+      "stadium": "caesars_superdome",
+      "latitude": 29.9511,
+      "longitude": -90.0812,
+      "neighbourTeams": [
+        {
+          "team": "Houston Texans",
+          "distance": 6,
+          "unit": "hours"
+        },
+        {
+          "team": "Atlanta Falcons",
+          "distance": 8,
+          "unit": "hours"
+        },
+        {
+          "team": "Dallas Cowboys",
+          "distance": 9,
+          "unit": "hours"
+        },
+        {
+          "team": "Tampa Bay Buccaneers",
+          "distance": 9,
+          "unit": "hours"
+        },
+        {
+          "team": "Tennessee Titans",
+          "distance": 9,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "new_york_giants",
+        "displayName": "New York Giants"
+      },
+      "division": "nfc_east",
+      "stadium": "metlife_stadium",
+      "latitude": 40.8135,
+      "longitude": -74.0745,
+      "neighbourTeams": [
+        {
+          "team": "New York Jets",
+          "distance": 0,
+          "unit": "hours"
+        },
+        {
+          "team": "Philadelphia Eagles",
+          "distance": 2,
+          "unit": "hours"
+        },
+        {
+          "team": "Baltimore Ravens",
+          "distance": 4,
+          "unit": "hours"
+        },
+        {
+          "team": "New England Patriots",
+          "distance": 4,
+          "unit": "hours"
+        },
+        {
+          "team": "Washington Commanders",
+          "distance": 4,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "new_york_jets",
+        "displayName": "New York Jets"
+      },
+      "division": "afc_east",
+      "stadium": "metlife_stadium",
+      "latitude": 40.8135,
+      "longitude": -74.0745,
+      "neighbourTeams": [
+        {
+          "team": "New York Giants",
+          "distance": 0,
+          "unit": "hours"
+        },
+        {
+          "team": "Philadelphia Eagles",
+          "distance": 2,
+          "unit": "hours"
+        },
+        {
+          "team": "Baltimore Ravens",
+          "distance": 4,
+          "unit": "hours"
+        },
+        {
+          "team": "New England Patriots",
+          "distance": 4,
+          "unit": "hours"
+        },
+        {
+          "team": "Washington Commanders",
+          "distance": 4,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "philadelphia_eagles",
+        "displayName": "Philadelphia Eagles"
+      },
+      "division": "nfc_east",
+      "stadium": "lincoln_financial_field",
+      "latitude": 39.9008,
+      "longitude": -75.1675,
+      "neighbourTeams": [
+        {
+          "team": "Baltimore Ravens",
+          "distance": 2,
+          "unit": "hours"
+        },
+        {
+          "team": "New York Giants",
+          "distance": 2,
+          "unit": "hours"
+        },
+        {
+          "team": "New York Jets",
+          "distance": 2,
+          "unit": "hours"
+        },
+        {
+          "team": "Washington Commanders",
+          "distance": 3,
+          "unit": "hours"
+        },
+        {
+          "team": "Buffalo Bills",
+          "distance": 5,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "pittsburgh_steelers",
+        "displayName": "Pittsburgh Steelers"
+      },
+      "division": "afc_north",
+      "stadium": "acrisure_stadium",
+      "latitude": 40.4469,
+      "longitude": -80.0158,
+      "neighbourTeams": [
+        {
+          "team": "Cleveland Browns",
+          "distance": 3,
+          "unit": "hours"
+        },
+        {
+          "team": "Baltimore Ravens",
+          "distance": 4,
+          "unit": "hours"
+        },
+        {
+          "team": "Buffalo Bills",
+          "distance": 4,
+          "unit": "hours"
+        },
+        {
+          "team": "Detroit Lions",
+          "distance": 4,
+          "unit": "hours"
+        },
+        {
+          "team": "Washington Commanders",
+          "distance": 4,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "san_francisco_49ers",
+        "displayName": "San Francisco 49ers"
+      },
+      "division": "nfc_west",
+      "stadium": "levi's_stadium",
+      "latitude": 37.403,
+      "longitude": -121.9699,
+      "neighbourTeams": [
+        {
+          "team": "Los Angeles Chargers",
+          "distance": 6,
+          "unit": "hours"
+        },
+        {
+          "team": "Los Angeles Rams",
+          "distance": 6,
+          "unit": "hours"
+        },
+        {
+          "team": "Las Vegas Raiders",
+          "distance": 7,
+          "unit": "hours"
+        },
+        {
+          "team": "Arizona Cardinals",
+          "distance": 11,
+          "unit": "hours"
+        },
+        {
+          "team": "Seattle Seahawks",
+          "distance": 13,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "seattle_seahawks",
+        "displayName": "Seattle Seahawks"
+      },
+      "division": "nfc_west",
+      "stadium": "lumen_field",
+      "latitude": 47.5952,
+      "longitude": -122.3316,
+      "neighbourTeams": [
+        {
+          "team": "San Francisco 49ers",
+          "distance": 13,
+          "unit": "hours"
+        },
+        {
+          "team": "Las Vegas Raiders",
+          "distance": 16,
+          "unit": "hours"
+        },
+        {
+          "team": "Los Angeles Chargers",
+          "distance": 18,
+          "unit": "hours"
+        },
+        {
+          "team": "Los Angeles Rams",
+          "distance": 18,
+          "unit": "hours"
+        },
+        {
+          "team": "Denver Broncos",
+          "distance": 19,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "tampa_bay_buccaneers",
+        "displayName": "Tampa Bay Buccaneers"
+      },
+      "division": "nfc_south",
+      "stadium": "raymond_james_stadium",
+      "latitude": 27.9759,
+      "longitude": -82.5033,
+      "neighbourTeams": [
+        {
+          "team": "Jacksonville Jaguars",
+          "distance": 4,
+          "unit": "hours"
+        },
+        {
+          "team": "Miami Dolphins",
+          "distance": 4,
+          "unit": "hours"
+        },
+        {
+          "team": "Atlanta Falcons",
+          "distance": 8,
+          "unit": "hours"
+        },
+        {
+          "team": "New Orleans Saints",
+          "distance": 9,
+          "unit": "hours"
+        },
+        {
+          "team": "Carolina Panthers",
+          "distance": 10,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "tennessee_titans",
+        "displayName": "Tennessee Titans"
+      },
+      "division": "afc_south",
+      "stadium": "nissan_stadium",
+      "latitude": 36.1665,
+      "longitude": -86.7713,
+      "neighbourTeams": [
+        {
+          "team": "Atlanta Falcons",
+          "distance": 4,
+          "unit": "hours"
+        },
+        {
+          "team": "Cincinnati Bengals",
+          "distance": 5,
+          "unit": "hours"
+        },
+        {
+          "team": "Indianapolis Colts",
+          "distance": 5,
+          "unit": "hours"
+        },
+        {
+          "team": "Carolina Panthers",
+          "distance": 7,
+          "unit": "hours"
+        },
+        {
+          "team": "Chicago Bears",
+          "distance": 8,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "washington_commanders",
+        "displayName": "Washington Commanders"
+      },
+      "division": "nfc_east",
+      "stadium": "fedex_field",
+      "latitude": 38.9076,
+      "longitude": -76.8644,
+      "neighbourTeams": [
+        {
+          "team": "Baltimore Ravens",
+          "distance": 1,
+          "unit": "hours"
+        },
+        {
+          "team": "Philadelphia Eagles",
+          "distance": 3,
+          "unit": "hours"
+        },
+        {
+          "team": "New York Giants",
+          "distance": 4,
+          "unit": "hours"
+        },
+        {
+          "team": "New York Jets",
+          "distance": 4,
+          "unit": "hours"
+        },
+        {
+          "team": "Pittsburgh Steelers",
+          "distance": 4,
+          "unit": "hours"
+        }
+      ]
+    }
+  ]
+}

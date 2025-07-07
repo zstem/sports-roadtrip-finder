@@ -1,0 +1,192 @@
+[
+  {
+    "team": "Miami Dolphins"
+  },
+  {
+    "MatchNumber": 5,
+    "RoundNumber": 1,
+    "DateUtc": "2025-09-07 17:00:00Z",
+    "Location": "Lucas Oil Stadium",
+    "HomeTeam": "Indianapolis Colts",
+    "AwayTeam": "Miami Dolphins",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 22,
+    "RoundNumber": 2,
+    "DateUtc": "2025-09-14 17:00:00Z",
+    "Location": "Hard Rock Stadium",
+    "HomeTeam": "Miami Dolphins",
+    "AwayTeam": "New England Patriots",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 33,
+    "RoundNumber": 3,
+    "DateUtc": "2025-09-19 00:15:00Z",
+    "Location": "Highmark Stadium",
+    "HomeTeam": "Buffalo Bills",
+    "AwayTeam": "Miami Dolphins",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 63,
+    "RoundNumber": 4,
+    "DateUtc": "2025-09-29 23:15:00Z",
+    "Location": "Hard Rock Stadium",
+    "HomeTeam": "Miami Dolphins",
+    "AwayTeam": "New York Jets",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 68,
+    "RoundNumber": 5,
+    "DateUtc": "2025-10-05 17:00:00Z",
+    "Location": "Bank of America Stadium",
+    "HomeTeam": "Carolina Panthers",
+    "AwayTeam": "Miami Dolphins",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 85,
+    "RoundNumber": 6,
+    "DateUtc": "2025-10-12 17:00:00Z",
+    "Location": "Hard Rock Stadium",
+    "HomeTeam": "Miami Dolphins",
+    "AwayTeam": "Los Angeles Chargers",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 97,
+    "RoundNumber": 7,
+    "DateUtc": "2025-10-19 17:00:00Z",
+    "Location": "Huntington Bank Field",
+    "HomeTeam": "Cleveland Browns",
+    "AwayTeam": "Miami Dolphins",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 110,
+    "RoundNumber": 8,
+    "DateUtc": "2025-10-26 17:00:00Z",
+    "Location": "Mercedes-Benz Stadium",
+    "HomeTeam": "Atlanta Falcons",
+    "AwayTeam": "Miami Dolphins",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 122,
+    "RoundNumber": 9,
+    "DateUtc": "2025-10-31 00:15:00Z",
+    "Location": "Hard Rock Stadium",
+    "HomeTeam": "Miami Dolphins",
+    "AwayTeam": "Baltimore Ravens",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 141,
+    "RoundNumber": 10,
+    "DateUtc": "2025-11-09 18:00:00Z",
+    "Location": "Hard Rock Stadium",
+    "HomeTeam": "Miami Dolphins",
+    "AwayTeam": "Buffalo Bills",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 151,
+    "RoundNumber": 11,
+    "DateUtc": "2025-11-16 14:30:00Z",
+    "Location": "Santiago Bernabeu Stadium",
+    "HomeTeam": "Miami Dolphins",
+    "AwayTeam": "Washington Commanders",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 186,
+    "RoundNumber": 13,
+    "DateUtc": "2025-11-30 18:00:00Z",
+    "Location": "Hard Rock Stadium",
+    "HomeTeam": "Miami Dolphins",
+    "AwayTeam": "New Orleans Saints",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 202,
+    "RoundNumber": 14,
+    "DateUtc": "2025-12-07 18:00:00Z",
+    "Location": "MetLife Stadium",
+    "HomeTeam": "New York Jets",
+    "AwayTeam": "Miami Dolphins",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 224,
+    "RoundNumber": 15,
+    "DateUtc": "2025-12-16 01:15:00Z",
+    "Location": "Acrisure Stadium",
+    "HomeTeam": "Pittsburgh Steelers",
+    "AwayTeam": "Miami Dolphins",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 239,
+    "RoundNumber": 16,
+    "DateUtc": "2025-12-22 01:20:00Z",
+    "Location": "Hard Rock Stadium",
+    "HomeTeam": "Miami Dolphins",
+    "AwayTeam": "Cincinnati Bengals",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 246,
+    "RoundNumber": 17,
+    "DateUtc": "2025-12-28 18:00:00Z",
+    "Location": "Hard Rock Stadium",
+    "HomeTeam": "Miami Dolphins",
+    "AwayTeam": "Tampa Bay Buccaneers",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 267,
+    "RoundNumber": 18,
+    "DateUtc": "2026-01-05 00:00:00Z",
+    "Location": "Gillette Stadium",
+    "HomeTeam": "New England Patriots",
+    "AwayTeam": "Miami Dolphins",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  }
+]

@@ -1,0 +1,192 @@
+[
+  {
+    "team": "Detroit Lions"
+  },
+  {
+    "MatchNumber": 13,
+    "RoundNumber": 1,
+    "DateUtc": "2025-09-07 20:25:00Z",
+    "Location": "Lambeau Field",
+    "HomeTeam": "Green Bay Packers",
+    "AwayTeam": "Detroit Lions",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 21,
+    "RoundNumber": 2,
+    "DateUtc": "2025-09-14 17:00:00Z",
+    "Location": "Ford Field",
+    "HomeTeam": "Detroit Lions",
+    "AwayTeam": "Chicago Bears",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 48,
+    "RoundNumber": 3,
+    "DateUtc": "2025-09-23 00:15:00Z",
+    "Location": "M&T Bank Stadium",
+    "HomeTeam": "Baltimore Ravens",
+    "AwayTeam": "Detroit Lions",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 53,
+    "RoundNumber": 4,
+    "DateUtc": "2025-09-28 17:00:00Z",
+    "Location": "Ford Field",
+    "HomeTeam": "Detroit Lions",
+    "AwayTeam": "Cleveland Browns",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 75,
+    "RoundNumber": 5,
+    "DateUtc": "2025-10-05 20:25:00Z",
+    "Location": "Paycor Stadium",
+    "HomeTeam": "Cincinnati Bengals",
+    "AwayTeam": "Detroit Lions",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 91,
+    "RoundNumber": 6,
+    "DateUtc": "2025-10-13 00:20:00Z",
+    "Location": "GEHA Field at Arrowhead Stadium",
+    "HomeTeam": "Kansas City Chiefs",
+    "AwayTeam": "Detroit Lions",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 107,
+    "RoundNumber": 7,
+    "DateUtc": "2025-10-20 23:00:00Z",
+    "Location": "Ford Field",
+    "HomeTeam": "Detroit Lions",
+    "AwayTeam": "Tampa Bay Buccaneers",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 124,
+    "RoundNumber": 9,
+    "DateUtc": "2025-11-02 18:00:00Z",
+    "Location": "Ford Field",
+    "HomeTeam": "Detroit Lions",
+    "AwayTeam": "Minnesota Vikings",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 147,
+    "RoundNumber": 10,
+    "DateUtc": "2025-11-09 21:25:00Z",
+    "Location": "Northwest Stadium",
+    "HomeTeam": "Washington Commanders",
+    "AwayTeam": "Detroit Lions",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 163,
+    "RoundNumber": 11,
+    "DateUtc": "2025-11-17 01:20:00Z",
+    "Location": "Lincoln Financial Field",
+    "HomeTeam": "Philadelphia Eagles",
+    "AwayTeam": "Detroit Lions",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 169,
+    "RoundNumber": 12,
+    "DateUtc": "2025-11-23 18:00:00Z",
+    "Location": "Ford Field",
+    "HomeTeam": "Detroit Lions",
+    "AwayTeam": "New York Giants",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 179,
+    "RoundNumber": 13,
+    "DateUtc": "2025-11-27 18:00:00Z",
+    "Location": "Ford Field",
+    "HomeTeam": "Detroit Lions",
+    "AwayTeam": "Green Bay Packers",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 195,
+    "RoundNumber": 14,
+    "DateUtc": "2025-12-05 01:15:00Z",
+    "Location": "Ford Field",
+    "HomeTeam": "Detroit Lions",
+    "AwayTeam": "Dallas Cowboys",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 219,
+    "RoundNumber": 15,
+    "DateUtc": "2025-12-14 21:25:00Z",
+    "Location": "SoFi Stadium",
+    "HomeTeam": "Los Angeles Rams",
+    "AwayTeam": "Detroit Lions",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 237,
+    "RoundNumber": 16,
+    "DateUtc": "2025-12-21 21:25:00Z",
+    "Location": "Ford Field",
+    "HomeTeam": "Detroit Lions",
+    "AwayTeam": "Pittsburgh Steelers",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 242,
+    "RoundNumber": 17,
+    "DateUtc": "2025-12-25 21:30:00Z",
+    "Location": "U.S. Bank Stadium",
+    "HomeTeam": "Minnesota Vikings",
+    "AwayTeam": "Detroit Lions",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 259,
+    "RoundNumber": 18,
+    "DateUtc": "2026-01-05 00:00:00Z",
+    "Location": "Soldier Field",
+    "HomeTeam": "Chicago Bears",
+    "AwayTeam": "Detroit Lions",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  }
+]

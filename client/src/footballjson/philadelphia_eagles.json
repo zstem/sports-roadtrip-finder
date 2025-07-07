@@ -1,0 +1,192 @@
+[
+  {
+    "team": "Philadelphia Eagles"
+  },
+  {
+    "MatchNumber": 1,
+    "RoundNumber": 1,
+    "DateUtc": "2025-09-05 00:20:00Z",
+    "Location": "Lincoln Financial Field",
+    "HomeTeam": "Philadelphia Eagles",
+    "AwayTeam": "Dallas Cowboys",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 29,
+    "RoundNumber": 2,
+    "DateUtc": "2025-09-14 20:25:00Z",
+    "Location": "GEHA Field at Arrowhead Stadium",
+    "HomeTeam": "Kansas City Chiefs",
+    "AwayTeam": "Philadelphia Eagles",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 39,
+    "RoundNumber": 3,
+    "DateUtc": "2025-09-21 17:00:00Z",
+    "Location": "Lincoln Financial Field",
+    "HomeTeam": "Philadelphia Eagles",
+    "AwayTeam": "Los Angeles Rams",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 57,
+    "RoundNumber": 4,
+    "DateUtc": "2025-09-28 17:00:00Z",
+    "Location": "Raymond James Stadium",
+    "HomeTeam": "Tampa Bay Buccaneers",
+    "AwayTeam": "Philadelphia Eagles",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 72,
+    "RoundNumber": 5,
+    "DateUtc": "2025-10-05 17:00:00Z",
+    "Location": "Lincoln Financial Field",
+    "HomeTeam": "Philadelphia Eagles",
+    "AwayTeam": "Denver Broncos",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 79,
+    "RoundNumber": 6,
+    "DateUtc": "2025-10-10 00:15:00Z",
+    "Location": "MetLife Stadium",
+    "HomeTeam": "New York Giants",
+    "AwayTeam": "Philadelphia Eagles",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 99,
+    "RoundNumber": 7,
+    "DateUtc": "2025-10-19 17:00:00Z",
+    "Location": "U.S. Bank Stadium",
+    "HomeTeam": "Minnesota Vikings",
+    "AwayTeam": "Philadelphia Eagles",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 116,
+    "RoundNumber": 8,
+    "DateUtc": "2025-10-26 17:00:00Z",
+    "Location": "Lincoln Financial Field",
+    "HomeTeam": "Philadelphia Eagles",
+    "AwayTeam": "New York Giants",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 149,
+    "RoundNumber": 10,
+    "DateUtc": "2025-11-11 01:15:00Z",
+    "Location": "Lambeau Field",
+    "HomeTeam": "Green Bay Packers",
+    "AwayTeam": "Philadelphia Eagles",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 163,
+    "RoundNumber": 11,
+    "DateUtc": "2025-11-17 01:20:00Z",
+    "Location": "Lincoln Financial Field",
+    "HomeTeam": "Philadelphia Eagles",
+    "AwayTeam": "Detroit Lions",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 175,
+    "RoundNumber": 12,
+    "DateUtc": "2025-11-23 21:25:00Z",
+    "Location": "AT&T Stadium",
+    "HomeTeam": "Dallas Cowboys",
+    "AwayTeam": "Philadelphia Eagles",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 182,
+    "RoundNumber": 13,
+    "DateUtc": "2025-11-28 20:00:00Z",
+    "Location": "Lincoln Financial Field",
+    "HomeTeam": "Philadelphia Eagles",
+    "AwayTeam": "Chicago Bears",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 208,
+    "RoundNumber": 14,
+    "DateUtc": "2025-12-09 01:15:00Z",
+    "Location": "SoFi Stadium",
+    "HomeTeam": "Los Angeles Chargers",
+    "AwayTeam": "Philadelphia Eagles",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 217,
+    "RoundNumber": 15,
+    "DateUtc": "2025-12-14 18:00:00Z",
+    "Location": "Lincoln Financial Field",
+    "HomeTeam": "Philadelphia Eagles",
+    "AwayTeam": "Las Vegas Raiders",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 227,
+    "RoundNumber": 16,
+    "DateUtc": "2025-12-22 00:00:00Z",
+    "Location": "Northwest Stadium",
+    "HomeTeam": "Washington Commanders",
+    "AwayTeam": "Philadelphia Eagles",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 249,
+    "RoundNumber": 17,
+    "DateUtc": "2025-12-28 21:25:00Z",
+    "Location": "Highmark Stadium",
+    "HomeTeam": "Buffalo Bills",
+    "AwayTeam": "Philadelphia Eagles",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 269,
+    "RoundNumber": 18,
+    "DateUtc": "2026-01-05 00:00:00Z",
+    "Location": "Lincoln Financial Field",
+    "HomeTeam": "Philadelphia Eagles",
+    "AwayTeam": "Washington Commanders",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  }
+]

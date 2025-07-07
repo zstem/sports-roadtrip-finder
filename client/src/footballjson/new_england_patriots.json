@@ -1,0 +1,192 @@
+[
+  {
+    "team": "New England Patriots"
+  },
+  {
+    "MatchNumber": 7,
+    "RoundNumber": 1,
+    "DateUtc": "2025-09-07 17:00:00Z",
+    "Location": "Gillette Stadium",
+    "HomeTeam": "New England Patriots",
+    "AwayTeam": "Las Vegas Raiders",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 22,
+    "RoundNumber": 2,
+    "DateUtc": "2025-09-14 17:00:00Z",
+    "Location": "Hard Rock Stadium",
+    "HomeTeam": "Miami Dolphins",
+    "AwayTeam": "New England Patriots",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 38,
+    "RoundNumber": 3,
+    "DateUtc": "2025-09-21 17:00:00Z",
+    "Location": "Gillette Stadium",
+    "HomeTeam": "New England Patriots",
+    "AwayTeam": "Pittsburgh Steelers",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 55,
+    "RoundNumber": 4,
+    "DateUtc": "2025-09-28 17:00:00Z",
+    "Location": "Gillette Stadium",
+    "HomeTeam": "New England Patriots",
+    "AwayTeam": "Carolina Panthers",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 77,
+    "RoundNumber": 5,
+    "DateUtc": "2025-10-06 00:20:00Z",
+    "Location": "Highmark Stadium",
+    "HomeTeam": "Buffalo Bills",
+    "AwayTeam": "New England Patriots",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 90,
+    "RoundNumber": 6,
+    "DateUtc": "2025-10-12 20:25:00Z",
+    "Location": "Caesars Superdome",
+    "HomeTeam": "New Orleans Saints",
+    "AwayTeam": "New England Patriots",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 101,
+    "RoundNumber": 7,
+    "DateUtc": "2025-10-19 17:00:00Z",
+    "Location": "Nissan Stadium",
+    "HomeTeam": "Tennessee Titans",
+    "AwayTeam": "New England Patriots",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 115,
+    "RoundNumber": 8,
+    "DateUtc": "2025-10-26 17:00:00Z",
+    "Location": "Gillette Stadium",
+    "HomeTeam": "New England Patriots",
+    "AwayTeam": "Cleveland Browns",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 127,
+    "RoundNumber": 9,
+    "DateUtc": "2025-11-02 18:00:00Z",
+    "Location": "Gillette Stadium",
+    "HomeTeam": "New England Patriots",
+    "AwayTeam": "Atlanta Falcons",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 144,
+    "RoundNumber": 10,
+    "DateUtc": "2025-11-09 18:00:00Z",
+    "Location": "Raymond James Stadium",
+    "HomeTeam": "Tampa Bay Buccaneers",
+    "AwayTeam": "New England Patriots",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 150,
+    "RoundNumber": 11,
+    "DateUtc": "2025-11-14 01:15:00Z",
+    "Location": "Gillette Stadium",
+    "HomeTeam": "New England Patriots",
+    "AwayTeam": "New York Jets",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 168,
+    "RoundNumber": 12,
+    "DateUtc": "2025-11-23 18:00:00Z",
+    "Location": "Paycor Stadium",
+    "HomeTeam": "Cincinnati Bengals",
+    "AwayTeam": "New England Patriots",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 194,
+    "RoundNumber": 13,
+    "DateUtc": "2025-12-02 01:15:00Z",
+    "Location": "Gillette Stadium",
+    "HomeTeam": "New England Patriots",
+    "AwayTeam": "New York Giants",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 215,
+    "RoundNumber": 15,
+    "DateUtc": "2025-12-14 18:00:00Z",
+    "Location": "Gillette Stadium",
+    "HomeTeam": "New England Patriots",
+    "AwayTeam": "Buffalo Bills",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 228,
+    "RoundNumber": 16,
+    "DateUtc": "2025-12-21 18:00:00Z",
+    "Location": "M&T Bank Stadium",
+    "HomeTeam": "Baltimore Ravens",
+    "AwayTeam": "New England Patriots",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 247,
+    "RoundNumber": 17,
+    "DateUtc": "2025-12-28 18:00:00Z",
+    "Location": "MetLife Stadium",
+    "HomeTeam": "New York Jets",
+    "AwayTeam": "New England Patriots",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 267,
+    "RoundNumber": 18,
+    "DateUtc": "2026-01-05 00:00:00Z",
+    "Location": "Gillette Stadium",
+    "HomeTeam": "New England Patriots",
+    "AwayTeam": "Miami Dolphins",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  }
+]

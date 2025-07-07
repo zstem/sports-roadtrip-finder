@@ -42,7 +42,7 @@ app.get('/:team', async function (req, res) {
   var series = mongoose.model('series', seriesSchema, selectedTeam);
   const query = await series.find({}).sort({MatchNumber: 1});
   res.json(query);
-  //console.log(query);
+  console.log(query);
 })
 
 // app.get('/:team/:maxDistance', async function (req, res) {

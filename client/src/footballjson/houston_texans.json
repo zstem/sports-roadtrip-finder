@@ -1,0 +1,192 @@
+[
+  {
+    "team": "Houston Texans"
+  },
+  {
+    "MatchNumber": 14,
+    "RoundNumber": 1,
+    "DateUtc": "2025-09-07 20:25:00Z",
+    "Location": "SoFi Stadium",
+    "HomeTeam": "Los Angeles Rams",
+    "AwayTeam": "Houston Texans",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 31,
+    "RoundNumber": 2,
+    "DateUtc": "2025-09-15 23:00:00Z",
+    "Location": "NRG Stadium",
+    "HomeTeam": "Houston Texans",
+    "AwayTeam": "Tampa Bay Buccaneers",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 36,
+    "RoundNumber": 3,
+    "DateUtc": "2025-09-21 17:00:00Z",
+    "Location": "EverBank Stadium",
+    "HomeTeam": "Jacksonville Jaguars",
+    "AwayTeam": "Houston Texans",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 54,
+    "RoundNumber": 4,
+    "DateUtc": "2025-09-28 17:00:00Z",
+    "Location": "NRG Stadium",
+    "HomeTeam": "Houston Texans",
+    "AwayTeam": "Tennessee Titans",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 67,
+    "RoundNumber": 5,
+    "DateUtc": "2025-10-05 17:00:00Z",
+    "Location": "M&T Bank Stadium",
+    "HomeTeam": "Baltimore Ravens",
+    "AwayTeam": "Houston Texans",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 108,
+    "RoundNumber": 7,
+    "DateUtc": "2025-10-21 02:00:00Z",
+    "Location": "Lumen Field",
+    "HomeTeam": "Seattle Seahawks",
+    "AwayTeam": "Houston Texans",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 114,
+    "RoundNumber": 8,
+    "DateUtc": "2025-10-26 17:00:00Z",
+    "Location": "NRG Stadium",
+    "HomeTeam": "Houston Texans",
+    "AwayTeam": "San Francisco 49ers",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 126,
+    "RoundNumber": 9,
+    "DateUtc": "2025-11-02 18:00:00Z",
+    "Location": "NRG Stadium",
+    "HomeTeam": "Houston Texans",
+    "AwayTeam": "Denver Broncos",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 140,
+    "RoundNumber": 10,
+    "DateUtc": "2025-11-09 18:00:00Z",
+    "Location": "NRG Stadium",
+    "HomeTeam": "Houston Texans",
+    "AwayTeam": "Jacksonville Jaguars",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 158,
+    "RoundNumber": 11,
+    "DateUtc": "2025-11-16 18:00:00Z",
+    "Location": "Nissan Stadium",
+    "HomeTeam": "Tennessee Titans",
+    "AwayTeam": "Houston Texans",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 165,
+    "RoundNumber": 12,
+    "DateUtc": "2025-11-21 01:15:00Z",
+    "Location": "NRG Stadium",
+    "HomeTeam": "Houston Texans",
+    "AwayTeam": "Buffalo Bills",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 185,
+    "RoundNumber": 13,
+    "DateUtc": "2025-11-30 18:00:00Z",
+    "Location": "Lucas Oil Stadium",
+    "HomeTeam": "Indianapolis Colts",
+    "AwayTeam": "Houston Texans",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 207,
+    "RoundNumber": 14,
+    "DateUtc": "2025-12-08 01:20:00Z",
+    "Location": "GEHA Field at Arrowhead Stadium",
+    "HomeTeam": "Kansas City Chiefs",
+    "AwayTeam": "Houston Texans",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 212,
+    "RoundNumber": 15,
+    "DateUtc": "2025-12-14 18:00:00Z",
+    "Location": "NRG Stadium",
+    "HomeTeam": "Houston Texans",
+    "AwayTeam": "Arizona Cardinals",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 238,
+    "RoundNumber": 16,
+    "DateUtc": "2025-12-21 21:25:00Z",
+    "Location": "NRG Stadium",
+    "HomeTeam": "Houston Texans",
+    "AwayTeam": "Las Vegas Raiders",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 255,
+    "RoundNumber": 17,
+    "DateUtc": "2025-12-30 00:00:00Z",
+    "Location": "SoFi Stadium",
+    "HomeTeam": "Los Angeles Chargers",
+    "AwayTeam": "Houston Texans",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 262,
+    "RoundNumber": 18,
+    "DateUtc": "2026-01-05 00:00:00Z",
+    "Location": "NRG Stadium",
+    "HomeTeam": "Houston Texans",
+    "AwayTeam": "Indianapolis Colts",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  }
+]

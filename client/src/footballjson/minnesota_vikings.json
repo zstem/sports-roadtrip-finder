@@ -1,0 +1,192 @@
+[
+  {
+    "team": "Minnesota Vikings"
+  },
+  {
+    "MatchNumber": 16,
+    "RoundNumber": 1,
+    "DateUtc": "2025-09-09 00:15:00Z",
+    "Location": "Soldier Field",
+    "HomeTeam": "Chicago Bears",
+    "AwayTeam": "Minnesota Vikings",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 30,
+    "RoundNumber": 2,
+    "DateUtc": "2025-09-15 00:20:00Z",
+    "Location": "U.S. Bank Stadium",
+    "HomeTeam": "Minnesota Vikings",
+    "AwayTeam": "Atlanta Falcons",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 37,
+    "RoundNumber": 3,
+    "DateUtc": "2025-09-21 17:00:00Z",
+    "Location": "U.S. Bank Stadium",
+    "HomeTeam": "Minnesota Vikings",
+    "AwayTeam": "Cincinnati Bengals",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 50,
+    "RoundNumber": 4,
+    "DateUtc": "2025-09-28 13:30:00Z",
+    "Location": "Croke Park",
+    "HomeTeam": "Pittsburgh Steelers",
+    "AwayTeam": "Minnesota Vikings",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 66,
+    "RoundNumber": 5,
+    "DateUtc": "2025-10-05 13:30:00Z",
+    "Location": "Tottenham Hotspur Stadium",
+    "HomeTeam": "Cleveland Browns",
+    "AwayTeam": "Minnesota Vikings",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 99,
+    "RoundNumber": 7,
+    "DateUtc": "2025-10-19 17:00:00Z",
+    "Location": "U.S. Bank Stadium",
+    "HomeTeam": "Minnesota Vikings",
+    "AwayTeam": "Philadelphia Eagles",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 109,
+    "RoundNumber": 8,
+    "DateUtc": "2025-10-24 00:15:00Z",
+    "Location": "SoFi Stadium",
+    "HomeTeam": "Los Angeles Chargers",
+    "AwayTeam": "Minnesota Vikings",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 124,
+    "RoundNumber": 9,
+    "DateUtc": "2025-11-02 18:00:00Z",
+    "Location": "Ford Field",
+    "HomeTeam": "Detroit Lions",
+    "AwayTeam": "Minnesota Vikings",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 142,
+    "RoundNumber": 10,
+    "DateUtc": "2025-11-09 18:00:00Z",
+    "Location": "U.S. Bank Stadium",
+    "HomeTeam": "Minnesota Vikings",
+    "AwayTeam": "Baltimore Ravens",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 155,
+    "RoundNumber": 11,
+    "DateUtc": "2025-11-16 18:00:00Z",
+    "Location": "U.S. Bank Stadium",
+    "HomeTeam": "Minnesota Vikings",
+    "AwayTeam": "Chicago Bears",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 170,
+    "RoundNumber": 12,
+    "DateUtc": "2025-11-23 18:00:00Z",
+    "Location": "Lambeau Field",
+    "HomeTeam": "Green Bay Packers",
+    "AwayTeam": "Minnesota Vikings",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 190,
+    "RoundNumber": 13,
+    "DateUtc": "2025-11-30 21:05:00Z",
+    "Location": "Lumen Field",
+    "HomeTeam": "Seattle Seahawks",
+    "AwayTeam": "Minnesota Vikings",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 201,
+    "RoundNumber": 14,
+    "DateUtc": "2025-12-07 18:00:00Z",
+    "Location": "U.S. Bank Stadium",
+    "HomeTeam": "Minnesota Vikings",
+    "AwayTeam": "Washington Commanders",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 223,
+    "RoundNumber": 15,
+    "DateUtc": "2025-12-15 01:20:00Z",
+    "Location": "AT&T Stadium",
+    "HomeTeam": "Dallas Cowboys",
+    "AwayTeam": "Minnesota Vikings",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 233,
+    "RoundNumber": 16,
+    "DateUtc": "2025-12-21 18:00:00Z",
+    "Location": "MetLife Stadium",
+    "HomeTeam": "New York Giants",
+    "AwayTeam": "Minnesota Vikings",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 242,
+    "RoundNumber": 17,
+    "DateUtc": "2025-12-25 21:30:00Z",
+    "Location": "U.S. Bank Stadium",
+    "HomeTeam": "Minnesota Vikings",
+    "AwayTeam": "Detroit Lions",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 266,
+    "RoundNumber": 18,
+    "DateUtc": "2026-01-05 00:00:00Z",
+    "Location": "U.S. Bank Stadium",
+    "HomeTeam": "Minnesota Vikings",
+    "AwayTeam": "Green Bay Packers",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  }
+]

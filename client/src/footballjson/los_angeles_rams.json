@@ -1,0 +1,192 @@
+[
+  {
+    "team": "Los Angeles Rams"
+  },
+  {
+    "MatchNumber": 14,
+    "RoundNumber": 1,
+    "DateUtc": "2025-09-07 20:25:00Z",
+    "Location": "SoFi Stadium",
+    "HomeTeam": "Los Angeles Rams",
+    "AwayTeam": "Houston Texans",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 26,
+    "RoundNumber": 2,
+    "DateUtc": "2025-09-14 17:00:00Z",
+    "Location": "Nissan Stadium",
+    "HomeTeam": "Tennessee Titans",
+    "AwayTeam": "Los Angeles Rams",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 39,
+    "RoundNumber": 3,
+    "DateUtc": "2025-09-21 17:00:00Z",
+    "Location": "Lincoln Financial Field",
+    "HomeTeam": "Philadelphia Eagles",
+    "AwayTeam": "Los Angeles Rams",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 58,
+    "RoundNumber": 4,
+    "DateUtc": "2025-09-28 20:05:00Z",
+    "Location": "SoFi Stadium",
+    "HomeTeam": "Los Angeles Rams",
+    "AwayTeam": "Indianapolis Colts",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 65,
+    "RoundNumber": 5,
+    "DateUtc": "2025-10-03 00:15:00Z",
+    "Location": "SoFi Stadium",
+    "HomeTeam": "Los Angeles Rams",
+    "AwayTeam": "San Francisco 49ers",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 81,
+    "RoundNumber": 6,
+    "DateUtc": "2025-10-12 17:00:00Z",
+    "Location": "M&T Bank Stadium",
+    "HomeTeam": "Baltimore Ravens",
+    "AwayTeam": "Los Angeles Rams",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 95,
+    "RoundNumber": 7,
+    "DateUtc": "2025-10-19 13:30:00Z",
+    "Location": "Wembley Stadium",
+    "HomeTeam": "Jacksonville Jaguars",
+    "AwayTeam": "Los Angeles Rams",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 131,
+    "RoundNumber": 9,
+    "DateUtc": "2025-11-02 21:05:00Z",
+    "Location": "SoFi Stadium",
+    "HomeTeam": "Los Angeles Rams",
+    "AwayTeam": "New Orleans Saints",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 146,
+    "RoundNumber": 10,
+    "DateUtc": "2025-11-09 21:25:00Z",
+    "Location": "Levi's Stadium",
+    "HomeTeam": "San Francisco 49ers",
+    "AwayTeam": "Los Angeles Rams",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 160,
+    "RoundNumber": 11,
+    "DateUtc": "2025-11-16 21:05:00Z",
+    "Location": "SoFi Stadium",
+    "HomeTeam": "Los Angeles Rams",
+    "AwayTeam": "Seattle Seahawks",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 177,
+    "RoundNumber": 12,
+    "DateUtc": "2025-11-24 01:20:00Z",
+    "Location": "SoFi Stadium",
+    "HomeTeam": "Los Angeles Rams",
+    "AwayTeam": "Tampa Bay Buccaneers",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 183,
+    "RoundNumber": 13,
+    "DateUtc": "2025-11-30 18:00:00Z",
+    "Location": "Bank of America Stadium",
+    "HomeTeam": "Carolina Panthers",
+    "AwayTeam": "Los Angeles Rams",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 205,
+    "RoundNumber": 14,
+    "DateUtc": "2025-12-07 21:25:00Z",
+    "Location": "State Farm Stadium",
+    "HomeTeam": "Arizona Cardinals",
+    "AwayTeam": "Los Angeles Rams",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 219,
+    "RoundNumber": 15,
+    "DateUtc": "2025-12-14 21:25:00Z",
+    "Location": "SoFi Stadium",
+    "HomeTeam": "Los Angeles Rams",
+    "AwayTeam": "Detroit Lions",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 225,
+    "RoundNumber": 16,
+    "DateUtc": "2025-12-19 01:15:00Z",
+    "Location": "Lumen Field",
+    "HomeTeam": "Seattle Seahawks",
+    "AwayTeam": "Los Angeles Rams",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 251,
+    "RoundNumber": 17,
+    "DateUtc": "2025-12-30 01:15:00Z",
+    "Location": "Mercedes-Benz Stadium",
+    "HomeTeam": "Atlanta Falcons",
+    "AwayTeam": "Los Angeles Rams",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 264,
+    "RoundNumber": 18,
+    "DateUtc": "2026-01-05 00:00:00Z",
+    "Location": "SoFi Stadium",
+    "HomeTeam": "Los Angeles Rams",
+    "AwayTeam": "Arizona Cardinals",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  }
+]

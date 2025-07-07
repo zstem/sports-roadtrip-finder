@@ -416,7 +416,7 @@
                     "distance": 7
                 },
                 {
-                    "team": "Oakland Athletics",
+                    "team": "Athletics",
                     "distance": 7
                 },
                 {
@@ -444,7 +444,7 @@
                     "distance": 2
                 },
                 {
-                    "team": "Oakland Athletics",
+                    "team": "Athletics",
                     "distance": 6
                 },
                 {
@@ -611,8 +611,8 @@
         },
         {
             "team": {
-                "name": "oakland_athletics",
-                "displayName": "Oakland Athletics"
+                "name": "athletics",
+                "displayName": "Athletics"
             },
             "division": "al_west",
             "stadium": "ringcentral_coliseum",
@@ -732,7 +732,7 @@
                     "distance": 8
                 },
                 {
-                    "team": "Oakland Athletics",
+                    "team": "Athletics",
                     "distance": 8
                 },
                 {
@@ -752,7 +752,7 @@
             "longitude": -122.3893,
             "neighbourTeams": [
                 {
-                    "team": "Oakland Athletics",
+                    "team": "Athletics",
                     "distance": 1
                 },
                 {
@@ -784,7 +784,7 @@
             "longitude": -122.3320,
             "neighbourTeams": [
                 {
-                    "team": "Oakland Athletics",
+                    "team": "Athletics",
                     "distance": 13
                 },
                 {

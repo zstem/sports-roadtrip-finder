@@ -1,0 +1,192 @@
+[
+  {
+    "team": "Arizona Cardinals"
+  },
+  {
+    "MatchNumber": 8,
+    "RoundNumber": 1,
+    "DateUtc": "2025-09-07 17:00:00Z",
+    "Location": "Caesars Superdome",
+    "HomeTeam": "New Orleans Saints",
+    "AwayTeam": "Arizona Cardinals",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 27,
+    "RoundNumber": 2,
+    "DateUtc": "2025-09-14 20:05:00Z",
+    "Location": "State Farm Stadium",
+    "HomeTeam": "Arizona Cardinals",
+    "AwayTeam": "Carolina Panthers",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 46,
+    "RoundNumber": 3,
+    "DateUtc": "2025-09-21 20:25:00Z",
+    "Location": "Levi's Stadium",
+    "HomeTeam": "San Francisco 49ers",
+    "AwayTeam": "Arizona Cardinals",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 49,
+    "RoundNumber": 4,
+    "DateUtc": "2025-09-26 00:15:00Z",
+    "Location": "State Farm Stadium",
+    "HomeTeam": "Arizona Cardinals",
+    "AwayTeam": "Seattle Seahawks",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 73,
+    "RoundNumber": 5,
+    "DateUtc": "2025-10-05 20:05:00Z",
+    "Location": "State Farm Stadium",
+    "HomeTeam": "Arizona Cardinals",
+    "AwayTeam": "Tennessee Titans",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 83,
+    "RoundNumber": 6,
+    "DateUtc": "2025-10-12 17:00:00Z",
+    "Location": "Lucas Oil Stadium",
+    "HomeTeam": "Indianapolis Colts",
+    "AwayTeam": "Arizona Cardinals",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 104,
+    "RoundNumber": 7,
+    "DateUtc": "2025-10-19 20:25:00Z",
+    "Location": "State Farm Stadium",
+    "HomeTeam": "Arizona Cardinals",
+    "AwayTeam": "Green Bay Packers",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 135,
+    "RoundNumber": 9,
+    "DateUtc": "2025-11-04 01:15:00Z",
+    "Location": "AT&T Stadium",
+    "HomeTeam": "Dallas Cowboys",
+    "AwayTeam": "Arizona Cardinals",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 145,
+    "RoundNumber": 10,
+    "DateUtc": "2025-11-09 21:05:00Z",
+    "Location": "Lumen Field",
+    "HomeTeam": "Seattle Seahawks",
+    "AwayTeam": "Arizona Cardinals",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 159,
+    "RoundNumber": 11,
+    "DateUtc": "2025-11-16 21:05:00Z",
+    "Location": "State Farm Stadium",
+    "HomeTeam": "Arizona Cardinals",
+    "AwayTeam": "San Francisco 49ers",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 173,
+    "RoundNumber": 12,
+    "DateUtc": "2025-11-23 21:05:00Z",
+    "Location": "State Farm Stadium",
+    "HomeTeam": "Arizona Cardinals",
+    "AwayTeam": "Jacksonville Jaguars",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 188,
+    "RoundNumber": 13,
+    "DateUtc": "2025-11-30 18:00:00Z",
+    "Location": "Raymond James Stadium",
+    "HomeTeam": "Tampa Bay Buccaneers",
+    "AwayTeam": "Arizona Cardinals",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 205,
+    "RoundNumber": 14,
+    "DateUtc": "2025-12-07 21:25:00Z",
+    "Location": "State Farm Stadium",
+    "HomeTeam": "Arizona Cardinals",
+    "AwayTeam": "Los Angeles Rams",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 212,
+    "RoundNumber": 15,
+    "DateUtc": "2025-12-14 18:00:00Z",
+    "Location": "NRG Stadium",
+    "HomeTeam": "Houston Texans",
+    "AwayTeam": "Arizona Cardinals",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 235,
+    "RoundNumber": 16,
+    "DateUtc": "2025-12-21 21:05:00Z",
+    "Location": "State Farm Stadium",
+    "HomeTeam": "Arizona Cardinals",
+    "AwayTeam": "Atlanta Falcons",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 253,
+    "RoundNumber": 17,
+    "DateUtc": "2025-12-30 00:00:00Z",
+    "Location": "Paycor Stadium",
+    "HomeTeam": "Cincinnati Bengals",
+    "AwayTeam": "Arizona Cardinals",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 264,
+    "RoundNumber": 18,
+    "DateUtc": "2026-01-05 00:00:00Z",
+    "Location": "SoFi Stadium",
+    "HomeTeam": "Los Angeles Rams",
+    "AwayTeam": "Arizona Cardinals",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  }
+]

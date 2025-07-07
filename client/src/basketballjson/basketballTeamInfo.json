@@ -1,0 +1,1114 @@
+{
+  "teams": [
+    {
+      "team": {
+        "name": "atlanta_hawks",
+        "displayName": "Atlanta Hawks"
+      },
+      "division": "southeast",
+      "stadium": "state_farm_arena",
+      "latitude": 33.7573,
+      "longitude": -84.3963,
+      "neighbourTeams": [
+        {
+          "team": "Charlotte Hornets",
+          "distance": 5,
+          "unit": "hours"
+        },
+        {
+          "team": "Memphis Grizzlies",
+          "distance": 7,
+          "unit": "hours"
+        },
+        {
+          "team": "Orlando Magic",
+          "distance": 8,
+          "unit": "hours"
+        },
+        {
+          "team": "New Orleans Pelicans",
+          "distance": 8,
+          "unit": "hours"
+        },
+        {
+          "team": "Indiana Pacers",
+          "distance": 8,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "boston_celtics",
+        "displayName": "Boston Celtics"
+      },
+      "division": "atlantic",
+      "stadium": "td_garden",
+      "latitude": 42.3662,
+      "longitude": -71.0621,
+      "neighbourTeams": [
+        {
+          "team": "New York Knicks",
+          "distance": 4,
+          "unit": "hours"
+        },
+        {
+          "team": "Brooklyn Nets",
+          "distance": 4,
+          "unit": "hours"
+        },
+        {
+          "team": "Philadelphia 76ers",
+          "distance": 5,
+          "unit": "hours"
+        },
+        {
+          "team": "Washington Wizards",
+          "distance": 8,
+          "unit": "hours"
+        },
+        {
+          "team": "Toronto Raptors",
+          "distance": 8,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "brooklyn_nets",
+        "displayName": "Brooklyn Nets"
+      },
+      "division": "atlantic",
+      "stadium": "barclays_center",
+      "latitude": 40.6827,
+      "longitude": -73.9757,
+      "neighbourTeams": [
+        {
+          "team": "New York Knicks",
+          "distance": 1,
+          "unit": "hours"
+        },
+        {
+          "team": "Philadelphia 76ers",
+          "distance": 2,
+          "unit": "hours"
+        },
+        {
+          "team": "Boston Celtics",
+          "distance": 4,
+          "unit": "hours"
+        },
+        {
+          "team": "Washington Wizards",
+          "distance": 4,
+          "unit": "hours"
+        },
+        {
+          "team": "Toronto Raptors",
+          "distance": 7,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "charlotte_hornets",
+        "displayName": "Charlotte Hornets"
+      },
+      "division": "southeast",
+      "stadium": "spectrum_center",
+      "latitude": 35.2251,
+      "longitude": -80.8392,
+      "neighbourTeams": [
+        {
+          "team": "Atlanta Hawks",
+          "distance": 5,
+          "unit": "hours"
+        },
+        {
+          "team": "Washington Wizards",
+          "distance": 6,
+          "unit": "hours"
+        },
+        {
+          "team": "Indiana Pacers",
+          "distance": 8,
+          "unit": "hours"
+        },
+        {
+          "team": "Cleveland Cavaliers",
+          "distance": 8,
+          "unit": "hours"
+        },
+        {
+          "team": "Philadelphia 76ers",
+          "distance": 9,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "chicago_bulls",
+        "displayName": "Chicago Bulls"
+      },
+      "division": "central",
+      "stadium": "united_center",
+      "latitude": 41.8807,
+      "longitude": -87.6742,
+      "neighbourTeams": [
+        {
+          "team": "Milwaukee Bucks",
+          "distance": 2,
+          "unit": "hours"
+        },
+        {
+          "team": "Indiana Pacers",
+          "distance": 3,
+          "unit": "hours"
+        },
+        {
+          "team": "Detroit Pistons",
+          "distance": 5,
+          "unit": "hours"
+        },
+        {
+          "team": "Cleveland Cavaliers",
+          "distance": 6,
+          "unit": "hours"
+        },
+        {
+          "team": "Minnesota Timberwolves",
+          "distance": 7,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "cleveland_cavaliers",
+        "displayName": "Cleveland Cavaliers"
+      },
+      "division": "central",
+      "stadium": "rocket_mortgage_fieldhouse",
+      "latitude": 41.4965,
+      "longitude": -81.6882,
+      "neighbourTeams": [
+        {
+          "team": "Detroit Pistons",
+          "distance": 2,
+          "unit": "hours"
+        },
+        {
+          "team": "Toronto Raptors",
+          "distance": 4,
+          "unit": "hours"
+        },
+        {
+          "team": "Indiana Pacers",
+          "distance": 5,
+          "unit": "hours"
+        },
+        {
+          "team": "Washington Wizards",
+          "distance": 6,
+          "unit": "hours"
+        },
+        {
+          "team": "Chicago Bulls",
+          "distance": 6,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "dallas_mavericks",
+        "displayName": "Dallas Mavericks"
+      },
+      "division": "southwest",
+      "stadium": "american_airlines_center",
+      "latitude": 32.7905,
+      "longitude": -96.8104,
+      "neighbourTeams": [
+        {
+          "team": "Oklahoma City Thunder",
+          "distance": 4,
+          "unit": "hours"
+        },
+        {
+          "team": "Houston Rockets",
+          "distance": 5,
+          "unit": "hours"
+        },
+        {
+          "team": "San Antonio Spurs",
+          "distance": 5,
+          "unit": "hours"
+        },
+        {
+          "team": "Memphis Grizzlies",
+          "distance": 8,
+          "unit": "hours"
+        },
+        {
+          "team": "New Orleans Pelicans",
+          "distance": 8,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "denver_nuggets",
+        "displayName": "Denver Nuggets"
+      },
+      "division": "northwest",
+      "stadium": "ball_arena",
+      "latitude": 39.7487,
+      "longitude": -105.0077,
+      "neighbourTeams": [
+        {
+          "team": "Utah Jazz",
+          "distance": 7,
+          "unit": "hours"
+        },
+        {
+          "team": "Oklahoma City Thunder",
+          "distance": 10,
+          "unit": "hours"
+        },
+        {
+          "team": "Phoenix Suns",
+          "distance": 11,
+          "unit": "hours"
+        },
+        {
+          "team": "Dallas Mavericks",
+          "distance": 12,
+          "unit": "hours"
+        },
+        {
+          "team": "Minnesota Timberwolves",
+          "distance": 13,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "detroit_pistons",
+        "displayName": "Detroit Pistons"
+      },
+      "division": "central",
+      "stadium": "little_caesars_arena",
+      "latitude": 42.3411,
+      "longitude": -83.0553,
+      "neighbourTeams": [
+        {
+          "team": "Cleveland Cavaliers",
+          "distance": 2,
+          "unit": "hours"
+        },
+        {
+          "team": "Toronto Raptors",
+          "distance": 4,
+          "unit": "hours"
+        },
+        {
+          "team": "Chicago Bulls",
+          "distance": 5,
+          "unit": "hours"
+        },
+        {
+          "team": "Indiana Pacers",
+          "distance": 5,
+          "unit": "hours"
+        },
+        {
+          "team": "Milwaukee Bucks",
+          "distance": 5,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "golden_state_warriors",
+        "displayName": "Golden State Warriors"
+      },
+      "division": "pacific",
+      "stadium": "chase_center",
+      "latitude": 37.768,
+      "longitude": -122.3877,
+      "neighbourTeams": [
+        {
+          "team": "Sacramento Kings",
+          "distance": 2,
+          "unit": "hours"
+        },
+        {
+          "team": "Los Angeles Clippers",
+          "distance": 7,
+          "unit": "hours"
+        },
+        {
+          "team": "Los Angeles Lakers",
+          "distance": 7,
+          "unit": "hours"
+        },
+        {
+          "team": "Portland Trail Blazers",
+          "distance": 10,
+          "unit": "hours"
+        },
+        {
+          "team": "Utah Jazz",
+          "distance": 11,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "houston_rockets",
+        "displayName": "Houston Rockets"
+      },
+      "division": "southwest",
+      "stadium": "toyota_center",
+      "latitude": 29.7508,
+      "longitude": -95.3621,
+      "neighbourTeams": [
+        {
+          "team": "San Antonio Spurs",
+          "distance": 4,
+          "unit": "hours"
+        },
+        {
+          "team": "Dallas Mavericks",
+          "distance": 5,
+          "unit": "hours"
+        },
+        {
+          "team": "New Orleans Pelicans",
+          "distance": 6,
+          "unit": "hours"
+        },
+        {
+          "team": "Oklahoma City Thunder",
+          "distance": 8,
+          "unit": "hours"
+        },
+        {
+          "team": "Memphis Grizzlies",
+          "distance": 9,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "indiana_pacers",
+        "displayName": "Indiana Pacers"
+      },
+      "division": "central",
+      "stadium": "gainbridge_fieldhouse",
+      "latitude": 39.764,
+      "longitude": -86.1555,
+      "neighbourTeams": [
+        {
+          "team": "Chicago Bulls",
+          "distance": 3,
+          "unit": "hours"
+        },
+        {
+          "team": "Detroit Pistons",
+          "distance": 5,
+          "unit": "hours"
+        },
+        {
+          "team": "Milwaukee Bucks",
+          "distance": 5,
+          "unit": "hours"
+        },
+        {
+          "team": "Cleveland Cavaliers",
+          "distance": 5,
+          "unit": "hours"
+        },
+        {
+          "team": "Memphis Grizzlies",
+          "distance": 7,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "los_angeles_clippers",
+        "displayName": "Los Angeles Clippers"
+      },
+      "division": "pacific",
+      "stadium": "crypto.com_arena",
+      "latitude": 34.043,
+      "longitude": -118.2673,
+      "neighbourTeams": [
+        {
+          "team": "Los Angeles Lakers",
+          "distance": 0,
+          "unit": "hours"
+        },
+        {
+          "team": "Golden State Warriors",
+          "distance": 7,
+          "unit": "hours"
+        },
+        {
+          "team": "Phoenix Suns",
+          "distance": 7,
+          "unit": "hours"
+        },
+        {
+          "team": "Sacramento Kings",
+          "distance": 7,
+          "unit": "hours"
+        },
+        {
+          "team": "Utah Jazz",
+          "distance": 11,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "los_angeles_lakers",
+        "displayName": "Los Angeles Lakers"
+      },
+      "division": "pacific",
+      "stadium": "crypto.com_arena",
+      "latitude": 34.043,
+      "longitude": -118.2673,
+      "neighbourTeams": [
+        {
+          "team": "Los Angeles Clippers",
+          "distance": 0,
+          "unit": "hours"
+        },
+        {
+          "team": "Golden State Warriors",
+          "distance": 7,
+          "unit": "hours"
+        },
+        {
+          "team": "Phoenix Suns",
+          "distance": 7,
+          "unit": "hours"
+        },
+        {
+          "team": "Sacramento Kings",
+          "distance": 7,
+          "unit": "hours"
+        },
+        {
+          "team": "Utah Jazz",
+          "distance": 11,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "memphis_grizzlies",
+        "displayName": "Memphis Grizzlies"
+      },
+      "division": "southwest",
+      "stadium": "fedexforum",
+      "latitude": 35.1382,
+      "longitude": -90.0506,
+      "neighbourTeams": [
+        {
+          "team": "Atlanta Hawks",
+          "distance": 7,
+          "unit": "hours"
+        },
+        {
+          "team": "New Orleans Pelicans",
+          "distance": 7,
+          "unit": "hours"
+        },
+        {
+          "team": "Indiana Pacers",
+          "distance": 7,
+          "unit": "hours"
+        },
+        {
+          "team": "Dallas Mavericks",
+          "distance": 8,
+          "unit": "hours"
+        },
+        {
+          "team": "Oklahoma City Thunder",
+          "distance": 8,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "miami_heat",
+        "displayName": "Miami Heat"
+      },
+      "division": "southeast",
+      "stadium": "kaseya_center",
+      "latitude": 25.7814,
+      "longitude": -80.187,
+      "neighbourTeams": [
+        {
+          "team": "Orlando Magic",
+          "distance": 4,
+          "unit": "hours"
+        },
+        {
+          "team": "Atlanta Hawks",
+          "distance": 11,
+          "unit": "hours"
+        },
+        {
+          "team": "Charlotte Hornets",
+          "distance": 12,
+          "unit": "hours"
+        },
+        {
+          "team": "New Orleans Pelicans",
+          "distance": 12,
+          "unit": "hours"
+        },
+        {
+          "team": "Memphis Grizzlies",
+          "distance": 16,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "milwaukee_bucks",
+        "displayName": "Milwaukee Bucks"
+      },
+      "division": "central",
+      "stadium": "fiserv_forum",
+      "latitude": 43.0451,
+      "longitude": -87.9172,
+      "neighbourTeams": [
+        {
+          "team": "Chicago Bulls",
+          "distance": 2,
+          "unit": "hours"
+        },
+        {
+          "team": "Indiana Pacers",
+          "distance": 5,
+          "unit": "hours"
+        },
+        {
+          "team": "Detroit Pistons",
+          "distance": 5,
+          "unit": "hours"
+        },
+        {
+          "team": "Minnesota Timberwolves",
+          "distance": 6,
+          "unit": "hours"
+        },
+        {
+          "team": "Cleveland Cavaliers",
+          "distance": 7,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "minnesota_timberwolves",
+        "displayName": "Minnesota Timberwolves"
+      },
+      "division": "northwest",
+      "stadium": "target_center",
+      "latitude": 44.9795,
+      "longitude": -93.276,
+      "neighbourTeams": [
+        {
+          "team": "Milwaukee Bucks",
+          "distance": 6,
+          "unit": "hours"
+        },
+        {
+          "team": "Chicago Bulls",
+          "distance": 7,
+          "unit": "hours"
+        },
+        {
+          "team": "Indiana Pacers",
+          "distance": 10,
+          "unit": "hours"
+        },
+        {
+          "team": "Detroit Pistons",
+          "distance": 10,
+          "unit": "hours"
+        },
+        {
+          "team": "Cleveland Cavaliers",
+          "distance": 12,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "new_orleans_pelicans",
+        "displayName": "New Orleans Pelicans"
+      },
+      "division": "southwest",
+      "stadium": "smoothie_king_center",
+      "latitude": 29.949,
+      "longitude": -90.0821,
+      "neighbourTeams": [
+        {
+          "team": "Houston Rockets",
+          "distance": 6,
+          "unit": "hours"
+        },
+        {
+          "team": "Memphis Grizzlies",
+          "distance": 7,
+          "unit": "hours"
+        },
+        {
+          "team": "Atlanta Hawks",
+          "distance": 8,
+          "unit": "hours"
+        },
+        {
+          "team": "Dallas Mavericks",
+          "distance": 8,
+          "unit": "hours"
+        },
+        {
+          "team": "San Antonio Spurs",
+          "distance": 10,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "new_york_knicks",
+        "displayName": "New York Knicks"
+      },
+      "division": "atlantic",
+      "stadium": "madison_square_garden",
+      "latitude": 40.7505,
+      "longitude": -73.9934,
+      "neighbourTeams": [
+        {
+          "team": "Brooklyn Nets",
+          "distance": 1,
+          "unit": "hours"
+        },
+        {
+          "team": "Philadelphia 76ers",
+          "distance": 2,
+          "unit": "hours"
+        },
+        {
+          "team": "Boston Celtics",
+          "distance": 4,
+          "unit": "hours"
+        },
+        {
+          "team": "Washington Wizards",
+          "distance": 4,
+          "unit": "hours"
+        },
+        {
+          "team": "Toronto Raptors",
+          "distance": 7,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "oklahoma_city_thunder",
+        "displayName": "Oklahoma City Thunder"
+      },
+      "division": "northwest",
+      "stadium": "paycom_center",
+      "latitude": 35.4634,
+      "longitude": -97.5151,
+      "neighbourTeams": [
+        {
+          "team": "Dallas Mavericks",
+          "distance": 4,
+          "unit": "hours"
+        },
+        {
+          "team": "Houston Rockets",
+          "distance": 8,
+          "unit": "hours"
+        },
+        {
+          "team": "San Antonio Spurs",
+          "distance": 8,
+          "unit": "hours"
+        },
+        {
+          "team": "Memphis Grizzlies",
+          "distance": 8,
+          "unit": "hours"
+        },
+        {
+          "team": "Denver Nuggets",
+          "distance": 10,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "orlando_magic",
+        "displayName": "Orlando Magic"
+      },
+      "division": "southeast",
+      "stadium": "kia_center",
+      "latitude": 28.5392,
+      "longitude": -81.3838,
+      "neighbourTeams": [
+        {
+          "team": "Miami Heat",
+          "distance": 4,
+          "unit": "hours"
+        },
+        {
+          "team": "Atlanta Hawks",
+          "distance": 8,
+          "unit": "hours"
+        },
+        {
+          "team": "Charlotte Hornets",
+          "distance": 9,
+          "unit": "hours"
+        },
+        {
+          "team": "New Orleans Pelicans",
+          "distance": 10,
+          "unit": "hours"
+        },
+        {
+          "team": "Memphis Grizzlies",
+          "distance": 13,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "philadelphia_76ers",
+        "displayName": "Philadelphia 76ers"
+      },
+      "division": "atlantic",
+      "stadium": "wells_fargo_center",
+      "latitude": 39.9012,
+      "longitude": -75.171,
+      "neighbourTeams": [
+        {
+          "team": "Brooklyn Nets",
+          "distance": 2,
+          "unit": "hours"
+        },
+        {
+          "team": "New York Knicks",
+          "distance": 2,
+          "unit": "hours"
+        },
+        {
+          "team": "Washington Wizards",
+          "distance": 3,
+          "unit": "hours"
+        },
+        {
+          "team": "Boston Celtics",
+          "distance": 5,
+          "unit": "hours"
+        },
+        {
+          "team": "Toronto Raptors",
+          "distance": 7,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "phoenix_suns",
+        "displayName": "Phoenix Suns"
+      },
+      "division": "pacific",
+      "stadium": "footprint_center",
+      "latitude": 33.4457,
+      "longitude": -112.0712,
+      "neighbourTeams": [
+        {
+          "team": "Los Angeles Clippers",
+          "distance": 7,
+          "unit": "hours"
+        },
+        {
+          "team": "Los Angeles Lakers",
+          "distance": 7,
+          "unit": "hours"
+        },
+        {
+          "team": "Utah Jazz",
+          "distance": 10,
+          "unit": "hours"
+        },
+        {
+          "team": "Denver Nuggets",
+          "distance": 11,
+          "unit": "hours"
+        },
+        {
+          "team": "Sacramento Kings",
+          "distance": 12,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "portland_trail_blazers",
+        "displayName": "Portland Trail Blazers"
+      },
+      "division": "northwest",
+      "stadium": "moda_center",
+      "latitude": 45.5316,
+      "longitude": -122.6668,
+      "neighbourTeams": [
+        {
+          "team": "Sacramento Kings",
+          "distance": 9,
+          "unit": "hours"
+        },
+        {
+          "team": "Golden State Warriors",
+          "distance": 10,
+          "unit": "hours"
+        },
+        {
+          "team": "Utah Jazz",
+          "distance": 12,
+          "unit": "hours"
+        },
+        {
+          "team": "Los Angeles Clippers",
+          "distance": 15,
+          "unit": "hours"
+        },
+        {
+          "team": "Los Angeles Lakers",
+          "distance": 15,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "sacramento_kings",
+        "displayName": "Sacramento Kings"
+      },
+      "division": "pacific",
+      "stadium": "golden_1_center",
+      "latitude": 38.5802,
+      "longitude": -121.4997,
+      "neighbourTeams": [
+        {
+          "team": "Golden State Warriors",
+          "distance": 2,
+          "unit": "hours"
+        },
+        {
+          "team": "Los Angeles Clippers",
+          "distance": 7,
+          "unit": "hours"
+        },
+        {
+          "team": "Los Angeles Lakers",
+          "distance": 7,
+          "unit": "hours"
+        },
+        {
+          "team": "Portland Trail Blazers",
+          "distance": 9,
+          "unit": "hours"
+        },
+        {
+          "team": "Utah Jazz",
+          "distance": 10,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "san_antonio_spurs",
+        "displayName": "San Antonio Spurs"
+      },
+      "division": "southwest",
+      "stadium": "frost_bank_center",
+      "latitude": 29.427,
+      "longitude": -98.4375,
+      "neighbourTeams": [
+        {
+          "team": "Houston Rockets",
+          "distance": 4,
+          "unit": "hours"
+        },
+        {
+          "team": "Dallas Mavericks",
+          "distance": 5,
+          "unit": "hours"
+        },
+        {
+          "team": "Oklahoma City Thunder",
+          "distance": 8,
+          "unit": "hours"
+        },
+        {
+          "team": "New Orleans Pelicans",
+          "distance": 10,
+          "unit": "hours"
+        },
+        {
+          "team": "Memphis Grizzlies",
+          "distance": 12,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "toronto_raptors",
+        "displayName": "Toronto Raptors"
+      },
+      "division": "atlantic",
+      "stadium": "scotiabank_arena",
+      "latitude": 43.6435,
+      "longitude": -79.3791,
+      "neighbourTeams": [
+        {
+          "team": "Cleveland Cavaliers",
+          "distance": 4,
+          "unit": "hours"
+        },
+        {
+          "team": "Detroit Pistons",
+          "distance": 4,
+          "unit": "hours"
+        },
+        {
+          "team": "Philadelphia 76ers",
+          "distance": 7,
+          "unit": "hours"
+        },
+        {
+          "team": "New York Knicks",
+          "distance": 7,
+          "unit": "hours"
+        },
+        {
+          "team": "Brooklyn Nets",
+          "distance": 7,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "utah_jazz",
+        "displayName": "Utah Jazz"
+      },
+      "division": "northwest",
+      "stadium": "delta_center",
+      "latitude": 40.7683,
+      "longitude": -111.9011,
+      "neighbourTeams": [
+        {
+          "team": "Denver Nuggets",
+          "distance": 7,
+          "unit": "hours"
+        },
+        {
+          "team": "Phoenix Suns",
+          "distance": 10,
+          "unit": "hours"
+        },
+        {
+          "team": "Sacramento Kings",
+          "distance": 10,
+          "unit": "hours"
+        },
+        {
+          "team": "Los Angeles Clippers",
+          "distance": 11,
+          "unit": "hours"
+        },
+        {
+          "team": "Los Angeles Lakers",
+          "distance": 11,
+          "unit": "hours"
+        }
+      ]
+    },
+    {
+      "team": {
+        "name": "washington_wizards",
+        "displayName": "Washington Wizards"
+      },
+      "division": "southeast",
+      "stadium": "capital_one_arena",
+      "latitude": 38.8981,
+      "longitude": -77.0219,
+      "neighbourTeams": [
+        {
+          "team": "Philadelphia 76ers",
+          "distance": 3,
+          "unit": "hours"
+        },
+        {
+          "team": "Brooklyn Nets",
+          "distance": 4,
+          "unit": "hours"
+        },
+        {
+          "team": "New York Knicks",
+          "distance": 4,
+          "unit": "hours"
+        },
+        {
+          "team": "Cleveland Cavaliers",
+          "distance": 6,
+          "unit": "hours"
+        },
+        {
+          "team": "Charlotte Hornets",
+          "distance": 6,
+          "unit": "hours"
+        }
+      ]
+    }
+  ]
+}

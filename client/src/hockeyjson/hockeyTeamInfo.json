@@ -26,25 +26,25 @@
         },
         {
             "team": {
-                "name": "arizona_coyotes",
-                "displayName": "Arizona Coyotes"
+                "name": "utah_hockey_club",
+                "displayName": "Utah Mammoth"
             },
             "division": "central",
-            "arena": "Mullett Arena",
-            "latitude": 33.4263,
-            "longitude": -111.9327,
+            "arena": "Delta Center",
+            "latitude": 40.7683,
+            "longitude": -111.9011,
             "neighbourTeams": [
                 {
                     "team": "Vegas Golden Knights",
-                    "distance": 5
-                },
-                {
-                    "team": "Los Angeles Kings",
                     "distance": 6
                 },
                 {
-                    "team": "San Jose Sharks",
-                    "distance": 11
+                    "team": "Colorado Avalanche",
+                    "distance": 8
+                },
+                {
+                    "team": "Anaheim Ducks",
+                    "distance": 10
                 }
             ]
         },

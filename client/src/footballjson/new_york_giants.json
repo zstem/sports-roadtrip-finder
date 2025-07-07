@@ -1,0 +1,192 @@
+[
+  {
+    "team": "New York Giants"
+  },
+  {
+    "MatchNumber": 10,
+    "RoundNumber": 1,
+    "DateUtc": "2025-09-07 17:00:00Z",
+    "Location": "Northwest Stadium",
+    "HomeTeam": "Washington Commanders",
+    "AwayTeam": "New York Giants",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 20,
+    "RoundNumber": 2,
+    "DateUtc": "2025-09-14 17:00:00Z",
+    "Location": "AT&T Stadium",
+    "HomeTeam": "Dallas Cowboys",
+    "AwayTeam": "New York Giants",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 47,
+    "RoundNumber": 3,
+    "DateUtc": "2025-09-22 00:20:00Z",
+    "Location": "MetLife Stadium",
+    "HomeTeam": "New York Giants",
+    "AwayTeam": "Kansas City Chiefs",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 56,
+    "RoundNumber": 4,
+    "DateUtc": "2025-09-28 17:00:00Z",
+    "Location": "MetLife Stadium",
+    "HomeTeam": "New York Giants",
+    "AwayTeam": "Los Angeles Chargers",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 70,
+    "RoundNumber": 5,
+    "DateUtc": "2025-10-05 17:00:00Z",
+    "Location": "Caesars Superdome",
+    "HomeTeam": "New Orleans Saints",
+    "AwayTeam": "New York Giants",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 79,
+    "RoundNumber": 6,
+    "DateUtc": "2025-10-10 00:15:00Z",
+    "Location": "MetLife Stadium",
+    "HomeTeam": "New York Giants",
+    "AwayTeam": "Philadelphia Eagles",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 102,
+    "RoundNumber": 7,
+    "DateUtc": "2025-10-19 20:05:00Z",
+    "Location": "Empower Field at Mile High",
+    "HomeTeam": "Denver Broncos",
+    "AwayTeam": "New York Giants",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 116,
+    "RoundNumber": 8,
+    "DateUtc": "2025-10-26 17:00:00Z",
+    "Location": "Lincoln Financial Field",
+    "HomeTeam": "Philadelphia Eagles",
+    "AwayTeam": "New York Giants",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 128,
+    "RoundNumber": 9,
+    "DateUtc": "2025-11-02 18:00:00Z",
+    "Location": "MetLife Stadium",
+    "HomeTeam": "New York Giants",
+    "AwayTeam": "San Francisco 49ers",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 139,
+    "RoundNumber": 10,
+    "DateUtc": "2025-11-09 18:00:00Z",
+    "Location": "Soldier Field",
+    "HomeTeam": "Chicago Bears",
+    "AwayTeam": "New York Giants",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 156,
+    "RoundNumber": 11,
+    "DateUtc": "2025-11-16 18:00:00Z",
+    "Location": "MetLife Stadium",
+    "HomeTeam": "New York Giants",
+    "AwayTeam": "Green Bay Packers",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 169,
+    "RoundNumber": 12,
+    "DateUtc": "2025-11-23 18:00:00Z",
+    "Location": "Ford Field",
+    "HomeTeam": "Detroit Lions",
+    "AwayTeam": "New York Giants",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 194,
+    "RoundNumber": 13,
+    "DateUtc": "2025-12-02 01:15:00Z",
+    "Location": "Gillette Stadium",
+    "HomeTeam": "New England Patriots",
+    "AwayTeam": "New York Giants",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 216,
+    "RoundNumber": 15,
+    "DateUtc": "2025-12-14 18:00:00Z",
+    "Location": "MetLife Stadium",
+    "HomeTeam": "New York Giants",
+    "AwayTeam": "Washington Commanders",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 233,
+    "RoundNumber": 16,
+    "DateUtc": "2025-12-21 18:00:00Z",
+    "Location": "MetLife Stadium",
+    "HomeTeam": "New York Giants",
+    "AwayTeam": "Minnesota Vikings",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 256,
+    "RoundNumber": 17,
+    "DateUtc": "2025-12-30 00:00:00Z",
+    "Location": "Allegiant Stadium",
+    "HomeTeam": "Las Vegas Raiders",
+    "AwayTeam": "New York Giants",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 268,
+    "RoundNumber": 18,
+    "DateUtc": "2026-01-05 00:00:00Z",
+    "Location": "MetLife Stadium",
+    "HomeTeam": "New York Giants",
+    "AwayTeam": "Dallas Cowboys",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  }
+]

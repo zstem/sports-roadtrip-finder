@@ -1,0 +1,192 @@
+[
+  {
+    "team": "New York Jets"
+  },
+  {
+    "MatchNumber": 9,
+    "RoundNumber": 1,
+    "DateUtc": "2025-09-07 17:00:00Z",
+    "Location": "MetLife Stadium",
+    "HomeTeam": "New York Jets",
+    "AwayTeam": "Pittsburgh Steelers",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 24,
+    "RoundNumber": 2,
+    "DateUtc": "2025-09-14 17:00:00Z",
+    "Location": "MetLife Stadium",
+    "HomeTeam": "New York Jets",
+    "AwayTeam": "Buffalo Bills",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 40,
+    "RoundNumber": 3,
+    "DateUtc": "2025-09-21 17:00:00Z",
+    "Location": "Raymond James Stadium",
+    "HomeTeam": "Tampa Bay Buccaneers",
+    "AwayTeam": "New York Jets",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 63,
+    "RoundNumber": 4,
+    "DateUtc": "2025-09-29 23:15:00Z",
+    "Location": "Hard Rock Stadium",
+    "HomeTeam": "Miami Dolphins",
+    "AwayTeam": "New York Jets",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 71,
+    "RoundNumber": 5,
+    "DateUtc": "2025-10-05 17:00:00Z",
+    "Location": "MetLife Stadium",
+    "HomeTeam": "New York Jets",
+    "AwayTeam": "Dallas Cowboys",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 80,
+    "RoundNumber": 6,
+    "DateUtc": "2025-10-12 13:30:00Z",
+    "Location": "Tottenham Hotspur Stadium",
+    "HomeTeam": "New York Jets",
+    "AwayTeam": "Denver Broncos",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 100,
+    "RoundNumber": 7,
+    "DateUtc": "2025-10-19 17:00:00Z",
+    "Location": "MetLife Stadium",
+    "HomeTeam": "New York Jets",
+    "AwayTeam": "Carolina Panthers",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 113,
+    "RoundNumber": 8,
+    "DateUtc": "2025-10-26 17:00:00Z",
+    "Location": "Paycor Stadium",
+    "HomeTeam": "Cincinnati Bengals",
+    "AwayTeam": "New York Jets",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 143,
+    "RoundNumber": 10,
+    "DateUtc": "2025-11-09 18:00:00Z",
+    "Location": "MetLife Stadium",
+    "HomeTeam": "New York Jets",
+    "AwayTeam": "Cleveland Browns",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 150,
+    "RoundNumber": 11,
+    "DateUtc": "2025-11-14 01:15:00Z",
+    "Location": "Gillette Stadium",
+    "HomeTeam": "New England Patriots",
+    "AwayTeam": "New York Jets",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 166,
+    "RoundNumber": 12,
+    "DateUtc": "2025-11-23 18:00:00Z",
+    "Location": "M&T Bank Stadium",
+    "HomeTeam": "Baltimore Ravens",
+    "AwayTeam": "New York Jets",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 187,
+    "RoundNumber": 13,
+    "DateUtc": "2025-11-30 18:00:00Z",
+    "Location": "MetLife Stadium",
+    "HomeTeam": "New York Jets",
+    "AwayTeam": "Atlanta Falcons",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 202,
+    "RoundNumber": 14,
+    "DateUtc": "2025-12-07 18:00:00Z",
+    "Location": "MetLife Stadium",
+    "HomeTeam": "New York Jets",
+    "AwayTeam": "Miami Dolphins",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 213,
+    "RoundNumber": 15,
+    "DateUtc": "2025-12-14 18:00:00Z",
+    "Location": "EverBank Stadium",
+    "HomeTeam": "Jacksonville Jaguars",
+    "AwayTeam": "New York Jets",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 232,
+    "RoundNumber": 16,
+    "DateUtc": "2025-12-21 18:00:00Z",
+    "Location": "Caesars Superdome",
+    "HomeTeam": "New Orleans Saints",
+    "AwayTeam": "New York Jets",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 247,
+    "RoundNumber": 17,
+    "DateUtc": "2025-12-28 18:00:00Z",
+    "Location": "MetLife Stadium",
+    "HomeTeam": "New York Jets",
+    "AwayTeam": "New England Patriots",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 258,
+    "RoundNumber": 18,
+    "DateUtc": "2026-01-05 00:00:00Z",
+    "Location": "Highmark Stadium",
+    "HomeTeam": "Buffalo Bills",
+    "AwayTeam": "New York Jets",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  }
+]

@@ -1,0 +1,192 @@
+[
+  {
+    "team": "San Francisco 49ers"
+  },
+  {
+    "MatchNumber": 12,
+    "RoundNumber": 1,
+    "DateUtc": "2025-09-07 20:05:00Z",
+    "Location": "Lumen Field",
+    "HomeTeam": "Seattle Seahawks",
+    "AwayTeam": "San Francisco 49ers",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 23,
+    "RoundNumber": 2,
+    "DateUtc": "2025-09-14 17:00:00Z",
+    "Location": "Caesars Superdome",
+    "HomeTeam": "New Orleans Saints",
+    "AwayTeam": "San Francisco 49ers",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 46,
+    "RoundNumber": 3,
+    "DateUtc": "2025-09-21 20:25:00Z",
+    "Location": "Levi's Stadium",
+    "HomeTeam": "San Francisco 49ers",
+    "AwayTeam": "Arizona Cardinals",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 59,
+    "RoundNumber": 4,
+    "DateUtc": "2025-09-28 20:05:00Z",
+    "Location": "Levi's Stadium",
+    "HomeTeam": "San Francisco 49ers",
+    "AwayTeam": "Jacksonville Jaguars",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 65,
+    "RoundNumber": 5,
+    "DateUtc": "2025-10-03 00:15:00Z",
+    "Location": "SoFi Stadium",
+    "HomeTeam": "Los Angeles Rams",
+    "AwayTeam": "San Francisco 49ers",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 87,
+    "RoundNumber": 6,
+    "DateUtc": "2025-10-12 17:00:00Z",
+    "Location": "Raymond James Stadium",
+    "HomeTeam": "Tampa Bay Buccaneers",
+    "AwayTeam": "San Francisco 49ers",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 106,
+    "RoundNumber": 7,
+    "DateUtc": "2025-10-20 00:20:00Z",
+    "Location": "Levi's Stadium",
+    "HomeTeam": "San Francisco 49ers",
+    "AwayTeam": "Atlanta Falcons",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 114,
+    "RoundNumber": 8,
+    "DateUtc": "2025-10-26 17:00:00Z",
+    "Location": "NRG Stadium",
+    "HomeTeam": "Houston Texans",
+    "AwayTeam": "San Francisco 49ers",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 128,
+    "RoundNumber": 9,
+    "DateUtc": "2025-11-02 18:00:00Z",
+    "Location": "MetLife Stadium",
+    "HomeTeam": "New York Giants",
+    "AwayTeam": "San Francisco 49ers",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 146,
+    "RoundNumber": 10,
+    "DateUtc": "2025-11-09 21:25:00Z",
+    "Location": "Levi's Stadium",
+    "HomeTeam": "San Francisco 49ers",
+    "AwayTeam": "Los Angeles Rams",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 159,
+    "RoundNumber": 11,
+    "DateUtc": "2025-11-16 21:05:00Z",
+    "Location": "State Farm Stadium",
+    "HomeTeam": "Arizona Cardinals",
+    "AwayTeam": "San Francisco 49ers",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 178,
+    "RoundNumber": 12,
+    "DateUtc": "2025-11-25 01:15:00Z",
+    "Location": "Levi's Stadium",
+    "HomeTeam": "San Francisco 49ers",
+    "AwayTeam": "Carolina Panthers",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 184,
+    "RoundNumber": 13,
+    "DateUtc": "2025-11-30 18:00:00Z",
+    "Location": "Huntington Bank Field",
+    "HomeTeam": "Cleveland Browns",
+    "AwayTeam": "San Francisco 49ers",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 222,
+    "RoundNumber": 15,
+    "DateUtc": "2025-12-14 21:25:00Z",
+    "Location": "Levi's Stadium",
+    "HomeTeam": "San Francisco 49ers",
+    "AwayTeam": "Tennessee Titans",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 240,
+    "RoundNumber": 16,
+    "DateUtc": "2025-12-23 01:15:00Z",
+    "Location": "Lucas Oil Stadium",
+    "HomeTeam": "Indianapolis Colts",
+    "AwayTeam": "San Francisco 49ers",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 250,
+    "RoundNumber": 17,
+    "DateUtc": "2025-12-29 01:20:00Z",
+    "Location": "Levi's Stadium",
+    "HomeTeam": "San Francisco 49ers",
+    "AwayTeam": "Chicago Bears",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 271,
+    "RoundNumber": 18,
+    "DateUtc": "2026-01-05 00:00:00Z",
+    "Location": "Levi's Stadium",
+    "HomeTeam": "San Francisco 49ers",
+    "AwayTeam": "Seattle Seahawks",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  }
+]

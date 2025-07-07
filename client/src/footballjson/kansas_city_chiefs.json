@@ -1,0 +1,192 @@
+[
+  {
+    "team": "Kansas City Chiefs"
+  },
+  {
+    "MatchNumber": 2,
+    "RoundNumber": 1,
+    "DateUtc": "2025-09-06 00:00:00Z",
+    "Location": "Arena Corinthians",
+    "HomeTeam": "Los Angeles Chargers",
+    "AwayTeam": "Kansas City Chiefs",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 29,
+    "RoundNumber": 2,
+    "DateUtc": "2025-09-14 20:25:00Z",
+    "Location": "GEHA Field at Arrowhead Stadium",
+    "HomeTeam": "Kansas City Chiefs",
+    "AwayTeam": "Philadelphia Eagles",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 47,
+    "RoundNumber": 3,
+    "DateUtc": "2025-09-22 00:20:00Z",
+    "Location": "MetLife Stadium",
+    "HomeTeam": "New York Giants",
+    "AwayTeam": "Kansas City Chiefs",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 60,
+    "RoundNumber": 4,
+    "DateUtc": "2025-09-28 20:25:00Z",
+    "Location": "GEHA Field at Arrowhead Stadium",
+    "HomeTeam": "Kansas City Chiefs",
+    "AwayTeam": "Baltimore Ravens",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 78,
+    "RoundNumber": 5,
+    "DateUtc": "2025-10-07 00:15:00Z",
+    "Location": "EverBank Stadium",
+    "HomeTeam": "Jacksonville Jaguars",
+    "AwayTeam": "Kansas City Chiefs",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 91,
+    "RoundNumber": 6,
+    "DateUtc": "2025-10-13 00:20:00Z",
+    "Location": "GEHA Field at Arrowhead Stadium",
+    "HomeTeam": "Kansas City Chiefs",
+    "AwayTeam": "Detroit Lions",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 98,
+    "RoundNumber": 7,
+    "DateUtc": "2025-10-19 17:00:00Z",
+    "Location": "GEHA Field at Arrowhead Stadium",
+    "HomeTeam": "Kansas City Chiefs",
+    "AwayTeam": "Las Vegas Raiders",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 121,
+    "RoundNumber": 8,
+    "DateUtc": "2025-10-28 00:15:00Z",
+    "Location": "GEHA Field at Arrowhead Stadium",
+    "HomeTeam": "Kansas City Chiefs",
+    "AwayTeam": "Washington Commanders",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 133,
+    "RoundNumber": 9,
+    "DateUtc": "2025-11-02 21:25:00Z",
+    "Location": "Highmark Stadium",
+    "HomeTeam": "Buffalo Bills",
+    "AwayTeam": "Kansas City Chiefs",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 162,
+    "RoundNumber": 11,
+    "DateUtc": "2025-11-16 21:25:00Z",
+    "Location": "Empower Field at Mile High",
+    "HomeTeam": "Denver Broncos",
+    "AwayTeam": "Kansas City Chiefs",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 171,
+    "RoundNumber": 12,
+    "DateUtc": "2025-11-23 18:00:00Z",
+    "Location": "GEHA Field at Arrowhead Stadium",
+    "HomeTeam": "Kansas City Chiefs",
+    "AwayTeam": "Indianapolis Colts",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 180,
+    "RoundNumber": 13,
+    "DateUtc": "2025-11-27 21:30:00Z",
+    "Location": "AT&T Stadium",
+    "HomeTeam": "Dallas Cowboys",
+    "AwayTeam": "Kansas City Chiefs",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 207,
+    "RoundNumber": 14,
+    "DateUtc": "2025-12-08 01:20:00Z",
+    "Location": "GEHA Field at Arrowhead Stadium",
+    "HomeTeam": "Kansas City Chiefs",
+    "AwayTeam": "Houston Texans",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 214,
+    "RoundNumber": 15,
+    "DateUtc": "2025-12-14 18:00:00Z",
+    "Location": "GEHA Field at Arrowhead Stadium",
+    "HomeTeam": "Kansas City Chiefs",
+    "AwayTeam": "Los Angeles Chargers",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 234,
+    "RoundNumber": 16,
+    "DateUtc": "2025-12-21 18:00:00Z",
+    "Location": "Nissan Stadium",
+    "HomeTeam": "Tennessee Titans",
+    "AwayTeam": "Kansas City Chiefs",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 243,
+    "RoundNumber": 17,
+    "DateUtc": "2025-12-26 01:15:00Z",
+    "Location": "GEHA Field at Arrowhead Stadium",
+    "HomeTeam": "Kansas City Chiefs",
+    "AwayTeam": "Denver Broncos",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 265,
+    "RoundNumber": 18,
+    "DateUtc": "2026-01-05 00:00:00Z",
+    "Location": "Allegiant Stadium",
+    "HomeTeam": "Las Vegas Raiders",
+    "AwayTeam": "Kansas City Chiefs",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  }
+]

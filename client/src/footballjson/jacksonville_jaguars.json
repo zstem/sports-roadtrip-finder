@@ -1,0 +1,192 @@
+[
+  {
+    "team": "Jacksonville Jaguars"
+  },
+  {
+    "MatchNumber": 6,
+    "RoundNumber": 1,
+    "DateUtc": "2025-09-07 17:00:00Z",
+    "Location": "EverBank Stadium",
+    "HomeTeam": "Jacksonville Jaguars",
+    "AwayTeam": "Carolina Panthers",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 19,
+    "RoundNumber": 2,
+    "DateUtc": "2025-09-14 17:00:00Z",
+    "Location": "Paycor Stadium",
+    "HomeTeam": "Cincinnati Bengals",
+    "AwayTeam": "Jacksonville Jaguars",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 36,
+    "RoundNumber": 3,
+    "DateUtc": "2025-09-21 17:00:00Z",
+    "Location": "EverBank Stadium",
+    "HomeTeam": "Jacksonville Jaguars",
+    "AwayTeam": "Houston Texans",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 59,
+    "RoundNumber": 4,
+    "DateUtc": "2025-09-28 20:05:00Z",
+    "Location": "Levi's Stadium",
+    "HomeTeam": "San Francisco 49ers",
+    "AwayTeam": "Jacksonville Jaguars",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 78,
+    "RoundNumber": 5,
+    "DateUtc": "2025-10-07 00:15:00Z",
+    "Location": "EverBank Stadium",
+    "HomeTeam": "Jacksonville Jaguars",
+    "AwayTeam": "Kansas City Chiefs",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 84,
+    "RoundNumber": 6,
+    "DateUtc": "2025-10-12 17:00:00Z",
+    "Location": "EverBank Stadium",
+    "HomeTeam": "Jacksonville Jaguars",
+    "AwayTeam": "Seattle Seahawks",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 95,
+    "RoundNumber": 7,
+    "DateUtc": "2025-10-19 13:30:00Z",
+    "Location": "Wembley Stadium",
+    "HomeTeam": "Jacksonville Jaguars",
+    "AwayTeam": "Los Angeles Rams",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 132,
+    "RoundNumber": 9,
+    "DateUtc": "2025-11-02 21:05:00Z",
+    "Location": "Allegiant Stadium",
+    "HomeTeam": "Las Vegas Raiders",
+    "AwayTeam": "Jacksonville Jaguars",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 140,
+    "RoundNumber": 10,
+    "DateUtc": "2025-11-09 18:00:00Z",
+    "Location": "NRG Stadium",
+    "HomeTeam": "Houston Texans",
+    "AwayTeam": "Jacksonville Jaguars",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 154,
+    "RoundNumber": 11,
+    "DateUtc": "2025-11-16 18:00:00Z",
+    "Location": "EverBank Stadium",
+    "HomeTeam": "Jacksonville Jaguars",
+    "AwayTeam": "Los Angeles Chargers",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 173,
+    "RoundNumber": 12,
+    "DateUtc": "2025-11-23 21:05:00Z",
+    "Location": "State Farm Stadium",
+    "HomeTeam": "Arizona Cardinals",
+    "AwayTeam": "Jacksonville Jaguars",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 189,
+    "RoundNumber": 13,
+    "DateUtc": "2025-11-30 18:00:00Z",
+    "Location": "Nissan Stadium",
+    "HomeTeam": "Tennessee Titans",
+    "AwayTeam": "Jacksonville Jaguars",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 200,
+    "RoundNumber": 14,
+    "DateUtc": "2025-12-07 18:00:00Z",
+    "Location": "EverBank Stadium",
+    "HomeTeam": "Jacksonville Jaguars",
+    "AwayTeam": "Indianapolis Colts",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 213,
+    "RoundNumber": 15,
+    "DateUtc": "2025-12-14 18:00:00Z",
+    "Location": "EverBank Stadium",
+    "HomeTeam": "Jacksonville Jaguars",
+    "AwayTeam": "New York Jets",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 236,
+    "RoundNumber": 16,
+    "DateUtc": "2025-12-21 21:05:00Z",
+    "Location": "Empower Field at Mile High",
+    "HomeTeam": "Denver Broncos",
+    "AwayTeam": "Jacksonville Jaguars",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 245,
+    "RoundNumber": 17,
+    "DateUtc": "2025-12-28 18:00:00Z",
+    "Location": "Lucas Oil Stadium",
+    "HomeTeam": "Indianapolis Colts",
+    "AwayTeam": "Jacksonville Jaguars",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 263,
+    "RoundNumber": 18,
+    "DateUtc": "2026-01-05 00:00:00Z",
+    "Location": "EverBank Stadium",
+    "HomeTeam": "Jacksonville Jaguars",
+    "AwayTeam": "Tennessee Titans",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  }
+]

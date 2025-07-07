@@ -1,0 +1,192 @@
+[
+  {
+    "team": "Denver Broncos"
+  },
+  {
+    "MatchNumber": 11,
+    "RoundNumber": 1,
+    "DateUtc": "2025-09-07 20:05:00Z",
+    "Location": "Empower Field at Mile High",
+    "HomeTeam": "Denver Broncos",
+    "AwayTeam": "Tennessee Titans",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 28,
+    "RoundNumber": 2,
+    "DateUtc": "2025-09-14 20:05:00Z",
+    "Location": "Lucas Oil Stadium",
+    "HomeTeam": "Indianapolis Colts",
+    "AwayTeam": "Denver Broncos",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 43,
+    "RoundNumber": 3,
+    "DateUtc": "2025-09-21 20:05:00Z",
+    "Location": "SoFi Stadium",
+    "HomeTeam": "Los Angeles Chargers",
+    "AwayTeam": "Denver Broncos",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 64,
+    "RoundNumber": 4,
+    "DateUtc": "2025-09-30 00:15:00Z",
+    "Location": "Empower Field at Mile High",
+    "HomeTeam": "Denver Broncos",
+    "AwayTeam": "Cincinnati Bengals",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 72,
+    "RoundNumber": 5,
+    "DateUtc": "2025-10-05 17:00:00Z",
+    "Location": "Lincoln Financial Field",
+    "HomeTeam": "Philadelphia Eagles",
+    "AwayTeam": "Denver Broncos",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 80,
+    "RoundNumber": 6,
+    "DateUtc": "2025-10-12 13:30:00Z",
+    "Location": "Tottenham Hotspur Stadium",
+    "HomeTeam": "New York Jets",
+    "AwayTeam": "Denver Broncos",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 102,
+    "RoundNumber": 7,
+    "DateUtc": "2025-10-19 20:05:00Z",
+    "Location": "Empower Field at Mile High",
+    "HomeTeam": "Denver Broncos",
+    "AwayTeam": "New York Giants",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 118,
+    "RoundNumber": 8,
+    "DateUtc": "2025-10-26 20:25:00Z",
+    "Location": "Empower Field at Mile High",
+    "HomeTeam": "Denver Broncos",
+    "AwayTeam": "Dallas Cowboys",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 126,
+    "RoundNumber": 9,
+    "DateUtc": "2025-11-02 18:00:00Z",
+    "Location": "NRG Stadium",
+    "HomeTeam": "Houston Texans",
+    "AwayTeam": "Denver Broncos",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 136,
+    "RoundNumber": 10,
+    "DateUtc": "2025-11-07 01:15:00Z",
+    "Location": "Empower Field at Mile High",
+    "HomeTeam": "Denver Broncos",
+    "AwayTeam": "Las Vegas Raiders",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 162,
+    "RoundNumber": 11,
+    "DateUtc": "2025-11-16 21:25:00Z",
+    "Location": "Empower Field at Mile High",
+    "HomeTeam": "Denver Broncos",
+    "AwayTeam": "Kansas City Chiefs",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 193,
+    "RoundNumber": 13,
+    "DateUtc": "2025-12-01 01:20:00Z",
+    "Location": "Northwest Stadium",
+    "HomeTeam": "Washington Commanders",
+    "AwayTeam": "Denver Broncos",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 204,
+    "RoundNumber": 14,
+    "DateUtc": "2025-12-07 21:05:00Z",
+    "Location": "Allegiant Stadium",
+    "HomeTeam": "Las Vegas Raiders",
+    "AwayTeam": "Denver Broncos",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 218,
+    "RoundNumber": 15,
+    "DateUtc": "2025-12-14 21:25:00Z",
+    "Location": "Empower Field at Mile High",
+    "HomeTeam": "Denver Broncos",
+    "AwayTeam": "Green Bay Packers",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 236,
+    "RoundNumber": 16,
+    "DateUtc": "2025-12-21 21:05:00Z",
+    "Location": "Empower Field at Mile High",
+    "HomeTeam": "Denver Broncos",
+    "AwayTeam": "Jacksonville Jaguars",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 243,
+    "RoundNumber": 17,
+    "DateUtc": "2025-12-26 01:15:00Z",
+    "Location": "GEHA Field at Arrowhead Stadium",
+    "HomeTeam": "Kansas City Chiefs",
+    "AwayTeam": "Denver Broncos",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  },
+  {
+    "MatchNumber": 261,
+    "RoundNumber": 18,
+    "DateUtc": "2026-01-05 00:00:00Z",
+    "Location": "Empower Field at Mile High",
+    "HomeTeam": "Denver Broncos",
+    "AwayTeam": "Los Angeles Chargers",
+    "Group": null,
+    "HomeTeamScore": null,
+    "AwayTeamScore": null
+  }
+]
