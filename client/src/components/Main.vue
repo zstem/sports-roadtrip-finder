@@ -5,6 +5,39 @@ import baseballTeamInfo from '../baseballjson/baseballTeamInfo.json';
 import hockeyTeamInfo from '../hockeyjson/hockeyTeamInfo.json';
 import footballTeamInfo from '../footballjson/footballTeamInfo.json';
 import basketballTeamInfo from '../basketballjson/basketballTeamInfo.json';
+import logo from '../assets/srtf_logo.png';
+import logo_off from '../assets/srtf_logo.svg';
+
+import arizona_diamondbacks_pic from '../assets/arizona_diamondbacks.png';
+import atlanta_braves_pic from '../assets/atlanta_braves.png';
+import baltimore_orioles_pic from '../assets/baltimore_orioles.png';
+import boston_red_sox_pic from '../assets/boston_red_sox.png';
+import chicago_cubs_pic from '../assets/chicago_cubs.png';
+import chicago_white_sox_pic from '../assets/chicago_white_sox.png';
+import cincinnati_reds_pic from '../assets/cincinatti_reds.png';
+import cleveland_guardians_pic from '../assets/cleveland_guardians.png';
+import colorado_rockies_pic from '../assets/colorado_rockies.png';
+import detroit_tigers_pic from '../assets/detroit_tigers.png';
+import houston_astros_pic from '../assets/houston_astros.png';
+import kansas_city_royals_pic from '../assets/kansas_city_royals.png';
+import los_angeles_angels_pic from '../assets/los_angeles_angels.png';
+import los_angeles_dodgers_pic from '../assets/los_angeles_dodgers.png';
+import miami_marlins_pic from '../assets/miami_marlins.png';
+import milwaukee_brewers_pic from '../assets/milwaukee_brewers.png';
+import minnesota_twins_pic from '../assets/minnesota_twins.png';
+import new_york_mets_pic from '../assets/new_york_mets.png';
+import new_york_yankees_pic from '../assets/new_york_yankees.png';
+import athletics_pic from '../assets/athletics.png';
+import philadelphia_phillies_pic from '../assets/philidelphia_phillies.png';
+import pittsburgh_pirates_pic from '../assets/pittsburgh_pirates.png';
+import san_diego_padres_pic from '../assets/san_diego_padres.png';
+import san_francisco_giants_pic from '../assets/san_fransisco_giants.png';
+import seattle_mariners_pic from '../assets/seattle_mariners.png';
+import st_louis_cardinals_pic from '../assets/st_louis_cardinals.png';
+import tampa_bay_rays_pic from '../assets/tampa_bay_rays.png';
+import texas_rangers_pic from '../assets/texas_rangers.png';
+import toronto_blue_jays_pic from '../assets/toronto_blue_jays.png';
+import washington_nationals_pic from '../assets/washington_nationals.png';
 
 const awaySeries = ref([{}]);
 
@@ -27,6 +60,39 @@ const basketballTeamsList = ref([]);
 const sportsList = ref(['Basketball', 'Baseball', 'Football', 'Hockey']);
 
 var displayNameDictionary = {};
+
+const baseballTeamsImages = {
+  arizona_diamondbacks: arizona_diamondbacks_pic,
+  atlanta_braves: atlanta_braves_pic,
+  baltimore_orioles: baltimore_orioles_pic,
+  boston_red_sox: boston_red_sox_pic,
+  chicago_cubs: chicago_cubs_pic,
+  chicago_white_sox: chicago_white_sox_pic,
+  cincinnati_reds: cincinnati_reds_pic,
+  cleveland_guardians: cleveland_guardians_pic,
+  colorado_rockies: colorado_rockies_pic,
+  detroit_tigers: detroit_tigers_pic,
+  houston_astros: houston_astros_pic,
+  kansas_city_royals: kansas_city_royals_pic,
+  los_angeles_angels: los_angeles_angels_pic,
+  los_angeles_dodgers: los_angeles_dodgers_pic,
+  miami_marlins: miami_marlins_pic,
+  milwaukee_brewers: milwaukee_brewers_pic,
+  minnesota_twins: minnesota_twins_pic,
+  new_york_mets: new_york_mets_pic,
+  new_york_yankees: new_york_yankees_pic,
+  athletics: athletics_pic,
+  philadelphia_phillies: philadelphia_phillies_pic,
+  pittsburgh_pirates: pittsburgh_pirates_pic,
+  san_diego_padres: san_diego_padres_pic,
+  san_francisco_giants: san_francisco_giants_pic,
+  seattle_mariners: seattle_mariners_pic,
+  st_louis_cardinals: st_louis_cardinals_pic,
+  tampa_bay_rays: tampa_bay_rays_pic,
+  texas_rangers: texas_rangers_pic,
+  toronto_blue_jays: toronto_blue_jays_pic,
+  washington_nationals: washington_nationals_pic,
+};
 
 
 /* 
@@ -142,7 +208,8 @@ function setupBaseballTeamLocationDictionary() {
     baseballTeamsList.value[i] = {
       displayName: baseballTeamInfo.teams[i].team.displayName,
       name: baseballTeamInfo.teams[i].team.name,
-      division: baseballTeamInfo.teams[i].division
+      division: baseballTeamInfo.teams[i].division,
+      image: baseballTeamInfo.teams[i].image
     };
     baseballTeamsList.value = baseballTeamsList.value.sort((a, b) => {
       return a.division < b.division;
@@ -278,8 +345,9 @@ function findStartingPoints() {
 }
 </script>
 <template>
+  <img :src="logo">
   <h3 class="flex justify-evenly mb-5">Pick a Sport</h3>
-  <div class="sports-form yycolumns-4 mb-5 gap-20 flex justify-evenly">
+  <div class="sports-form columns-4 mb-5 gap-20 flex justify-evenly">
     <div v-for="sport in sportsList" :key="sport">
       <button class="button-standard bg-blue-500 hover:bg-blue-700 text-white font-bold p-5" @click="initSport(sport)">
         {{ sport }}
@@ -288,24 +356,25 @@ function findStartingPoints() {
   </div>
   <h3 v-if="selectedSport !== ''" class="flex justify-evenly mb-5">Pick a Team</h3>
   <div class="baseball-form columns-6" v-if="selectedSport === 'Baseball'">
-    <div class="" v-for="team in baseballTeamsList" :key="baseballTeamsList">
-      <button class="button-standard bg-blue-500 hover:bg-blue-700 text-white font-bold p-1 mt-2"
+    <div class="" v-for="team in baseballTeamsList" :key="team.name">
+      <button class="button-standard-team bg-blue-500 hover:bg-blue-700 text-white font-bold p-2 mb-2"
         @click="changeSelectedTeam(team.name, 'baseball')">
+        <img :src="baseballTeamsImages[team.name]" class="image-button">
         {{ team.displayName }}
       </button>
     </div>
   </div>
-  <div class="hockey-form columns-8 gap-20" v-if="selectedSport === 'Hockey'">
+  <div class="hockey-form columns-6 gap-20" v-if="selectedSport === 'Hockey'">
     <div v-for="team2 in hockeyTeamsList" :key="hockeyTeamsList">
-      <button class="button-standard bg-blue-500 hover:bg-blue-700 text-white font-bold p-1 mt-2"
+      <button class="button-standard-team bg-blue-500 hover:bg-blue-700 text-white font-bold p-1 mb-2"
         @click="changeSelectedTeam(team2.name, 'hockey')">
         {{ team2.displayName }}
       </button>
     </div>
   </div>
-  <div class="football-form columns-8 gap-20" v-if="selectedSport === 'Football'">
+  <div class="football-form columns-6" v-if="selectedSport === 'Football'">
     <div v-for="team3 in footballTeamsList" :key="team3.name">
-      <button class="button-standard bg-blue-500 hover:bg-blue-700 text-white font-bold p-1 mr-4 mt-2"
+      <button class="button-standard-team bg-blue-500 hover:bg-blue-700 text-white font-bold p-1 mb-2"
         @click="changeSelectedTeam(team3.name, 'football')">
         {{ team3.displayName }}
       </button>
@@ -313,7 +382,7 @@ function findStartingPoints() {
   </div>
   <div class="basketball-form columns-6 gap-20" v-if="selectedSport === 'Basketball'">
     <div v-for="team4 in basketballTeamsList" :key="team4.name">
-      <button class="button-standard bg-blue-500 hover:bg-blue-700 text-white font-bold p-1 mr-4 mt-2"
+      <button class="button-standard-team bg-blue-500 hover:bg-blue-700 text-white font-bold p-1 mb-2"
         @click="changeSelectedTeam(team4.name, 'basketball')">
         {{ team4.displayName }}
       </button>
@@ -344,8 +413,43 @@ function findStartingPoints() {
   height: 70px;
   border-bottom: 0.3rem;
   border-radius: 10px;
-  border-color: rgb(39, 39, 168);
-  border-style: solid;
+  border: 2px solid rgb(39, 39, 168);
+  background: linear-gradient(145deg, #1d1d2b, #23233a); /* dark gradient */
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.button-standard-team {
+  width: 190px;
+  height: 60px;
+  gap: 0px;  
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  border-bottom: 0.3rem;
+  border-radius: 10px;
+  border: 2px solid rgb(39, 39, 168);
+  background: linear-gradient(145deg, #1d1d2b, #23233a); /* dark gradient */
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.button-standard-team img {
+  width: 75px;
+  min-width: 75px;
+  height: auto;
+  
+}
+
+.button-standard:hover {
+  background: linear-gradient(145deg, #2a2a40, #1d1d2b);
+  transform: translateY(-2px);
 }
 
 main {
@@ -353,17 +457,20 @@ main {
 
 }
 
-h1 {
-  font-weight: 500;
-  font-size: 2.6rem;
-  top: -10px;
-}
+
 
 h3 {
   font-size: 1.2rem;
+  color: white;
 }
 
 .main-child {
   min-height: 300px;
+  width: 1200px;
+}
+
+.image-button {
+  
+  margin-right: 0px;
 }
 </style>
