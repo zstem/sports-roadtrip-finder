@@ -302,6 +302,7 @@ const basketballTeamsImages = {
 TODO:
 - Make a form-like UI for user to quickly get what they want.
 - Improve UI with team pictures, animations etc.
+- Improve mobile UI.
 */
 
 
@@ -313,11 +314,11 @@ async function initSport(sport) {
       setupBaseballTeamLocationDictionary();
       if (window.localStorage.getItem('selectedBaseballTeam') !== null) {
         let res = await axios.get(
-          'http://localhost:8888/' + window.localStorage.getItem('selectedBaseballTeam')
+          'https://sports-roadtrip-finder.vercel.app/' + window.localStorage.getItem('selectedBaseballTeam')
         );
         selectedTeam.value = res.data;
       } else {
-        let res = await axios.get('http://localhost:8888/toronto_blue_jays');
+        let res = await axios.get('https://sports-roadtrip-finder.vercel.app/toronto_blue_jays');
         selectedTeam.value = res.data;
         window.localStorage.setItem('selectedTeamName', 'toronto_blue_jays');
       }
@@ -329,11 +330,11 @@ async function initSport(sport) {
       setupHockeyTeamLocationDictionary();
       if (window.localStorage.getItem('selectedHockeyTeam') !== null) {
         let res = await axios.get(
-          'http://localhost:8888/' + window.localStorage.getItem('selectedHockeyTeam')
+          'https://sports-roadtrip-finder.vercel.app/' + window.localStorage.getItem('selectedHockeyTeam')
         );
         selectedTeam.value = res.data;
       } else {
-        let res = await axios.get('http://localhost:8888/toronto_maple_leafs');
+        let res = await axios.get('https://sports-roadtrip-finder.vercel.app/toronto_maple_leafs');
         selectedTeam.value = res.data;
         window.localStorage.setItem('selectedTeamName', 'toronto_maple_leafs');
       }
@@ -345,11 +346,11 @@ async function initSport(sport) {
       setupFootballTeamLocationDictionary();
       if (window.localStorage.getItem('selectedFootballTeam') !== null) {
         let res = await axios.get(
-          'http://localhost:8888/' + window.localStorage.getItem('selectedFootballTeam')
+          'https://sports-roadtrip-finder.vercel.app/' + window.localStorage.getItem('selectedFootballTeam')
         );
         selectedTeam.value = res.data;
       } else {
-        let res = await axios.get('http://localhost:8888/arizona_cardinals');
+        let res = await axios.get('https://sports-roadtrip-finder.vercel.app/arizona_cardinals');
         selectedTeam.value = res.data;
         window.localStorage.setItem('selectedTeamName', 'dallas_cowboys');
       }
@@ -361,11 +362,11 @@ async function initSport(sport) {
       setupBasketballTeamLocationDictionary();
       if (window.localStorage.getItem('selectedBasketballTeam') !== null) {
         let res = await axios.get(
-          'http://localhost:8888/' + window.localStorage.getItem('selectedBasketballTeam')
+          'https://sports-roadtrip-finder.vercel.app/' + window.localStorage.getItem('selectedBasketballTeam')
         );
         selectedTeam.value = res.data;
       } else {
-        let res = await axios.get('http://localhost:8888/toronto_raptors');
+        let res = await axios.get('https://sports-roadtrip-finder.vercel.app/toronto_raptors');
         selectedTeam.value = res.data;
         window.localStorage.setItem('selectedTeamName', 'toronto_raptors');
       }
@@ -473,7 +474,7 @@ function setupBasketballTeamLocationDictionary() {
 
 async function changeSelectedTeam(team, sport) {
   startingPoints.value = [{}];
-  let res = await axios.get('http://localhost:8888/' + team);
+  let res = await axios.get('https://sports-roadtrip-finder.vercel.app/' + team);
   selectedTeam.value = res.data;
   saveAwayGamesOnly();
   window.localStorage.setItem('selectedTeamName', team);
