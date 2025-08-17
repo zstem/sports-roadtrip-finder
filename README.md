@@ -2,6 +2,12 @@
 
 https://sports-roadtrip-finder.netlify.app/
 
+TODO:
+- Make a form-like UI for user to quickly get what they want.
+- Improve UI with team pictures, animations etc.
+- Improve mobile UI.
+  
+
 This web app is for sports fans looking to complete a roadtrip and visit their favourite team along the way.
 
 This template should help get you started developing with Vue 3 in Vite.
