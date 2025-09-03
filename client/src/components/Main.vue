@@ -297,14 +297,11 @@ const basketballTeamsImages = {
   washington_wizards: washington_wizards_pic,
 };
 
-
 /* 
 TODO:
-- Make a form-like UI for user to quickly get what they want.
-- Improve UI with team pictures, animations etc.
-- Improve mobile UI.
+- Improve trip UI
+- Light and Dark Mode
 */
-
 
 async function initSport(sport) {
   selectedSport.value = sport;
@@ -553,7 +550,8 @@ function findStartingPoints() {
   <h3 class="flex justify-evenly mb-5">Pick a Sport</h3>
   <div class="sports-form grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 xl:grid-cols-4 gap-4">
     <div class="flex justify-center" v-for="sport in sportsList" :key="sport">
-      <button class="button-standard bg-blue-500 hover:bg-blue-700 text-white font-bold p-5" @click="initSport(sport)">
+      <button :class="selectedSport === sport ? 'selected-sport' : ''"
+        class="button-standard bg-blue-500 hover:bg-blue-700 text-white font-bold p-5" @click="initSport(sport)">
         {{ sport }}
       </button>
     </div>
@@ -654,6 +652,13 @@ function findStartingPoints() {
   transition: all .4s ease-in-out;
 }
 
+.selected-sport {
+  background-position: 100% 0;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
 .button-standard-team {
   width: 190px;
   height: 60px;
@@ -719,8 +724,6 @@ main {
   display: flex;
 
 }
-
-
 
 h3 {
   font-size: 1.2rem;
