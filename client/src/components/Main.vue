@@ -628,7 +628,6 @@ function findStartingPoints() {
   border-bottom: 0.3rem;
   border-radius: 10px;
   border: 2px solid rgb(39, 39, 168);
-  /* dark gradient */
   color: white;
   font-weight: bold;
   cursor: pointer;
