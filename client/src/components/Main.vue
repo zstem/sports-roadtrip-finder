@@ -628,13 +628,31 @@ function findStartingPoints() {
   border-bottom: 0.3rem;
   border-radius: 10px;
   border: 2px solid rgb(39, 39, 168);
-  background: linear-gradient(145deg, #1d1d2b, #23233a);
   /* dark gradient */
   color: white;
   font-weight: bold;
   cursor: pointer;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-  transition: all 0.3s ease;
+  background-size: 300% 100%;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  background-image: linear-gradient(to right, #1b2128, #262d34, #142530, #012298);
+  box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+
+}
+
+.button-standard:hover {
+  background-position: 100% 0;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.button-standard:focus {
+  background-position: 100% 0;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
 }
 
 .button-standard-team {
@@ -646,16 +664,29 @@ function findStartingPoints() {
   border-bottom: 0.3rem;
   border-radius: 10px;
   border: 2px solid rgb(39, 39, 168);
-  background: linear-gradient(145deg, #1d1d2b, #23233a);
   color: white;
   font-weight: bold;
   cursor: pointer;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-  transition: all 0.3s ease;
+  background-size: 300% 100%;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  background-image: linear-gradient(to right, #1b2128, #262d34, #142530, #012298);
+  box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
 }
 
-.button-no-text-team {
-  font-display: none;
+.button-standard-team:hover {
+  background-position: 100% 0;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.button-standard-team:focus {
+  background-position: 100% 0;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
 }
 
 .button-standard-team img {
@@ -683,11 +714,6 @@ function findStartingPoints() {
 .button-standard-team-hockey img {
   max-height: 80px;
   max-width: 70px;
-}
-
-.button-standard:hover {
-  background: linear-gradient(145deg, #2a2a40, #1d1d2b);
-  transform: translateY(-2px);
 }
 
 main {
