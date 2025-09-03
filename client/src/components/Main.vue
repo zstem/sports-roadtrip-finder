@@ -551,55 +551,55 @@ function findStartingPoints() {
 <template>
   <img :src="logo">
   <h3 class="flex justify-evenly mb-5">Pick a Sport</h3>
-  <div class="sports-form columns-1 sm:columns-2 md:columns-3 lg:columns-4 xl:columns-4">
-    <div v-for="sport in sportsList" :key="sport">
+  <div class="sports-form grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 xl:grid-cols-4 gap-4">
+    <div class="flex justify-center" v-for="sport in sportsList" :key="sport">
       <button class="button-standard bg-blue-500 hover:bg-blue-700 text-white font-bold p-5" @click="initSport(sport)">
         {{ sport }}
       </button>
     </div>
   </div>
   <h3 v-if="selectedSport !== ''" class="flex justify-evenly mb-5">Pick a Team</h3>
-  <div class="baseball-form grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-6 gap-4 "
+  <div class="baseball-form grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5 gap-4"
     v-if="selectedSport === 'Baseball'">
-    <div class=" flex justify-center" v-for="team in baseballTeamsList" :key="team.name">
+    <div class="flex justify-center" v-for="team in baseballTeamsList" :key="team.name">
       <button
         class="button-standard-team button-standard-team-baseball bg-blue-500 hover:bg-blue-700 text-white font-bold p-2 mb-2"
         @click="changeSelectedTeam(team.name, 'baseball')">
         <img :src="baseballTeamsImages[team.name]" class="image-button">
-        <h4>{{ team.displayName }}</h4>
+        <h4 class="hidden sm:inline">{{ team.displayName }}</h4>
       </button>
     </div>
   </div>
-  <div class="hockey-form columns-1 sm:columns-2 md:columns-3 lg:columns-4 xl:columns-6  gap-20"
+  <div class="hockey-form grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-6 gap-4"
     v-if="selectedSport === 'Hockey'">
-    <div v-for="team2 in hockeyTeamsList" :key="hockeyTeamsList">
+    <div class="flex justify-center" v-for="team2 in hockeyTeamsList" :key="hockeyTeamsList">
       <button
-        class="button-standard-team button-standard-team-hockey bg-blue-500 hover:bg-blue-700 text-white font-bold p-1 mb-2"
+        class="button-standard-team button-standard-team-hockey sm:bg-blue-500 hover:bg-blue-700 text-white font-bold p-1 mb-2"
         @click="changeSelectedTeam(team2.name, 'hockey')">
         <img :src="hockeyTeamsImages[team2.name]" class="image-button">
-        <h4>{{ team2.displayName }}</h4>
+        <h4 class="hidden sm:inline">{{ team2.displayName }}</h4>
       </button>
     </div>
   </div>
-  <div class="football-form columns-1 sm:columns-2 md:columns-3 lg:columns-4 xl:columns-6 "
+  <div class="football-form grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 xl:grid-cols-6 gap-4"
     v-if="selectedSport === 'Football'">
-    <div v-for="team3 in footballTeamsList" :key="team3.name">
+    <div class="flex justify-center" v-for="team3 in footballTeamsList" :key="team3.name">
       <button
         class="button-standard-team button-standard-team-football bg-blue-500 hover:bg-blue-700 text-white font-bold p-1 mb-2"
         @click="changeSelectedTeam(team3.name, 'football')">
         <img :src="footballTeamsImages[team3.name]" class="image-button">
-        <h4>{{ team3.displayName }}</h4>
+        <h4 class="hidden sm:inline">{{ team3.displayName }}</h4>
       </button>
     </div>
   </div>
-  <div class="basketball-form columns-1 sm:columns-2 md:columns-3 lg:columns-4 xl:columns-6 gap-20"
+  <div class="basketball-form grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 xl:grid-cols-6 gap-4"
     v-if="selectedSport === 'Basketball'">
-    <div v-for="team4 in basketballTeamsList" :key="team4.name">
+    <div class="flex justify-center" v-for="team4 in basketballTeamsList" :key="team4.name">
       <button
         class="button-standard-team button-standard-team-basketball bg-blue-500 hover:bg-blue-700 text-white font-bold p-1 mb-2"
         @click="changeSelectedTeam(team4.name, 'basketball')">
         <img :src="basketballTeamsImages[team4.name]" class="image-button">
-        <h4>{{ team4.displayName }} </h4>
+        <h4 class="hidden sm:inline">{{ team4.displayName }} </h4>
       </button>
     </div>
   </div>
@@ -636,11 +636,6 @@ function findStartingPoints() {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease;
 }
-.sports-form {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
 
 .button-standard-team {
   width: 190px;
@@ -657,6 +652,10 @@ function findStartingPoints() {
   cursor: pointer;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease;
+}
+
+.button-no-text-team {
+  font-display: none;
 }
 
 .button-standard-team img {
@@ -678,7 +677,7 @@ function findStartingPoints() {
 }
 
 .button-standard-team-baseball img {
-  max-width: 70px;
+  max-width: 60px;
 }
 
 .button-standard-team-hockey img {
