@@ -159,9 +159,10 @@ const basketballTeamsList = ref([]);
 
 const sportsList = ref(['Basketball', 'Baseball', 'Football', 'Hockey']);
 
-var displayNameDictionary = {};
+const displayNameDictionary = {};
 
-const baseballTeamsImages = {
+const teamsImages = {
+  // Baseball
   arizona_diamondbacks: arizona_diamondbacks_pic,
   atlanta_braves: atlanta_braves_pic,
   baltimore_orioles: baltimore_orioles_pic,
@@ -192,9 +193,8 @@ const baseballTeamsImages = {
   texas_rangers: texas_rangers_pic,
   toronto_blue_jays: toronto_blue_jays_pic,
   washington_nationals: washington_nationals_pic,
-};
 
-const hockeyTeamsImages = {
+  // Hockey
   anaheim_ducks: anaheim_ducks_pic,
   boston_bruins: boston_bruins_pic,
   buffalo_sabres: buffalo_sabres_pic,
@@ -227,9 +227,8 @@ const hockeyTeamsImages = {
   vegas_golden_knights: vegas_golden_knights_pic,
   washington_capitals: washington_capitals_pic,
   winnipeg_jets: winnipeg_jets_pic,
-};
 
-const footballTeamsImages = {
+  // Football
   arizona_cardinals: arizona_cardinals_pic,
   atlanta_falcons: atlanta_falcons_pic,
   baltimore_ravens: baltimore_ravens_pic,
@@ -262,9 +261,8 @@ const footballTeamsImages = {
   tampa_bay_buccaneers: tampa_bay_buccaneers_pic,
   tennessee_titans: tennessee_titans_pic,
   washington_commanders: washington_commanders_pic,
-};
 
-const basketballTeamsImages = {
+  // Basketball
   atlanta_hawks: atlanta_hawks_pic,
   boston_celtics: boston_celtics_pic,
   brooklyn_nets: brooklyn_nets_pic,
@@ -311,11 +309,11 @@ async function initSport(sport) {
       setupBaseballTeamLocationDictionary();
       if (window.localStorage.getItem('selectedBaseballTeam') !== null) {
         let res = await axios.get(
-          'https://sports-roadtrip-finder.vercel.app/' + window.localStorage.getItem('selectedBaseballTeam')
+          'http://localhost:8888/' + window.localStorage.getItem('selectedBaseballTeam')
         );
         selectedTeam.value = res.data;
       } else {
-        let res = await axios.get('https://sports-roadtrip-finder.vercel.app/toronto_blue_jays');
+        let res = await axios.get('http://localhost:8888/toronto_blue_jays');
         selectedTeam.value = res.data;
         window.localStorage.setItem('selectedTeamName', 'toronto_blue_jays');
       }
@@ -327,11 +325,11 @@ async function initSport(sport) {
       setupHockeyTeamLocationDictionary();
       if (window.localStorage.getItem('selectedHockeyTeam') !== null) {
         let res = await axios.get(
-          'https://sports-roadtrip-finder.vercel.app/' + window.localStorage.getItem('selectedHockeyTeam')
+          'http://localhost:8888/' + window.localStorage.getItem('selectedHockeyTeam')
         );
         selectedTeam.value = res.data;
       } else {
-        let res = await axios.get('https://sports-roadtrip-finder.vercel.app/toronto_maple_leafs');
+        let res = await axios.get('http://localhost:8888/toronto_maple_leafs');
         selectedTeam.value = res.data;
         window.localStorage.setItem('selectedTeamName', 'toronto_maple_leafs');
       }
@@ -343,11 +341,11 @@ async function initSport(sport) {
       setupFootballTeamLocationDictionary();
       if (window.localStorage.getItem('selectedFootballTeam') !== null) {
         let res = await axios.get(
-          'https://sports-roadtrip-finder.vercel.app/' + window.localStorage.getItem('selectedFootballTeam')
+          'http://localhost:8888/' + window.localStorage.getItem('selectedFootballTeam')
         );
         selectedTeam.value = res.data;
       } else {
-        let res = await axios.get('https://sports-roadtrip-finder.vercel.app/arizona_cardinals');
+        let res = await axios.get('http://localhost:8888/arizona_cardinals');
         selectedTeam.value = res.data;
         window.localStorage.setItem('selectedTeamName', 'dallas_cowboys');
       }
@@ -359,11 +357,11 @@ async function initSport(sport) {
       setupBasketballTeamLocationDictionary();
       if (window.localStorage.getItem('selectedBasketballTeam') !== null) {
         let res = await axios.get(
-          'https://sports-roadtrip-finder.vercel.app/' + window.localStorage.getItem('selectedBasketballTeam')
+          'http://localhost:8888/' + window.localStorage.getItem('selectedBasketballTeam')
         );
         selectedTeam.value = res.data;
       } else {
-        let res = await axios.get('https://sports-roadtrip-finder.vercel.app/toronto_raptors');
+        let res = await axios.get('http://localhost:8888/toronto_raptors');
         selectedTeam.value = res.data;
         window.localStorage.setItem('selectedTeamName', 'toronto_raptors');
       }
@@ -471,7 +469,7 @@ function setupBasketballTeamLocationDictionary() {
 
 async function changeSelectedTeam(team, sport) {
   startingPoints.value = [{}];
-  let res = await axios.get('https://sports-roadtrip-finder.vercel.app/' + team);
+  let res = await axios.get('http://localhost:8888/' + team);
   selectedTeam.value = res.data;
   saveAwayGamesOnly();
   window.localStorage.setItem('selectedTeamName', team);
@@ -501,7 +499,7 @@ function saveAwayGamesOnly() {
     ) {
       awaySeries.value[index] = {
         seriesId: index + 1,
-        team: selectedTeam.value[i].HomeTeam,
+        teamDisplayName: selectedTeam.value[i].HomeTeam,
         date: selectedTeam.value[i].DateUtc,
         location: selectedTeam.value[i].Location
       };
@@ -517,19 +515,19 @@ function findStartingPoints() {
   let i = 0;
   let buffer = 0;
   while (i < awaySeries.value.length) {
-    if (awaySeries.value[i] && awaySeries.value[i + 1] && teamsAndLocationDictionary.value[awaySeries.value[i].team]) {
-      if (teamsAndLocationDictionary.value[awaySeries.value[i].team].neighbourTeams.filter(
-        (team) => team.team === awaySeries.value[i + 1].team,
+    if (awaySeries.value[i] && awaySeries.value[i + 1] && teamsAndLocationDictionary.value[awaySeries.value[i].teamDisplayName]) {
+      if (teamsAndLocationDictionary.value[awaySeries.value[i].teamDisplayName].neighbourTeams.filter(
+        (team) => team.team === awaySeries.value[i + 1].teamDisplayName,
       ).length > 0) {
         currentTrips[currentTrip] = [awaySeries.value[i], awaySeries.value[i + 1]];
         buffer++;
-        if (awaySeries.value[i + 2] && teamsAndLocationDictionary.value[awaySeries.value[i + 1].team].neighbourTeams.filter(
-          (team) => team.team === awaySeries.value[i + 2].team,
+        if (awaySeries.value[i + 2] && teamsAndLocationDictionary.value[awaySeries.value[i + 1].teamDisplayName].neighbourTeams.filter(
+          (team) => team.team === awaySeries.value[i + 2].teamDisplayName,
         ).length > 0) {
           currentTrips[currentTrip] = [...currentTrips[currentTrip], awaySeries.value[i + 2]];
           buffer++;
-          if (awaySeries.value[i + 3] && teamsAndLocationDictionary.value[awaySeries.value[i + 2].team].neighbourTeams.filter(
-            (team) => team.team === awaySeries.value[i + 3].team,
+          if (awaySeries.value[i + 3] && teamsAndLocationDictionary.value[awaySeries.value[i + 2].teamDisplayName].neighbourTeams.filter(
+            (team) => team.team === awaySeries.value[i + 3].teamDisplayName,
           ).length > 0) {
             currentTrips[currentTrip] = [...currentTrips[currentTrip], awaySeries.value[i + 3]];
             buffer++;
@@ -548,7 +546,7 @@ function findStartingPoints() {
 <template>
   <img :src="logo">
   <h3 class="flex justify-evenly mb-5">Pick a Sport</h3>
-  <div class="sports-form grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 xl:grid-cols-4 gap-4">
+  <div class="sports-form grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4">
     <div class="flex justify-center" v-for="sport in sportsList" :key="sport">
       <button :class="selectedSport === sport ? 'selected-sport' : ''"
         class="button-standard bg-blue-500 hover:bg-blue-700 text-white font-bold p-5" @click="initSport(sport)">
@@ -557,46 +555,46 @@ function findStartingPoints() {
     </div>
   </div>
   <h3 v-if="selectedSport !== ''" class="flex justify-evenly mb-5">Pick a Team</h3>
-  <div class="baseball-form grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5 gap-4"
+  <div class="baseball-form grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-5 gap-4"
     v-if="selectedSport === 'Baseball'">
     <div class="flex justify-center" v-for="team in baseballTeamsList" :key="team.name">
       <button
         class="button-standard-team button-standard-team-baseball bg-blue-500 hover:bg-blue-700 text-white font-bold p-2 mb-2"
         @click="changeSelectedTeam(team.name, 'baseball')">
-        <img :src="baseballTeamsImages[team.name]" class="image-button">
+        <img :src="teamsImages[team.name]" class="image-button">
         <h4 class="hidden sm:inline">{{ team.displayName }}</h4>
       </button>
     </div>
   </div>
-  <div class="hockey-form grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-6 gap-4"
+  <div class="hockey-form grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4"
     v-if="selectedSport === 'Hockey'">
     <div class="flex justify-center" v-for="team2 in hockeyTeamsList" :key="hockeyTeamsList">
       <button
         class="button-standard-team button-standard-team-hockey sm:bg-blue-500 hover:bg-blue-700 text-white font-bold p-1 mb-2"
         @click="changeSelectedTeam(team2.name, 'hockey')">
-        <img :src="hockeyTeamsImages[team2.name]" class="image-button">
+        <img :src="teamsImages[team2.name]" class="image-button">
         <h4 class="hidden sm:inline">{{ team2.displayName }}</h4>
       </button>
     </div>
   </div>
-  <div class="football-form grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 xl:grid-cols-6 gap-4"
+  <div class="football-form grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4"
     v-if="selectedSport === 'Football'">
     <div class="flex justify-center" v-for="team3 in footballTeamsList" :key="team3.name">
       <button
         class="button-standard-team button-standard-team-football bg-blue-500 hover:bg-blue-700 text-white font-bold p-1 mb-2"
         @click="changeSelectedTeam(team3.name, 'football')">
-        <img :src="footballTeamsImages[team3.name]" class="image-button">
+        <img :src="teamsImages[team3.name]" class="image-button">
         <h4 class="hidden sm:inline">{{ team3.displayName }}</h4>
       </button>
     </div>
   </div>
-  <div class="basketball-form grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 xl:grid-cols-6 gap-4"
+  <div class="basketball-form grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4"
     v-if="selectedSport === 'Basketball'">
     <div class="flex justify-center" v-for="team4 in basketballTeamsList" :key="team4.name">
       <button
         class="button-standard-team button-standard-team-basketball bg-blue-500 hover:bg-blue-700 text-white font-bold p-1 mb-2"
         @click="changeSelectedTeam(team4.name, 'basketball')">
-        <img :src="basketballTeamsImages[team4.name]" class="image-button">
+        <img :src="teamsImages[team4.name]" class="image-button">
         <h4 class="hidden sm:inline">{{ team4.displayName }} </h4>
       </button>
     </div>
@@ -606,6 +604,7 @@ function findStartingPoints() {
       <span v-if="trip[0]">
         <p><b class="text-blue-500">Trip {{ index + 1 }}: </b></p>
         <span class="" v-for="(game, index) in trip">
+          <!-- <img :src="teamsImages[game.team]" class="image-button"> -->
           <b>{{ game.team }}</b> - {{ game.location }} -
           {{ new Date(game.date).toLocaleString('en-US', { timeZone: 'America/New_York' }) + ' EST' }}
           <b v-if="index !== trip.length - 1" class="text-blue-500"> -> </b>
@@ -630,8 +629,6 @@ function findStartingPoints() {
   font-weight: bold;
   cursor: pointer;
   background-size: 300% 100%;
-  -o-transition: all .4s ease-in-out;
-  -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
   background-image: linear-gradient(to right, #1b2128, #262d34, #142530, #012298);
   box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
@@ -640,23 +637,21 @@ function findStartingPoints() {
 
 .button-standard:hover {
   background-position: 100% 0;
-  -o-transition: all .4s ease-in-out;
-  -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
 }
 
 .button-standard:focus {
   background-position: 100% 0;
-  -o-transition: all .4s ease-in-out;
-  -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
 }
 
 .selected-sport {
   background-position: 100% 0;
-  -o-transition: all .4s ease-in-out;
-  -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
+}
+
+.trips {
+  min-height: 400px;
 }
 
 .button-standard-team {
@@ -672,8 +667,6 @@ function findStartingPoints() {
   font-weight: bold;
   cursor: pointer;
   background-size: 300% 100%;
-  -o-transition: all .4s ease-in-out;
-  -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
   background-image: linear-gradient(to right, #1b2128, #262d34, #142530, #012298);
   box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
@@ -681,15 +674,11 @@ function findStartingPoints() {
 
 .button-standard-team:hover {
   background-position: 100% 0;
-  -o-transition: all .4s ease-in-out;
-  -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
 }
 
 .button-standard-team:focus {
   background-position: 100% 0;
-  -o-transition: all .4s ease-in-out;
-  -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
 }
 
